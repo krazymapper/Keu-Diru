@@ -1,0 +1,1406 @@
+{
+  "_source": "Listes fournies par le porteur le 2026-11-24 (LinkConcierge, publication « Careers », feuille de route Data Analyst). Chaque URL est l'adresse FINALE constatée dans un navigateur réel le 2026-11-24 (raccourcis lnkd.in résolus). Descriptions rédigées par Claude, limitées à ce qui a été constaté ou à ce que dit la liste source ; licences non recherchées (null).",
+  "checked": "2026-11-24",
+  "resources": [
+    {
+      "slug": "geofabrik-shapefiles",
+      "url": "https://www.geofabrik.de/data/shapefiles.html",
+      "type": "dataset",
+      "discipline": "geomatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Geofabrik",
+      "topics": [
+        "openstreetmap",
+        "donnees-ouvertes"
+      ],
+      "fr": [
+        "Geofabrik — extraits OpenStreetMap en shapefile",
+        "Page de Geofabrik présentant ses extraits de données OpenStreetMap au format shapefile, organisés par continent et par pays."
+      ],
+      "en": [
+        "Geofabrik — OpenStreetMap shapefile extracts",
+        "Geofabrik page presenting its OpenStreetMap data extracts in shapefile format, organised by continent and country."
+      ]
+    },
+    {
+      "slug": "diva-gis-data",
+      "url": "https://diva-gis.org/data.html",
+      "type": "dataset",
+      "discipline": "geomatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "DIVA-GIS",
+      "topics": [
+        "donnees-ouvertes"
+      ],
+      "fr": [
+        "DIVA-GIS — données SIG par pays",
+        "Page de téléchargement de DIVA-GIS : limites administratives, routes, cours d'eau, altitude et occupation du sol, par pays."
+      ],
+      "en": [
+        "DIVA-GIS — GIS data by country",
+        "DIVA-GIS download page: administrative boundaries, roads, rivers, elevation and land cover, by country."
+      ]
+    },
+    {
+      "slug": "gadm",
+      "url": "https://gadm.org/",
+      "type": "dataset",
+      "discipline": "geomatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "GADM",
+      "topics": [
+        "donnees-ouvertes"
+      ],
+      "fr": [
+        "GADM — limites administratives mondiales",
+        "Base de données des limites administratives de tous les pays, à plusieurs niveaux de découpage."
+      ],
+      "en": [
+        "GADM — global administrative areas",
+        "Database of administrative boundaries for every country, at several subdivision levels."
+      ]
+    },
+    {
+      "slug": "overpass-turbo",
+      "url": "https://overpass-turbo.eu/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "overpass turbo",
+      "topics": [
+        "openstreetmap"
+      ],
+      "fr": [
+        "Overpass Turbo",
+        "Outil web pour interroger la base OpenStreetMap (API Overpass) et exporter les résultats, par exemple en GeoJSON."
+      ],
+      "en": [
+        "Overpass Turbo",
+        "Web tool to query the OpenStreetMap database (Overpass API) and export the results, for example as GeoJSON."
+      ]
+    },
+    {
+      "slug": "mapcruzin",
+      "url": "https://mapcruzin.com/",
+      "type": "website",
+      "discipline": "geomatique",
+      "lang": "en",
+      "cost": "unknown",
+      "publisher": "MapCruzin",
+      "topics": [
+        "donnees-ouvertes"
+      ],
+      "fr": [
+        "MapCruzin",
+        "Site proposant des jeux de données SIG (environnement, démographie, infrastructures), signalé comme source de shapefiles dans la liste d'origine."
+      ],
+      "en": [
+        "MapCruzin",
+        "Website offering GIS datasets (environment, demographics, infrastructure), listed as a shapefile source in the original list."
+      ]
+    },
+    {
+      "slug": "usgs-world-geologic-maps",
+      "url": "https://www.usgs.gov/centers/central-energy-resources-science-center/science/world-geologic-maps",
+      "type": "dataset",
+      "discipline": "geomatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "U.S. Geological Survey",
+      "topics": [
+        "donnees-ouvertes"
+      ],
+      "fr": [
+        "USGS — cartes géologiques mondiales",
+        "Page de l'USGS consacrée aux cartes géologiques mondiales numérisées pour l'évaluation pétrolière mondiale 2000. L'ancienne adresse certmapper.cr.usgs.gov ne fonctionne plus."
+      ],
+      "en": [
+        "USGS — World Geologic Maps",
+        "USGS page about the world geologic maps digitised for the 2000 World Petroleum Assessment. The former certmapper.cr.usgs.gov address no longer works."
+      ]
+    },
+    {
+      "slug": "ramsar-sites-information-service",
+      "url": "https://rsis.ramsar.org/",
+      "type": "dataset",
+      "discipline": "environnement-climat",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Convention de Ramsar",
+      "topics": [
+        "donnees-ouvertes"
+      ],
+      "fr": [
+        "Ramsar — service d'information sur les sites",
+        "Base d'information sur les zones humides d'importance internationale (sites Ramsar). Une vérification anti-robot s'affiche à l'ouverture."
+      ],
+      "en": [
+        "Ramsar Sites Information Service",
+        "Information service on wetlands of international importance (Ramsar sites). An anti-bot check is shown on first load."
+      ]
+    },
+    {
+      "slug": "world-bank-data-catalog",
+      "url": "https://datacatalog.worldbank.org/",
+      "type": "dataset",
+      "discipline": "economie-developpement",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Banque mondiale",
+      "topics": [
+        "donnees-ouvertes"
+      ],
+      "fr": [
+        "Catalogue de données de la Banque mondiale",
+        "Catalogue des jeux de données de la Banque mondiale, dont des données géospatiales. Distinct du portail d'indicateurs « World Bank Open Data »."
+      ],
+      "en": [
+        "World Bank Data Catalog",
+        "Catalogue of World Bank datasets, including geospatial data. Distinct from the « World Bank Open Data » indicators portal."
+      ]
+    },
+    {
+      "slug": "github",
+      "url": "https://github.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "freemium",
+      "publisher": "GitHub",
+      "topics": [
+        "developpement-web"
+      ],
+      "fr": [
+        "GitHub",
+        "Plateforme d'hébergement de code et de collaboration autour de Git : dépôts, tickets, revues de code et automatisation."
+      ],
+      "en": [
+        "GitHub",
+        "Code hosting and collaboration platform built on Git: repositories, issues, code review and automation."
+      ]
+    },
+    {
+      "slug": "stack-overflow",
+      "url": "https://stackoverflow.com/",
+      "type": "website",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Stack Overflow",
+      "topics": [
+        "developpement-web"
+      ],
+      "fr": [
+        "Stack Overflow",
+        "Site de questions-réponses pour développeurs. Une vérification anti-robot peut s'afficher à l'ouverture."
+      ],
+      "en": [
+        "Stack Overflow",
+        "Question-and-answer site for developers. An anti-bot check may appear on first load."
+      ]
+    },
+    {
+      "slug": "mdn-web-docs",
+      "url": "https://developer.mozilla.org/",
+      "type": "website",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Mozilla",
+      "topics": [
+        "developpement-web"
+      ],
+      "fr": [
+        "MDN Web Docs",
+        "Documentation de référence des technologies du web (HTML, CSS, JavaScript, API du navigateur), disponible en plusieurs langues dont le français."
+      ],
+      "en": [
+        "MDN Web Docs",
+        "Reference documentation for web technologies (HTML, CSS, JavaScript, browser APIs), available in several languages."
+      ]
+    },
+    {
+      "slug": "css-tricks",
+      "url": "https://css-tricks.com/",
+      "type": "website",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "CSS-Tricks",
+      "topics": [
+        "developpement-web"
+      ],
+      "fr": [
+        "CSS-Tricks",
+        "Articles et guides sur le CSS et le développement front-end."
+      ],
+      "en": [
+        "CSS-Tricks",
+        "Articles and guides about CSS and front-end development."
+      ]
+    },
+    {
+      "slug": "smashing-magazine",
+      "url": "https://www.smashingmagazine.com/",
+      "type": "website",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "freemium",
+      "publisher": "Smashing Magazine",
+      "topics": [
+        "developpement-web"
+      ],
+      "fr": [
+        "Smashing Magazine",
+        "Magazine en ligne consacré au design et au développement web : articles, livres et ateliers."
+      ],
+      "en": [
+        "Smashing Magazine",
+        "Online magazine about web design and development: articles, books and workshops."
+      ]
+    },
+    {
+      "slug": "youtube",
+      "url": "https://www.youtube.com/",
+      "type": "website",
+      "discipline": "education-pedagogie",
+      "lang": null,
+      "cost": "freemium",
+      "publisher": "YouTube (Google)",
+      "topics": [],
+      "fr": [
+        "YouTube",
+        "Plateforme de vidéos qui héberge un grand nombre de cours et de tutoriels, dont ceux référencés dans ce catalogue."
+      ],
+      "en": [
+        "YouTube",
+        "Video platform hosting a large number of courses and tutorials, including those listed in this catalogue."
+      ]
+    },
+    {
+      "slug": "medium",
+      "url": "https://medium.com/",
+      "type": "website",
+      "discipline": "education-pedagogie",
+      "lang": null,
+      "cost": "freemium",
+      "publisher": "Medium",
+      "topics": [],
+      "fr": [
+        "Medium",
+        "Plateforme de publication d'articles, dont de nombreux tutoriels techniques. Une partie des articles est réservée aux abonnés."
+      ],
+      "en": [
+        "Medium",
+        "Article publishing platform, including many technical tutorials. Some articles are reserved for subscribers."
+      ]
+    },
+    {
+      "slug": "notion",
+      "url": "https://www.notion.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "freemium",
+      "publisher": "Notion",
+      "topics": [
+        "productivite"
+      ],
+      "fr": [
+        "Notion",
+        "Espace de travail en ligne pour les notes, documents, wikis et projets."
+      ],
+      "en": [
+        "Notion",
+        "Online workspace for notes, documents, wikis and projects."
+      ]
+    },
+    {
+      "slug": "khan-academy-statistiques-probabilites",
+      "url": "https://fr.khanacademy.org/math/statistics-probability",
+      "type": "course",
+      "discipline": "mathematiques",
+      "lang": "fr",
+      "cost": "free",
+      "publisher": "Khan Academy",
+      "topics": [
+        "analyse-donnees"
+      ],
+      "fr": [
+        "Khan Academy — Statistiques et probabilités",
+        "Cours complet de statistiques et probabilités en français, avec vidéos et exercices : bon point de départ avant d'analyser des données."
+      ],
+      "en": [
+        "Khan Academy — Statistics and probability (French)",
+        "Complete statistics and probability course in French, with videos and exercises: a good starting point before analysing data."
+      ]
+    },
+    {
+      "slug": "microsoft-excel-aide-formation",
+      "url": "https://support.microsoft.com/fr-fr/excel",
+      "type": "tutorial",
+      "discipline": "informatique",
+      "lang": "fr",
+      "cost": "free",
+      "publisher": "Microsoft",
+      "topics": [
+        "analyse-donnees"
+      ],
+      "fr": [
+        "Microsoft — Aide et apprentissage d'Excel",
+        "Centre officiel d'aide et de formation à Excel : prise en main, formules, tableaux croisés dynamiques et analyse."
+      ],
+      "en": [
+        "Microsoft — Excel help and learning (French)",
+        "Official Excel help and training centre: getting started, formulas, pivot tables and analysis."
+      ]
+    },
+    {
+      "slug": "sqlbolt",
+      "url": "https://sqlbolt.com/",
+      "type": "tutorial",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "SQLBolt",
+      "topics": [
+        "sql",
+        "analyse-donnees"
+      ],
+      "fr": [
+        "SQLBolt — apprendre le SQL en pratiquant",
+        "Leçons interactives pour apprendre le SQL directement dans le navigateur, exercice par exercice."
+      ],
+      "en": [
+        "SQLBolt — Learn SQL by practising",
+        "Interactive lessons to learn SQL directly in the browser, exercise by exercise."
+      ]
+    },
+    {
+      "slug": "kaggle-learn",
+      "url": "https://www.kaggle.com/learn",
+      "type": "course",
+      "discipline": "donnees-statistiques",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Kaggle",
+      "topics": [
+        "python",
+        "analyse-donnees"
+      ],
+      "fr": [
+        "Kaggle Learn",
+        "Micro-cours pratiques sur Python, Pandas, la visualisation de données et l'apprentissage automatique, exécutés dans des notebooks en ligne."
+      ],
+      "en": [
+        "Kaggle Learn",
+        "Hands-on micro-courses on Python, Pandas, data visualisation and machine learning, run in online notebooks."
+      ]
+    },
+    {
+      "slug": "microsoft-learn-power-bi",
+      "url": "https://learn.microsoft.com/fr-fr/training/powerplatform/power-bi",
+      "type": "course",
+      "discipline": "donnees-statistiques",
+      "lang": "fr",
+      "cost": "free",
+      "publisher": "Microsoft",
+      "topics": [
+        "visualisation",
+        "analyse-donnees"
+      ],
+      "fr": [
+        "Microsoft Learn — Formation Power BI",
+        "Parcours de formation officiels pour créer des rapports et des tableaux de bord avec Power BI."
+      ],
+      "en": [
+        "Microsoft Learn — Power BI training (French)",
+        "Official learning paths to build reports and dashboards with Power BI."
+      ]
+    },
+    {
+      "slug": "tableau-public-how-to-videos",
+      "url": "https://public.tableau.com/app/learn/how-to-videos",
+      "type": "video",
+      "discipline": "donnees-statistiques",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Tableau",
+      "topics": [
+        "visualisation",
+        "analyse-donnees"
+      ],
+      "fr": [
+        "Tableau Public — vidéos de formation",
+        "Vidéos officielles et gratuites pour apprendre à créer des visualisations avec Tableau Public."
+      ],
+      "en": [
+        "Tableau Public — How-to videos",
+        "Free official videos to learn how to build visualisations with Tableau Public."
+      ]
+    },
+    {
+      "slug": "learn-prompting",
+      "url": "https://learnprompting.org/",
+      "type": "course",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "freemium",
+      "publisher": "Learn Prompting",
+      "topics": [
+        "intelligence-artificielle"
+      ],
+      "fr": [
+        "Learn Prompting",
+        "Guide et cours pour apprendre à rédiger des instructions (prompts) efficaces pour les outils d'intelligence artificielle."
+      ],
+      "en": [
+        "Learn Prompting",
+        "Guide and courses to learn how to write effective prompts for AI tools."
+      ]
+    },
+    {
+      "slug": "kaggle-datasets",
+      "url": "https://www.kaggle.com/datasets",
+      "type": "dataset",
+      "discipline": "donnees-statistiques",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Kaggle",
+      "topics": [
+        "donnees-ouvertes",
+        "analyse-donnees"
+      ],
+      "fr": [
+        "Kaggle Datasets",
+        "Catalogue de jeux de données publics partagés par la communauté Kaggle, utiles pour des projets d'analyse. Licence à vérifier jeu par jeu."
+      ],
+      "en": [
+        "Kaggle Datasets",
+        "Catalogue of public datasets shared by the Kaggle community, useful for analysis projects. Check each dataset's licence."
+      ]
+    },
+    {
+      "slug": "un-careers",
+      "url": "https://careers.un.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Organisation des Nations Unies",
+      "topics": [
+        "offres-emploi"
+      ],
+      "fr": [
+        "Carrières à l'ONU",
+        "Portail officiel de recrutement du Secrétariat des Nations Unies : postes, stages et programmes."
+      ],
+      "en": [
+        "UN Careers",
+        "Official recruitment portal of the United Nations Secretariat: jobs, internships and programmes."
+      ]
+    },
+    {
+      "slug": "world-bank-careers",
+      "url": "https://www.worldbank.org/ext/en/careers",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Groupe de la Banque mondiale",
+      "topics": [
+        "offres-emploi"
+      ],
+      "fr": [
+        "Carrières au Groupe de la Banque mondiale",
+        "Page officielle des carrières du Groupe de la Banque mondiale."
+      ],
+      "en": [
+        "World Bank Group Careers",
+        "Official careers page of the World Bank Group."
+      ]
+    },
+    {
+      "slug": "unicef-careers",
+      "url": "https://jobs.unicef.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "UNICEF",
+      "topics": [
+        "offres-emploi",
+        "consultance"
+      ],
+      "fr": [
+        "Carrières à l'UNICEF",
+        "Moteur de recherche des offres de l'UNICEF : postes et missions de consultance."
+      ],
+      "en": [
+        "UNICEF Careers",
+        "UNICEF job search: positions and consultancy assignments."
+      ]
+    },
+    {
+      "slug": "microsoft-careers",
+      "url": "https://careers.microsoft.com/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Microsoft",
+      "topics": [
+        "offres-emploi"
+      ],
+      "fr": [
+        "Carrières chez Microsoft",
+        "Portail officiel de recrutement de Microsoft."
+      ],
+      "en": [
+        "Microsoft Careers",
+        "Official recruitment portal of Microsoft."
+      ]
+    },
+    {
+      "slug": "pnud",
+      "url": "https://www.undp.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "PNUD",
+      "topics": [
+        "veille-organisations"
+      ],
+      "fr": [
+        "PNUD (UNDP) — site officiel",
+        "Site officiel du Programme des Nations Unies pour le développement, listé dans la source comme organisation à suivre pour ses actualités."
+      ],
+      "en": [
+        "UNDP — official website",
+        "Official website of the United Nations Development Programme, listed in the source as an organisation to follow for its news."
+      ]
+    },
+    {
+      "slug": "unesco",
+      "url": "https://www.unesco.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "UNESCO",
+      "topics": [
+        "veille-organisations"
+      ],
+      "fr": [
+        "UNESCO — site officiel",
+        "Site officiel de l'UNESCO, listé dans la source comme organisation à suivre pour ses actualités."
+      ],
+      "en": [
+        "UNESCO — official website",
+        "Official UNESCO website, listed in the source as an organisation to follow for its news."
+      ]
+    },
+    {
+      "slug": "eu-careers-epso",
+      "url": "https://selection.eu-careers.europa.eu/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Office européen de sélection du personnel (EPSO)",
+      "topics": [
+        "offres-emploi"
+      ],
+      "fr": [
+        "EU Careers (EPSO)",
+        "Site de l'Office européen de sélection du personnel : concours et recrutements des institutions de l'Union européenne. L'adresse epso.europa.eu y redirige."
+      ],
+      "en": [
+        "EU Careers (EPSO)",
+        "European Personnel Selection Office website: competitions and recruitment for EU institutions. epso.europa.eu redirects here."
+      ]
+    },
+    {
+      "slug": "oecd-careers",
+      "url": "https://www.oecd.org/en/about/careers.html",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "OCDE",
+      "topics": [
+        "offres-emploi"
+      ],
+      "fr": [
+        "Carrières à l'OCDE",
+        "Page officielle des carrières de l'Organisation de coopération et de développement économiques."
+      ],
+      "en": [
+        "OECD Careers",
+        "Official careers page of the Organisation for Economic Co-operation and Development."
+      ]
+    },
+    {
+      "slug": "fulbright-program",
+      "url": "https://fulbrightprogram.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Fulbright Program",
+      "topics": [
+        "bourses-mobilite"
+      ],
+      "fr": [
+        "Programme Fulbright",
+        "Site du programme d'échanges éducatifs Fulbright (États-Unis)."
+      ],
+      "en": [
+        "Fulbright Program",
+        "Website of the Fulbright educational exchange programme (United States)."
+      ]
+    },
+    {
+      "slug": "campus-france",
+      "url": "https://www.campusfrance.org/fr",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "fr",
+      "cost": "free",
+      "publisher": "Campus France",
+      "topics": [
+        "bourses-mobilite"
+      ],
+      "fr": [
+        "Campus France",
+        "Agence française pour la promotion de l'enseignement supérieur : études en France, démarches et bourses."
+      ],
+      "en": [
+        "Campus France",
+        "French agency promoting higher education: studying in France, procedures and scholarships."
+      ]
+    },
+    {
+      "slug": "erasmus-plus",
+      "url": "https://erasmus-plus.ec.europa.eu/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Commission européenne",
+      "topics": [
+        "bourses-mobilite"
+      ],
+      "fr": [
+        "Erasmus+",
+        "Site officiel du programme européen Erasmus+ : éducation, formation, jeunesse et sport."
+      ],
+      "en": [
+        "Erasmus+",
+        "Official website of the EU Erasmus+ programme: education, training, youth and sport."
+      ]
+    },
+    {
+      "slug": "canada-emplois",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Gouvernement du Canada",
+      "topics": [
+        "offres-emploi"
+      ],
+      "fr": [
+        "Gouvernement du Canada — Emplois",
+        "Portail du gouvernement du Canada sur l'emploi : recherche d'emploi, emplois au gouvernement, travail au Canada."
+      ],
+      "en": [
+        "Government of Canada — Jobs",
+        "Government of Canada jobs portal: job search, government jobs, working in Canada."
+      ]
+    },
+    {
+      "slug": "harvard-careers",
+      "url": "https://hr.harvard.edu/careers",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Université Harvard",
+      "topics": [
+        "offres-emploi"
+      ],
+      "fr": [
+        "Carrières à Harvard",
+        "Page des ressources humaines de l'université Harvard consacrée aux carrières."
+      ],
+      "en": [
+        "Harvard Careers",
+        "Harvard University human resources page about careers."
+      ]
+    },
+    {
+      "slug": "oxford-jobs",
+      "url": "https://www.ox.ac.uk/about/jobs",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Université d'Oxford",
+      "topics": [
+        "offres-emploi"
+      ],
+      "fr": [
+        "Emplois à l'université d'Oxford",
+        "Page des offres d'emploi de l'université d'Oxford. L'adresse jobs.ox.ac.uk y redirige."
+      ],
+      "en": [
+        "University of Oxford Jobs",
+        "University of Oxford jobs page. jobs.ox.ac.uk redirects here."
+      ]
+    },
+    {
+      "slug": "stanford-careers",
+      "url": "https://careers.stanford.edu/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Université Stanford",
+      "topics": [
+        "offres-emploi"
+      ],
+      "unverified": true,
+      "fr": [
+        "Carrières à Stanford",
+        "Portail des carrières de l'université Stanford. Lien non vérifié : l'ouverture a échoué depuis le navigateur de contrôle."
+      ],
+      "en": [
+        "Stanford Careers",
+        "Stanford University careers portal. Link not checked: it failed to open from the checking browser."
+      ]
+    },
+    {
+      "slug": "rutgers-jobs",
+      "url": "https://jobs.rutgers.edu/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Université Rutgers",
+      "topics": [
+        "offres-emploi"
+      ],
+      "fr": [
+        "Emplois à l'université Rutgers",
+        "Portail des offres d'emploi de l'université Rutgers."
+      ],
+      "en": [
+        "Rutgers University Jobs",
+        "Rutgers University employment opportunities portal."
+      ]
+    },
+    {
+      "slug": "pmi",
+      "url": "https://www.pmi.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "freemium",
+      "publisher": "Project Management Institute",
+      "topics": [
+        "associations-professionnelles"
+      ],
+      "fr": [
+        "PMI — Project Management Institute",
+        "Association professionnelle de la gestion de projet : certifications, ressources et réseau."
+      ],
+      "en": [
+        "PMI — Project Management Institute",
+        "Professional association for project management: certifications, resources and network."
+      ]
+    },
+    {
+      "slug": "ieee",
+      "url": "https://www.ieee.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "freemium",
+      "publisher": "IEEE",
+      "topics": [
+        "associations-professionnelles"
+      ],
+      "fr": [
+        "IEEE",
+        "Association professionnelle internationale des ingénieurs en électricité, électronique et informatique."
+      ],
+      "en": [
+        "IEEE",
+        "International professional association for electrical, electronics and computing engineers."
+      ]
+    },
+    {
+      "slug": "shrm",
+      "url": "https://www.shrm.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "freemium",
+      "publisher": "SHRM",
+      "topics": [
+        "associations-professionnelles"
+      ],
+      "fr": [
+        "SHRM",
+        "Association professionnelle des ressources humaines (Society for Human Resource Management)."
+      ],
+      "en": [
+        "SHRM",
+        "Society for Human Resource Management, the HR professional association."
+      ]
+    },
+    {
+      "slug": "american-marketing-association",
+      "url": "https://www.ama.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "freemium",
+      "publisher": "American Marketing Association",
+      "topics": [
+        "associations-professionnelles"
+      ],
+      "fr": [
+        "American Marketing Association",
+        "Association professionnelle des métiers du marketing."
+      ],
+      "en": [
+        "American Marketing Association",
+        "Professional association for marketing professionals."
+      ]
+    },
+    {
+      "slug": "one-young-world",
+      "url": "https://www.oneyoungworld.com/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "unknown",
+      "publisher": "One Young World",
+      "topics": [
+        "leadership-jeunes"
+      ],
+      "fr": [
+        "One Young World",
+        "Organisation qui réunit de jeunes leaders, notamment lors d'un sommet annuel."
+      ],
+      "en": [
+        "One Young World",
+        "Organisation bringing young leaders together, notably at an annual summit."
+      ]
+    },
+    {
+      "slug": "yali",
+      "url": "https://yali.state.gov/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Département d'État des États-Unis",
+      "topics": [
+        "leadership-jeunes"
+      ],
+      "fr": [
+        "YALI — Young African Leaders Initiative",
+        "Site de l'initiative américaine pour les jeunes leaders africains."
+      ],
+      "en": [
+        "YALI — Young African Leaders Initiative",
+        "Website of the US initiative for young African leaders."
+      ]
+    },
+    {
+      "slug": "ylai",
+      "url": "https://ylai.state.gov/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Département d'État des États-Unis",
+      "topics": [
+        "leadership-jeunes"
+      ],
+      "fr": [
+        "YLAI — Young Leaders of the Americas Initiative",
+        "Site de l'initiative américaine pour les jeunes leaders des Amériques."
+      ],
+      "en": [
+        "YLAI — Young Leaders of the Americas Initiative",
+        "Website of the US initiative for young leaders of the Americas."
+      ]
+    },
+    {
+      "slug": "schwarzman-scholars",
+      "url": "https://www.schwarzmanscholars.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Schwarzman Scholars",
+      "topics": [
+        "bourses-mobilite",
+        "leadership-jeunes"
+      ],
+      "fr": [
+        "Schwarzman Scholars",
+        "Programme de bourses d'études Schwarzman Scholars."
+      ],
+      "en": [
+        "Schwarzman Scholars",
+        "Schwarzman Scholars scholarship programme."
+      ]
+    },
+    {
+      "slug": "pnud-avis-marches",
+      "url": "https://procurement-notices.undp.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "PNUD",
+      "topics": [
+        "consultance"
+      ],
+      "fr": [
+        "PNUD — avis de marchés (procurement)",
+        "Avis de marchés et appels du PNUD, dont des appels à consultants."
+      ],
+      "en": [
+        "UNDP Procurement Notices",
+        "UNDP procurement notices and calls, including calls for consultants."
+      ]
+    },
+    {
+      "slug": "giz-jobs",
+      "url": "https://jobs.giz.de/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "de",
+      "cost": "free",
+      "publisher": "GIZ",
+      "topics": [
+        "offres-emploi",
+        "consultance"
+      ],
+      "fr": [
+        "GIZ — offres d'emploi",
+        "Portail des offres d'emploi de la Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)."
+      ],
+      "en": [
+        "GIZ — job offers",
+        "Job portal of the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)."
+      ],
+      "de": [
+        "Unsere Stellenangebote | Karriereportal der GIZ",
+        "Karriereportal der Deutschen Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH mit aktuellen Stellenangeboten."
+      ]
+    },
+    {
+      "slug": "expertise-france",
+      "url": "https://www.expertisefrance.fr/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "fr",
+      "cost": "free",
+      "publisher": "Expertise France",
+      "topics": [
+        "consultance"
+      ],
+      "fr": [
+        "Expertise France",
+        "Agence française de coopération technique internationale, listée dans la source pour ses appels à consultants."
+      ],
+      "en": [
+        "Expertise France",
+        "French public agency for international technical cooperation, listed in the source for its calls for consultants."
+      ]
+    },
+    {
+      "slug": "fondation-mastercard",
+      "url": "https://mastercardfdn.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Fondation Mastercard",
+      "topics": [
+        "fondations"
+      ],
+      "fr": [
+        "Fondation Mastercard",
+        "Site de la Fondation Mastercard (disponible en français)."
+      ],
+      "en": [
+        "Mastercard Foundation",
+        "Website of the Mastercard Foundation."
+      ]
+    },
+    {
+      "slug": "ford-foundation",
+      "url": "https://www.fordfoundation.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Ford Foundation",
+      "topics": [
+        "fondations"
+      ],
+      "fr": [
+        "Fondation Ford",
+        "Site de la Fondation Ford."
+      ],
+      "en": [
+        "Ford Foundation",
+        "Website of the Ford Foundation."
+      ]
+    },
+    {
+      "slug": "gates-foundation",
+      "url": "https://www.gatesfoundation.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Gates Foundation",
+      "topics": [
+        "fondations"
+      ],
+      "fr": [
+        "Fondation Gates",
+        "Site officiel de la Fondation Gates."
+      ],
+      "en": [
+        "Gates Foundation",
+        "Official website of the Gates Foundation."
+      ]
+    },
+    {
+      "slug": "wellcome",
+      "url": "https://wellcome.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Wellcome",
+      "topics": [
+        "fondations"
+      ],
+      "fr": [
+        "Wellcome",
+        "Site de la fondation Wellcome, consacrée à la recherche en santé."
+      ],
+      "en": [
+        "Wellcome",
+        "Website of the Wellcome foundation, focused on health research."
+      ]
+    },
+    {
+      "slug": "unfccc",
+      "url": "https://unfccc.int/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "CCNUCC (UNFCCC)",
+      "topics": [
+        "evenements"
+      ],
+      "fr": [
+        "CCNUCC — changements climatiques (COP)",
+        "Site de la Convention-cadre des Nations Unies sur les changements climatiques, qui organise les COP."
+      ],
+      "en": [
+        "UNFCCC — UN Climate Change (COP)",
+        "Website of the UN Framework Convention on Climate Change, which organises the COPs."
+      ]
+    },
+    {
+      "slug": "web-summit",
+      "url": "https://websummit.com/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "paid",
+      "publisher": "Web Summit",
+      "topics": [
+        "evenements"
+      ],
+      "fr": [
+        "Web Summit",
+        "Conférence technologique internationale."
+      ],
+      "en": [
+        "Web Summit",
+        "International technology conference."
+      ]
+    },
+    {
+      "slug": "vivatech",
+      "url": "https://vivatech.com/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "paid",
+      "publisher": "VivaTech",
+      "topics": [
+        "evenements"
+      ],
+      "fr": [
+        "VivaTech",
+        "Salon international consacré à l'innovation et aux startups, à Paris. vivatechnology.com redirige vers vivatech.com."
+      ],
+      "en": [
+        "VivaTech",
+        "International innovation and startup event in Paris. vivatechnology.com redirects to vivatech.com."
+      ]
+    },
+    {
+      "slug": "world-economic-forum",
+      "url": "https://www.weforum.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Forum économique mondial",
+      "topics": [
+        "evenements"
+      ],
+      "fr": [
+        "Forum économique mondial",
+        "Site du Forum économique mondial (WEF) : rapports, événements et initiatives."
+      ],
+      "en": [
+        "World Economic Forum",
+        "World Economic Forum website: reports, events and initiatives."
+      ]
+    },
+    {
+      "slug": "fulbright-alumni-association",
+      "url": "https://fulbright.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "unknown",
+      "publisher": "Fulbright Association",
+      "topics": [
+        "reseaux-alumni"
+      ],
+      "fr": [
+        "Association des anciens Fulbright",
+        "Réseau des anciens bénéficiaires du programme Fulbright."
+      ],
+      "en": [
+        "Fulbright Alumni Association",
+        "Network of Fulbright programme alumni."
+      ]
+    },
+    {
+      "slug": "chevening",
+      "url": "https://www.chevening.org/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Chevening",
+      "topics": [
+        "bourses-mobilite",
+        "reseaux-alumni"
+      ],
+      "fr": [
+        "Chevening",
+        "Programme de bourses du gouvernement britannique et son réseau d'anciens."
+      ],
+      "en": [
+        "Chevening",
+        "UK government scholarship programme and its alumni network."
+      ]
+    },
+    {
+      "slug": "erasmus-mundus-association",
+      "url": "https://www.em-a.eu/",
+      "type": "website",
+      "discipline": "carrieres-opportunites",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Erasmus Mundus Association",
+      "topics": [
+        "reseaux-alumni"
+      ],
+      "fr": [
+        "Erasmus Mundus Association",
+        "Association des étudiants et anciens des programmes Erasmus Mundus."
+      ],
+      "en": [
+        "Erasmus Mundus Association",
+        "Association of Erasmus Mundus students and alumni."
+      ]
+    },
+    {
+      "slug": "arset-agricultural-flash-drought-sif",
+      "url": "https://www.earthdata.nasa.gov/learn/trainings/agricultural-flash-drought-detection-using-solar-induced-fluorescence-sif-soil",
+      "type": "course",
+      "discipline": "geomatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "NASA Earthdata",
+      "topics": [
+        "teledetection",
+        "secheresse"
+      ],
+      "fr": [
+        "Agricultural Flash Drought Detection using Solar-Induced Fluorescence (SIF) and Soil Moisture Data",
+        "Formation en ligne de la NASA (programme ARSET d'après la liste source) : détection des sécheresses éclair agricoles à partir de la fluorescence induite par le soleil (SIF) et de l'humidité du sol."
+      ],
+      "en": [
+        "Agricultural Flash Drought Detection using Solar-Induced Fluorescence (SIF) and Soil Moisture Data",
+        "NASA online training (ARSET programme according to the source list): flash drought detection in agriculture using solar-induced fluorescence (SIF) and soil moisture data."
+      ]
+    },
+    {
+      "slug": "arset-geostationary-aerosols-air-quality",
+      "url": "https://www.earthdata.nasa.gov/learn/trainings/geostationary-remote-sensing-aerosols-air-quality-applications-north-america",
+      "type": "course",
+      "discipline": "geomatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "NASA Earthdata",
+      "topics": [
+        "teledetection"
+      ],
+      "fr": [
+        "Geostationary Remote Sensing of Aerosols for Air Quality Applications in North America",
+        "Formation en ligne de la NASA (programme ARSET d'après la liste source) : télédétection géostationnaire des aérosols pour la qualité de l'air (Amérique du Nord)."
+      ],
+      "en": [
+        "Geostationary Remote Sensing of Aerosols for Air Quality Applications in North America",
+        "NASA online training (ARSET programme according to the source list): geostationary remote sensing of aerosols for air quality (North America)."
+      ]
+    },
+    {
+      "slug": "arset-surface-water-sar",
+      "url": "https://www.earthdata.nasa.gov/learn/trainings/monitoring-surface-water-sar-water-resource-management",
+      "type": "course",
+      "discipline": "geomatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "NASA Earthdata",
+      "topics": [
+        "teledetection",
+        "hydrologie"
+      ],
+      "fr": [
+        "Monitoring Surface Water with SAR for Water Resource Management",
+        "Formation en ligne de la NASA (programme ARSET d'après la liste source) : suivi des eaux de surface par radar (SAR) pour la gestion des ressources en eau."
+      ],
+      "en": [
+        "Monitoring Surface Water with SAR for Water Resource Management",
+        "NASA online training (ARSET programme according to the source list): monitoring surface water with SAR for water resource management."
+      ]
+    },
+    {
+      "slug": "arset-biomass-gedi-obiwan",
+      "url": "https://www.earthdata.nasa.gov/learn/trainings/estimating-biomass-change-gedi-obiwan-api",
+      "type": "course",
+      "discipline": "geomatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "NASA Earthdata",
+      "topics": [
+        "teledetection"
+      ],
+      "fr": [
+        "Estimating Biomass and Change with GEDI and the OBIWAN API",
+        "Formation en ligne de la NASA (programme ARSET d'après la liste source) : estimation de la biomasse et de ses changements avec GEDI et l'API OBIWAN."
+      ],
+      "en": [
+        "Estimating Biomass and Change with GEDI and the OBIWAN API",
+        "NASA online training (ARSET programme according to the source list): estimating biomass and change with GEDI and the OBIWAN API."
+      ]
+    },
+    {
+      "slug": "arset-floods-earth-observations",
+      "url": "https://www.earthdata.nasa.gov/learn/trainings/monitoring-predicting-floods-using-earth-observations-planning-preparedness",
+      "type": "course",
+      "discipline": "geomatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "NASA Earthdata",
+      "topics": [
+        "teledetection",
+        "hydrologie"
+      ],
+      "fr": [
+        "Monitoring and Predicting Floods Using Earth Observations for Planning and Preparedness",
+        "Formation en ligne de la NASA (programme ARSET d'après la liste source) : suivi et prévision des inondations par observation de la Terre pour la planification et la préparation."
+      ],
+      "en": [
+        "Monitoring and Predicting Floods Using Earth Observations for Planning and Preparedness",
+        "NASA online training (ARSET programme according to the source list): monitoring and predicting floods with Earth observations for planning and preparedness."
+      ]
+    },
+    {
+      "slug": "arset-nisar-radar",
+      "url": "https://www.earthdata.nasa.gov/learn/trainings/harnessing-nisar-next-generation-radar-observations-earth-applications",
+      "type": "course",
+      "discipline": "geomatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "NASA Earthdata",
+      "topics": [
+        "teledetection"
+      ],
+      "fr": [
+        "Harnessing NISAR: Next-Generation Radar Observations for Earth Applications",
+        "Formation en ligne de la NASA (programme ARSET d'après la liste source) : exploitation des observations radar de nouvelle génération de la mission NISAR."
+      ],
+      "en": [
+        "Harnessing NISAR: Next-Generation Radar Observations for Earth Applications",
+        "NASA online training (ARSET programme according to the source list): using next-generation NISAR radar observations for Earth applications."
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item": "FAO/UNESCO Soil Map of the World",
+      "reason": "404 sur l'adresse d'origine et sur les adresses candidates trouvées (index de recherche périmé)."
+    },
+    {
+      "item": "Atlas Corps Alumni (atlascorps.org)",
+      "reason": "Redirige vers un programme de Cultural Vistas : ce n'est plus la ressource annoncée."
+    },
+    {
+      "item": "Humanitarian Data Exchange (LinkConcierge)",
+      "reason": "Doublon : déjà au catalogue."
+    },
+    {
+      "item": "UNICEF Careers (section 7)",
+      "reason": "Doublon interne à la liste (section 1)."
+    },
+    {
+      "item": "Vegetation Drought-1 et -2 (liste hydrologie)",
+      "reason": "Doublons de la liste LinkConcierge (même vidéo)."
+    },
+    {
+      "item": "NASA ARSET n°5 (lnkd.in/gnCtDfcD → tinyurl → forum.earthdata.nasa.gov/viewtopic.php?t=7822)",
+      "reason": "404 : sujet de forum supprimé."
+    }
+  ]
+}

@@ -28,8 +28,8 @@ export function buildSeedSql() {
     out.push(`insert into public.topics (slug, discipline_id, labels) values (${q(t.slug)}, ${t.discipline ? `(select id from public.disciplines where slug = ${q(t.discipline)})` : 'null'}, ${j(t.labels)}) on conflict (slug) do nothing;`);
 
   for (const r of cat.resources) {
-    out.push(`insert into public.resources (slug, url, type_id, discipline_id, original_language, level, access_cost, author, publisher, license, formats, status)
-  values (${q(r.slug)}, ${q(r.url)}, (select id from public.resource_types where slug = ${q(r.type)}), (select id from public.disciplines where slug = ${q(r.discipline)}), ${q(r.original_language)}, ${q(r.level)}, ${q(r.access_cost)}, ${q(r.author)}, ${q(r.publisher)}, ${q(r.license)}, ${arr(r.formats)}, 'published')
+    out.push(`insert into public.resources (slug, url, type_id, discipline_id, original_language, level, access_cost, author, publisher, license, formats, status, link_status, link_checked_at)
+  values (${q(r.slug)}, ${q(r.url)}, (select id from public.resource_types where slug = ${q(r.type)}), (select id from public.disciplines where slug = ${q(r.discipline)}), ${q(r.original_language)}, ${q(r.level)}, ${q(r.access_cost)}, ${q(r.author)}, ${q(r.publisher)}, ${q(r.license)}, ${arr(r.formats)}, 'published', ${q(r.link_status ?? 'unverified')}, ${r.link_checked_at ? q(r.link_checked_at) + '::timestamptz' : 'null'})
   on conflict (slug) do nothing;`);
     for (const [lang, tr] of Object.entries(r.translations))
       out.push(`insert into public.resource_translations (resource_id, language, title, description, is_original) values ((select id from public.resources where slug = ${q(r.slug)}), ${q(lang)}, ${q(tr.title)}, ${q(tr.description)}, ${lang === r.original_language}) on conflict do nothing;`);

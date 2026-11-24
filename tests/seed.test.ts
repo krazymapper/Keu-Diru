@@ -37,7 +37,10 @@ describe('seed', () => {
     for (const c of catalog.collections) c.items.forEach((s) => expect(slugs.has(s), `${c.slug}/${s}`).toBe(true));
     for (const p of catalog.learning_paths) p.steps.forEach((s) => s.resource && expect(slugs.has(s.resource), `${p.slug}/${s.resource}`).toBe(true));
   });
-  it('aucun lien déclaré « vérifié » sans contrôle réel (RM-08)', () => {
-    for (const r of catalog.resources) expect(r.link_status).toBe('unverified');
+  it('aucun lien déclaré vérifié sans date de contrôle (RM-08)', () => {
+    for (const r of catalog.resources) if (r.link_status !== 'unverified') expect(r.link_checked_at, r.slug).toBeTruthy();
+  });
+  it('aucun raccourci d’URL (lnkd.in, bit.ly…) : on stocke l’adresse finale', () => {
+    for (const r of catalog.resources) expect(r.url ?? '', r.slug).not.toMatch(/\/\/(lnkd\.in|bit\.ly|t\.co|tinyurl\.com|goo\.gl)\//);
   });
 });

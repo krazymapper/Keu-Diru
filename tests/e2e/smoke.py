@@ -1,7 +1,11 @@
 """Tests E2E navigateur sur le build statique (dist-preview ou dist).
 Usage : python3 tests/e2e/smoke.py <url_racine>   ex. http://127.0.0.1:4173/
 """
-import sys, re
+import sys, re, json
+
+_seed = json.load(open('data/seed/resources.json'))
+TOTAL = len(_seed['resources'])
+GEO = sum(1 for r in _seed['resources'] if r['discipline'] == 'geomatique')
 from playwright.sync_api import sync_playwright, expect
 
 ROOT = sys.argv[1] if len(sys.argv) > 1 else 'http://127.0.0.1:4173/'
@@ -33,27 +37,26 @@ with sync_playwright() as p:
     def search_from_home():
         page.fill('input[name=q]', 'qgis'); page.click('button:has-text("Rechercher")')
         page.wait_for_url(re.compile(r'explore'))
-        expect(page.locator('text=1 résultat(s)')).to_be_visible(timeout=5000)
-        expect(page.locator('main h2')).to_contain_text('QGIS')
-    check('Recherche depuis l’accueil → 1 résultat QGIS', search_from_home)
+        expect(page.locator('main h2').first).to_contain_text('QGIS', timeout=5000)
+    check('Recherche depuis l’accueil → résultats QGIS', search_from_home)
 
     def filters():
         page.goto(ROOT + 'fr/explore/index.html')
-        expect(page.locator('text=17 résultat(s)')).to_be_visible(timeout=5000)
+        expect(page.locator(f'text={TOTAL} résultat(s)')).to_be_visible(timeout=5000)
         page.select_option('select >> nth=1', 'dataset')
-        expect(page.locator('text=/^[0-9]+ résultat\\(s\\)$/')).not_to_have_text('17 résultat(s)')
+        expect(page.locator('text=/^[0-9]+ résultat\\(s\\)$/')).not_to_have_text(f'{TOTAL} résultat(s)')
         assert 'type=dataset' in page.url, page.url
         page.fill('input[type=search]', 'données santé')
         expect(page.locator('main h2').first).to_contain_text('santé', ignore_case=True)
         page.screenshot(path='/tmp/shot-explore.png')
         page.click('button:has-text("Réinitialiser")')
-        expect(page.locator('text=17 résultat(s)')).to_be_visible()
+        expect(page.locator(f'text={TOTAL} résultat(s)')).to_be_visible()
     check('Filtres + URL partageable + réinitialisation', filters)
 
     def deep_link():
         page.goto(ROOT + 'fr/explore/index.html?discipline=geomatique')
-        expect(page.locator('text=3 résultat(s)')).to_be_visible(timeout=5000)
-    check('Lien profond ?discipline=geomatique → 3 résultats', deep_link)
+        expect(page.locator(f'text={GEO} résultat(s)')).to_be_visible(timeout=5000)
+    check('Lien profond ?discipline=geomatique', deep_link)
 
     def accents():
         page.goto(ROOT + 'fr/explore/index.html?q=DEMOGRAPHIE')

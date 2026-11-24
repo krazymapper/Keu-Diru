@@ -29,6 +29,7 @@ export const resourceSchema = z.object({
   formats: z.array(z.string()),
   topics: z.array(slug).default([]),
   link_status: z.enum(LINK_STATUSES).default('unverified'),
+  link_checked_at: z.iso.date().nullable().optional(),
   translations: z.record(langCode, translationSchema).refine((t) => Object.keys(t).length > 0, 'Au moins une traduction'),
 });
 export type Resource = z.infer<typeof resourceSchema>;

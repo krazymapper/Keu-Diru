@@ -1,35 +1,206 @@
 {
-  "_status": "PROPOSITION à valider par le porteur (01 §13 point 4). Ne pas considérer comme taxonomie définitive.",
+  "_status": "PROPOSITION à valider par le porteur (01 §13 point 4). 13e discipline « Carrières & opportunités » ajoutée le 2026-11-24 pour accueillir la liste du porteur.",
   "languages": [
-    { "code": "fr", "native_name": "Français", "is_ui_language": true },
-    { "code": "en", "native_name": "English", "is_ui_language": true },
-    { "code": "es", "native_name": "Español", "is_ui_language": false },
-    { "code": "pt", "native_name": "Português", "is_ui_language": false },
-    { "code": "ar", "native_name": "العربية", "is_ui_language": false }
+    {
+      "code": "fr",
+      "native_name": "Français",
+      "is_ui_language": true
+    },
+    {
+      "code": "en",
+      "native_name": "English",
+      "is_ui_language": true
+    },
+    {
+      "code": "es",
+      "native_name": "Español",
+      "is_ui_language": false
+    },
+    {
+      "code": "pt",
+      "native_name": "Português",
+      "is_ui_language": false
+    },
+    {
+      "code": "ar",
+      "native_name": "العربية",
+      "is_ui_language": false
+    },
+    {
+      "code": "de",
+      "native_name": "Deutsch",
+      "is_ui_language": false
+    }
   ],
   "disciplines": [
-    { "slug": "geomatique", "icon": "map", "labels": { "fr": "Géomatique & SIG", "en": "Geomatics & GIS" } },
-    { "slug": "informatique", "icon": "code", "labels": { "fr": "Informatique & programmation", "en": "Computing & programming" } },
-    { "slug": "donnees-statistiques", "icon": "bar-chart", "labels": { "fr": "Données & statistiques", "en": "Data & statistics" } },
-    { "slug": "mathematiques", "icon": "sigma", "labels": { "fr": "Mathématiques", "en": "Mathematics" } },
-    { "slug": "environnement-climat", "icon": "leaf", "labels": { "fr": "Environnement & climat", "en": "Environment & climate" } },
-    { "slug": "sante", "icon": "heart-pulse", "labels": { "fr": "Santé", "en": "Health" } },
-    { "slug": "agriculture-alimentation", "icon": "wheat", "labels": { "fr": "Agriculture & alimentation", "en": "Agriculture & food" } },
-    { "slug": "economie-developpement", "icon": "landmark", "labels": { "fr": "Économie & développement", "en": "Economics & development" } },
-    { "slug": "education-pedagogie", "icon": "graduation-cap", "labels": { "fr": "Éducation & pédagogie", "en": "Education & teaching" } },
-    { "slug": "langues-lettres", "icon": "languages", "labels": { "fr": "Langues & lettres", "en": "Languages & literature" } },
-    { "slug": "sciences-humaines", "icon": "users", "labels": { "fr": "Histoire & sciences humaines", "en": "History & humanities" } },
-    { "slug": "communs-numeriques", "icon": "globe", "labels": { "fr": "Savoirs libres & communs numériques", "en": "Open knowledge & digital commons" } }
+    {
+      "slug": "geomatique",
+      "icon": "map",
+      "labels": {
+        "fr": "Géomatique & SIG",
+        "en": "Geomatics & GIS"
+      }
+    },
+    {
+      "slug": "informatique",
+      "icon": "code",
+      "labels": {
+        "fr": "Informatique & programmation",
+        "en": "Computing & programming"
+      }
+    },
+    {
+      "slug": "donnees-statistiques",
+      "icon": "bar-chart",
+      "labels": {
+        "fr": "Données & statistiques",
+        "en": "Data & statistics"
+      }
+    },
+    {
+      "slug": "mathematiques",
+      "icon": "sigma",
+      "labels": {
+        "fr": "Mathématiques",
+        "en": "Mathematics"
+      }
+    },
+    {
+      "slug": "environnement-climat",
+      "icon": "leaf",
+      "labels": {
+        "fr": "Environnement & climat",
+        "en": "Environment & climate"
+      }
+    },
+    {
+      "slug": "sante",
+      "icon": "heart-pulse",
+      "labels": {
+        "fr": "Santé",
+        "en": "Health"
+      }
+    },
+    {
+      "slug": "agriculture-alimentation",
+      "icon": "wheat",
+      "labels": {
+        "fr": "Agriculture & alimentation",
+        "en": "Agriculture & food"
+      }
+    },
+    {
+      "slug": "economie-developpement",
+      "icon": "landmark",
+      "labels": {
+        "fr": "Économie & développement",
+        "en": "Economics & development"
+      }
+    },
+    {
+      "slug": "education-pedagogie",
+      "icon": "graduation-cap",
+      "labels": {
+        "fr": "Éducation & pédagogie",
+        "en": "Education & teaching"
+      }
+    },
+    {
+      "slug": "langues-lettres",
+      "icon": "languages",
+      "labels": {
+        "fr": "Langues & lettres",
+        "en": "Languages & literature"
+      }
+    },
+    {
+      "slug": "sciences-humaines",
+      "icon": "users",
+      "labels": {
+        "fr": "Histoire & sciences humaines",
+        "en": "History & humanities"
+      }
+    },
+    {
+      "slug": "communs-numeriques",
+      "icon": "globe",
+      "labels": {
+        "fr": "Savoirs libres & communs numériques",
+        "en": "Open knowledge & digital commons"
+      }
+    },
+    {
+      "slug": "carrieres-opportunites",
+      "icon": "briefcase",
+      "labels": {
+        "fr": "Carrières & opportunités",
+        "en": "Careers & opportunities"
+      }
+    }
   ],
   "resource_types": [
-    { "slug": "course", "labels": { "fr": "Cours", "en": "Course" } },
-    { "slug": "tutorial", "labels": { "fr": "Tutoriel", "en": "Tutorial" } },
-    { "slug": "dataset", "labels": { "fr": "Jeu de données", "en": "Dataset" } },
-    { "slug": "tool", "labels": { "fr": "Outil", "en": "Tool" } },
-    { "slug": "article", "labels": { "fr": "Article", "en": "Article" } },
-    { "slug": "video", "labels": { "fr": "Vidéo", "en": "Video" } },
-    { "slug": "book", "labels": { "fr": "Livre", "en": "Book" } },
-    { "slug": "website", "labels": { "fr": "Site web", "en": "Website" } },
-    { "slug": "repository", "labels": { "fr": "Dépôt de code", "en": "Code repository" } }
+    {
+      "slug": "course",
+      "labels": {
+        "fr": "Cours",
+        "en": "Course"
+      }
+    },
+    {
+      "slug": "tutorial",
+      "labels": {
+        "fr": "Tutoriel",
+        "en": "Tutorial"
+      }
+    },
+    {
+      "slug": "dataset",
+      "labels": {
+        "fr": "Jeu de données",
+        "en": "Dataset"
+      }
+    },
+    {
+      "slug": "tool",
+      "labels": {
+        "fr": "Outil",
+        "en": "Tool"
+      }
+    },
+    {
+      "slug": "article",
+      "labels": {
+        "fr": "Article",
+        "en": "Article"
+      }
+    },
+    {
+      "slug": "video",
+      "labels": {
+        "fr": "Vidéo",
+        "en": "Video"
+      }
+    },
+    {
+      "slug": "book",
+      "labels": {
+        "fr": "Livre",
+        "en": "Book"
+      }
+    },
+    {
+      "slug": "website",
+      "labels": {
+        "fr": "Site web",
+        "en": "Website"
+      }
+    },
+    {
+      "slug": "repository",
+      "labels": {
+        "fr": "Dépôt de code",
+        "en": "Code repository"
+      }
+    }
   ]
 }

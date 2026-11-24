@@ -261,6 +261,21 @@ Voir `03_AUDIT_TECHNIQUE.md` §9 (liste priorisée). La première : **autoriser 
 **Prochaine action unique :**
 - Créer le projet Supabase et fournir l'URL + la clé publique (jamais la `service_role`).
 
+### Mise à jour — 2026-11-24 (soir) : premier import de contenu
+
+**Réalisations vérifiées :**
+- 129 ressources ajoutées (catalogue : 17 → 146), issues de 6 listes du porteur : LinkConcierge, « Careers », 26 tutoriels GEE hydrologie, 25 tutoriels bassins versants, feuille de route Data Analyst, NASA ARSET.
+- Chaque lien vérifié dans un navigateur réel le 2026-11-24 : raccourcis `lnkd.in` / `tinyurl` résolus vers l'adresse finale, titre et auteur (chaîne YouTube) relevés sur la page. `link_status = ok` + `link_checked_at`.
+- Exclus et tracés (`scripts/import/collected-sites.json` → `excluded`) : carte des sols FAO/UNESCO (404), Atlas Corps (redirige vers un autre programme), ARSET n°5 (404), doublons (HDX, UNICEF ×2, 2 vidéos GEE).
+- Corrections d'origine : 1 titre LinkConcierge erroné remplacé par le vrai titre YouTube ; USGS déplacé vers sa nouvelle page.
+- Nouveautés : 13e discipline proposée « Carrières & opportunités », 20 sujets, 5 collections, parcours « Devenir Data Analyst » (8 étapes), langue `de`.
+- Import reproductible et idempotent : `node scripts/import/import-2026-11-24.mjs`.
+- Nouveaux contrôles qualité : aucun raccourci d'URL au catalogue ; tout lien « vérifié » a une date de contrôle ; traduction originale obligatoire si la langue est connue.
+
+**Tests :** unitaires 67/67, base 13/13, E2E 14/14, 7 345 liens internes, 0 cassé.
+
+**Points à valider par le porteur :** 13e discipline ; classement de YouTube/Medium en « Éducation & pédagogie » ; Stanford Careers ajouté avec statut « non vérifié » (ouverture impossible depuis le navigateur de contrôle) ; langue des vidéos déduite des titres (anglais).
+
 ---
 
 **Documents compagnons :** `01_CONSOLIDATION_ORIGINE_REGLES_METIER.md` · `03_AUDIT_TECHNIQUE.md`

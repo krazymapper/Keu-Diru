@@ -1,0 +1,31 @@
+{
+  "_source": "Vérifié dans un navigateur réel le 2026-11-24 (titre et chaîne lus sur la page YouTube). Liste fournie par le porteur.",
+  "channel": "Hans van der Kwast",
+  "videos": [
+    ["ttLxQBe0HIo", "Calculate Flow Direction with the Native QGIS Tool and Style with Arrows"],
+    ["hUgEYKz87gw", "Create a Catchment Map in QGIS in 10 Minutes"],
+    ["5YJPjE7gB8o", "Calculate Subcatchment Properties in QGIS"],
+    ["9ItZ7R0KN74", "Catchment Morphometric Analysis in QGIS with the ArcGeek Calculator Plugin"],
+    ["s57P3GZTOTA", "Tools for Stream and Catchment Delineation with QGIS"],
+    ["uwzUQHKWD1Q", "Delineate Streams and Catchments Super Fast with HatariUtils' Online App"],
+    ["jSc3HDN6yEM", "Use QGIS to Delineate Catchments of Streams Flowing into a Lake"],
+    ["pHYIO6beqyI", "Challenges with Stream and Catchment Delineation in QGIS?"],
+    ["tP7tbWWgTJ4", "Smooth Stream Networks Derived from DEMs in QGIS"],
+    ["ZC0skH4ifsI", "Interactively Derive Streams and Catchments in QGIS Using the Graphical Modeller"],
+    ["zdHePvhVbCw", "Calculate the Catchment of a Reservoir Lake in QGIS"],
+    ["jRANBQIPbt8", "Delineate Streams and Catchments with PCRaster in the QGIS Python Console"],
+    ["KbjIsFL_PcM", "Add More PCRaster Tools from the QGIS Resource Sharing Repository"],
+    ["E3zKe81UOl8", "Quick Review of FABDEM for Hydrological Applications with QGIS"],
+    ["C3AMh3sZzJQ", "Complete Updated Workflow Stream and Catchment Delineation in QGIS"],
+    ["jV-nlup_jDs", "Define the outlet of a catchment in QGIS"],
+    ["ZyM1jnxFamU", "Burning stream network into DEM layer in QGIS"],
+    ["jHT_StPb_oM", "Burning river in DEM using map algebra in QGIS"],
+    ["Ro-RRzMMw-c", "Stream and Catchment Delineation in QGIS using SAGA Tools"],
+    ["ZLUjSEK-nbg", "Stream and catchment delineation with GIS (theory)"],
+    ["sFXY1HlfZrw", "Catchment delineation with PCRaster Python"],
+    ["aTYHpft1gus", "Stream and Catchment Delineation in QGIS 3 using GRASS tools"],
+    ["BKdJMGXgOzg", "Automate Stream and Catchment Delineation in QGIS with the Graphical Modeler"],
+    ["5XmPnKCMZHg", "Use QGIS to Delineate the Catchment of Discharge Measurement Coordinates"],
+    ["5uGaLIlaFh8", "Derive all subcatchments from a DEM using PCRaster in QGIS"]
+  ]
+}
