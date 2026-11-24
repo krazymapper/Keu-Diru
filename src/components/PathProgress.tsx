@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type CSSProperties } from 'react';
 import { useT, href, type Locale } from '../i18n';
 import { readJSON, writeJSON, progressKey } from '../lib/storage';
 import { useHydrated } from '../lib/useHydrated';
@@ -18,6 +18,8 @@ export default function PathProgress({ path, steps, lang }: { path: string; step
     writeJSON(progressKey(path), next);
   };
   const pct = Math.round((done.length / steps.length) * 100);
+  // Cycle de couleurs pour distinguer visuellement chaque étape, sans porter de sens (décoratif).
+  const STEP_COLORS = ['var(--color-step-olive)', 'var(--color-step-yellow)', 'var(--color-step-orange)'];
 
   return (
     <div>
@@ -28,13 +30,18 @@ export default function PathProgress({ path, steps, lang }: { path: string; step
         </div>
       </div>
       <ol className="space-y-4">
-        {steps.map((s) => {
+        {steps.map((s, i) => {
           const isDone = done.includes(s.index);
+          const step = STEP_COLORS[i % STEP_COLORS.length];
           return (
-            <li key={s.index} className={`card p-5 flex gap-4 ${isDone ? 'opacity-75' : ''}`}>
-              <span className="font-serif text-3xl text-accent leading-none w-8 shrink-0" aria-hidden>{s.index}</span>
+            <li
+              key={s.index}
+              className={`card step-card p-5 flex gap-4 items-start transition-opacity ${isDone ? 'opacity-70' : ''}`}
+              style={{ '--step': step } as CSSProperties}
+            >
+              <span className="step-badge font-serif text-xl font-semibold leading-none size-11 rounded-full flex items-center justify-center shrink-0" aria-hidden>{s.index}</span>
               <div className="flex-1 min-w-0">
-                <p className="eyebrow mb-1">{t('paths.step', { n: s.index })}</p>
+                <p className="eyebrow mb-1" style={{ color: step }}>{t('paths.step', { n: s.index })}</p>
                 {s.slug && s.title && (
                   <h3 className="text-lg font-semibold mb-1"><a href={href(lang, `/resources/${s.slug}`)} className="hover:underline">{s.title}</a></h3>
                 )}

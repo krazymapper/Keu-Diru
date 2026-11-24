@@ -18,6 +18,9 @@
   --color-bad: #a1262a;
   --color-banner: #1e3a5f;
   --color-on-banner: #ffffff;
+  --color-step-olive: #55692c;   /* vert olive — contraste ≥ 5:1 sur papier/carte */
+  --color-step-yellow: #8a6d07;  /* jaune doré assourdi — idem */
+  --color-step-orange: #bf5c04;  /* orange brûlé, distinct de l'accent terre cuite */
   --font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
   --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', Ubuntu, sans-serif;
 }
@@ -54,6 +57,9 @@
     --color-bad: #f08a8d;
     --color-banner: #233a57;
     --color-on-banner: #eef3fa;
+    --color-step-olive: #b4cc8a;
+    --color-step-yellow: #e8c165;
+    --color-step-orange: #ffab5e;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme='light']) {
@@ -73,6 +79,9 @@
       --color-bad: #f08a8d;
       --color-banner: #233a57;
       --color-on-banner: #eef3fa;
+      --color-step-olive: #b4cc8a;
+      --color-step-yellow: #e8c165;
+      --color-step-orange: #ffab5e;
     }
   }
 }
@@ -89,4 +98,8 @@
   .field { width: 100%; border: 1px solid var(--color-line); background: var(--color-card); border-radius: .5rem; padding: .625rem .75rem; min-height: 44px; }
   .field:focus { border-color: var(--color-indigo); outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-indigo) 25%, transparent); }
   .eyebrow { font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--color-muted); font-weight: 600; }
+
+  /* Cartes d'étapes de parcours : couleur portée par --step (définie en ligne, cycle olive/jaune/orange). */
+  .step-card { border-left: 4px solid var(--step, var(--color-accent)); background: color-mix(in srgb, var(--step, var(--color-accent)) 6%, var(--color-card)); }
+  .step-badge { color: var(--step, var(--color-accent)); background: color-mix(in srgb, var(--step, var(--color-accent)) 16%, var(--color-card)); }
 }
