@@ -296,6 +296,18 @@ Voir `03_AUDIT_TECHNIQUE.md` §9 (liste priorisée). La première : **autoriser 
 - États : 4 « non vérifié » (vérification anti-robots Cloudflare : mapa.zoznam.sk, LiveATC, Telemetr.io, Geo Data Tool) ; 3 « restreint » (Earth Engine, Equasis, IMO : compte requis).
 - Tests : unitaires 67/67, base 13/13, E2E 14/14, 15 981 liens internes, 0 cassé, 702 pages.
 
+### Mise à jour — 2026-11-24 (nuit, suite) : 12 APIs publiques + projet Supabase
+
+- **Infrastructure Supabase** : projet « keu-diru » créé (org krazymapper's Org, région eu-west-3/Paris, id `omaztoejofpwpsxhbbie`, actif). Migration `20261124000001_init_schema.sql` (schéma, enums, fonctions utilitaires, tables) appliquée avec succès. **Migration `20261124000002_security.sql` (rôles, RLS, modération) non appliquée** : le serveur MCP Supabase a demandé une confirmation qui n'a jamais abouti (timeout à deux reprises) — à relancer une fois la cause identifiée. **Le schéma est donc en production sans RLS active : ne pas exposer la clé publique tant que 002 n'est pas passée.**
+- **APIs** : 3 liens transmis par le porteur (code-garage.com/blog « APIs gratuites », code-garage.com/courses, github.com/public-apis/public-apis), évalués et nettoyés avant import — chaque URL vérifiée en direct dans un navigateur.
+- 12 ressources ajoutées (catalogue : 332 → 344) : public-apis (répertoire GitHub, une seule ressource), Open Food Facts, NASA Open APIs, API Le Système Solaire, Trefle, OpenWeatherMap, SerpApi, data.gouv.fr, TMDB, RandomUser, Giphy, Pappers. Nouveau sujet « APIs publiques », nouvelle collection « APIs gratuites pour développeurs ».
+- `access_cost` corrigé par rapport à la présentation de l'article source (qui les présente toutes comme « gratuites ») : OpenWeatherMap, SerpApi, TMDB, Giphy en freemium ; Pappers en paid (30€/mois, 100 crédits gratuits à l'inscription).
+- Exclus et documentés dans `scripts/import/collected-apis.json` → `_source` : restcountries.eu (domaine mort, redirige vers countrylayer.com, produit commercial), countryflags.io (domaine mort, boucle de redirection), Skyscanner API bonus (portail partenaire B2B sur candidature, pas une API ouverte), OpenSky-Network (doublon déjà au catalogue).
+- **Proposé, en attente de validation du porteur :** les 4 cours gratuits de code-garage.com/courses (HTML/CSS, JavaScript, PHP, Node.js) — non importés. Le reste de la plateforme est payant (19,99€/cours) et sans signal de réputation indépendant trouvé.
+- Import reproductible : `node scripts/import/import-2026-11-24-apis.mjs`.
+- Tests : unitaires 67/67, 16 573 liens internes (base `/Keu-Diru`), 0 cassé, 728 pages. CI et déploiement GitHub Pages verts.
+- **Connecteurs ajoutés par le porteur** (pour chantier UI/UX fluide/moderne/élégant/professionnel, volet design) : Figma — le porteur a répondu « Use Figma for this » à une question sur le choix d'outil de design ; aucun appel aux outils Figma MCP effectué pour l'instant.
+
 ---
 
 **Documents compagnons :** `01_CONSOLIDATION_ORIGINE_REGLES_METIER.md` · `03_AUDIT_TECHNIQUE.md`
