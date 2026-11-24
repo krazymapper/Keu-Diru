@@ -95,7 +95,7 @@ Si un accès, un dépôt ou un compte est nécessaire, demander au porteur du pr
 
 ```text
 Keu-Diru/
-├── 01_CONSOLIDATION_ORIGINE_REGLES_METIER.md   (à ajouter au dépôt)
+├── 01_CONSOLIDATION_ORIGINE_REGLES_METIER.md
 ├── 02_RELAIS.md
 ├── 03_AUDIT_TECHNIQUE.md
 ├── README.md · CONTRIBUTING.md · SECURITY.md   (pas de LICENSE : en attente de décision)
