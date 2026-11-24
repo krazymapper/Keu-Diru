@@ -10495,6 +10495,37 @@
           "description": "French API for legal and financial company data (SIREN/SIRET numbers, financial statements, officers, BODACC). Paid plans start at €30/month (500 credits); 100 free credits on sign-up with a professional email, plus a free autocomplete endpoint limited to 100 searches/day/IP."
         }
       }
+    },
+    {
+      "slug": "free-apis-github-io",
+      "url": "https://free-apis.github.io/",
+      "type": "repository",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "unknown",
+      "author": null,
+      "publisher": "Free-APIs",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "apis-publiques",
+        "apis-commerciales-non-verifiees"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Free APIs (free-apis.github.io)",
+          "description": "Interface de navigation (2000+ entrées) dérivée du répertoire public-apis, mais alimentée aussi par des soumissions récentes non filtrées par la même rigueur communautaire — notamment de nombreuses passerelles commerciales de revente de modèles d'IA à crédits prépayés. Chaque API doit être vérifiée individuellement (coût réel, fiabilité, pérennité) avant usage : ni gratuite ni de qualité garanties malgré le nom du site."
+        },
+        "en": {
+          "title": "Free APIs (free-apis.github.io)",
+          "description": "Browsing interface (2000+ entries) derived from the public-apis directory, but also fed by recent submissions without the same community vetting — notably many commercial prepaid-credit AI model resale gateways. Each API needs individual verification (real cost, reliability, longevity) before use: neither free nor quality is guaranteed despite the site name."
+        }
+      }
     }
   ],
   "topics": [
@@ -10832,6 +10863,14 @@
       "labels": {
         "fr": "APIs publiques",
         "en": "Public APIs"
+      }
+    },
+    {
+      "slug": "apis-commerciales-non-verifiees",
+      "discipline": "informatique",
+      "labels": {
+        "fr": "APIs commerciales / non vérifiées",
+        "en": "Commercial / unverified APIs"
       }
     }
   ],
