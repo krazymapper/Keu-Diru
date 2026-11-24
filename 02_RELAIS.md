@@ -276,6 +276,16 @@ Voir `03_AUDIT_TECHNIQUE.md` §9 (liste priorisée). La première : **autoriser 
 
 **Points à valider par le porteur :** 13e discipline ; classement de YouTube/Medium en « Éducation & pédagogie » ; Stanford Careers ajouté avec statut « non vérifié » (ouverture impossible depuis le navigateur de contrôle) ; langue des vidéos déduite des titres (anglais).
 
+### Mise à jour — 2026-11-24 (19 h) : import start.me « AI »
+
+- Source : tableau public start.me de l'utilisateur « jlitz88 » (120 liens), transmis par le porteur. Source tierce, surtout des outils commerciaux d'IA générative.
+- 81 ressources ajoutées (catalogue : 146 → 227) : génération d'images et de vidéos, création vidéo, audio et voix, 3D/Omniverse, assistants IA, annuaires, actualités et chaînes YouTube. Nouvelle collection « Outils d'IA générative ».
+- Les 39 liens exclus sont tracés avec leur motif dans `scripts/import/collected-ai.json` → `excluded` : recherches YouTube, TinyURL désactivés (dont un « CapCut Pro gratuit » probablement piraté), sites inaccessibles ou en 404, service arrêté (Idomoo), plateformes de modèles communautaires non modérées pour un public scolaire (Civitai, Tensor.Art), hors-sujet, doublons.
+- Nettoyage : liens de conversations privées (Claude, Gemini) ramenés à l'accueil ; paramètres de pistage et d'affiliation retirés ; 4 accès en « restreint » (Claude, Poe, Copilot : connexion requise ; Meta AI : 403).
+- Coût d'accès « non renseigné » pour les services commerciaux : non vérifié, pas supposé.
+- Garde-fou ajouté à l'import : titre d'au moins 3 caractères et description d'au moins 20 (les mêmes contraintes que la base).
+- Tests : unitaires 67/67, base 13/13, E2E 14/14, 11 111 liens internes, 0 cassé.
+
 ---
 
 **Documents compagnons :** `01_CONSOLIDATION_ORIGINE_REGLES_METIER.md` · `03_AUDIT_TECHNIQUE.md`

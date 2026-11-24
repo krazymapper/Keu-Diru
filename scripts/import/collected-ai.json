@@ -1,0 +1,1777 @@
+{
+  "_source": "start.me/p/xb4Npa/ai (tableau public de l'utilisateur start.me « jlitz88 »), transmis par le porteur le 2026-11-24. URL finales constatées en navigateur réel le 2026-11-24 ; paramètres de pistage/affiliation et liens de conversations privées retirés. Coût d'accès non renseigné pour les services commerciaux (non vérifié).",
+  "checked": "2026-11-24",
+  "resources": [
+    {
+      "slug": "ideogram",
+      "url": "https://ideogram.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Ideogram",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Ideogram",
+        "Générateur d'images par IA, connu pour bien gérer le texte dans les images ; propose aussi l'édition et des modèles vidéo."
+      ],
+      "en": [
+        "Ideogram",
+        "AI image generator known for handling text inside images; also offers editing and video models."
+      ]
+    },
+    {
+      "slug": "kling-ai",
+      "url": "https://kling.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Kling AI",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Kling AI",
+        "Générateur de vidéos et d'images par IA (klingai.com redirige vers kling.ai)."
+      ],
+      "en": [
+        "Kling AI",
+        "AI video and image generator (klingai.com redirects to kling.ai)."
+      ]
+    },
+    {
+      "slug": "leonardo-ai",
+      "url": "https://leonardo.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Leonardo.Ai",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Leonardo.Ai",
+        "Plateforme d'IA générative pour images, illustrations et vidéos."
+      ],
+      "en": [
+        "Leonardo.Ai",
+        "Generative AI platform for images, art and video."
+      ]
+    },
+    {
+      "slug": "hailuo-ai",
+      "url": "https://hailuoai.video/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "MiniMax",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Hailuo AI",
+        "Générateur de vidéos par intelligence artificielle de la société MiniMax."
+      ],
+      "en": [
+        "Hailuo AI",
+        "AI video generator from the company MiniMax."
+      ]
+    },
+    {
+      "slug": "pollo-ai",
+      "url": "https://pollo.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Pollo AI",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Pollo AI",
+        "Suite de création par IA regroupant plusieurs modèles de génération d'images et de vidéos."
+      ],
+      "en": [
+        "Pollo AI",
+        "AI creative suite bringing together several image and video generation models."
+      ]
+    },
+    {
+      "slug": "playground-ai",
+      "url": "https://playgroundai.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Playground",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Playground",
+        "Outil de design assisté par IA (logos, t-shirts, visuels pour réseaux sociaux). Son orientation a changé depuis l'ajout à la liste source."
+      ],
+      "en": [
+        "Playground",
+        "AI-assisted design tool (logos, t-shirts, social media visuals). Its focus has changed since it was added to the source list."
+      ]
+    },
+    {
+      "slug": "nightcafe-creator",
+      "url": "https://creator.nightcafe.studio/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "NightCafe",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "NightCafe Creator",
+        "Générateur d'images par IA avec une communauté de partage."
+      ],
+      "en": [
+        "NightCafe Creator",
+        "AI art generator with a sharing community."
+      ]
+    },
+    {
+      "slug": "rubbrband",
+      "url": "https://www.rubbrband.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Rubbrband",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Rubbrband",
+        "Outil de génération d'images et de vidéos par IA."
+      ],
+      "en": [
+        "Rubbrband",
+        "AI image and video generation tool."
+      ]
+    },
+    {
+      "slug": "adobe-firefly",
+      "url": "https://www.adobe.com/products/firefly.html",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Adobe",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Adobe Firefly",
+        "IA générative d'Adobe pour créer images et contenus visuels."
+      ],
+      "en": [
+        "Adobe Firefly",
+        "Adobe's generative AI for creating images and visual content."
+      ]
+    },
+    {
+      "slug": "recraft",
+      "url": "https://www.recraft.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Recraft",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Recraft",
+        "Outil de génération et d'édition d'images par IA destiné aux designers."
+      ],
+      "en": [
+        "Recraft",
+        "AI image generation and editing tool aimed at designers."
+      ]
+    },
+    {
+      "slug": "piclumen",
+      "url": "https://www.piclumen.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "PicLumen",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "PicLumen",
+        "Générateurs d'images et de vidéos par IA."
+      ],
+      "en": [
+        "PicLumen",
+        "Online AI image and video generators for creators and brands."
+      ]
+    },
+    {
+      "slug": "pixel-dojo",
+      "url": "https://pixeldojo.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Pixel Dojo",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Pixel Dojo",
+        "Plateforme donnant accès à de nombreux modèles de génération d'images et de vidéos."
+      ],
+      "en": [
+        "Pixel Dojo",
+        "Platform giving access to many image and video generation models."
+      ]
+    },
+    {
+      "slug": "luma-ai",
+      "url": "https://lumalabs.ai/app",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Luma AI",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Luma AI (Dream Machine)",
+        "Application de création par IA de Luma ; l'ancienne page Dream Machine redirige ici."
+      ],
+      "en": [
+        "Luma AI (Dream Machine)",
+        "Luma's AI creation app; the former Dream Machine page redirects here."
+      ]
+    },
+    {
+      "slug": "magnific-freepik",
+      "url": "https://www.magnific.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Freepik",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Magnific (Freepik)",
+        "Plateforme créative par IA de Freepik ; freepik.com redirige désormais vers magnific.com."
+      ],
+      "en": [
+        "Magnific (Freepik)",
+        "Freepik's AI creative platform; freepik.com now redirects to magnific.com."
+      ]
+    },
+    {
+      "slug": "microsoft-designer",
+      "url": "https://designer.microsoft.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Microsoft",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Microsoft Designer",
+        "Application de conception graphique assistée par IA de Microsoft."
+      ],
+      "en": [
+        "Microsoft Designer",
+        "Microsoft's AI-assisted graphic design app."
+      ]
+    },
+    {
+      "slug": "google-labs-fx",
+      "url": "https://labs.google/fx",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Google",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Google Labs — FX",
+        "Espace d'expérimentation des outils créatifs par IA de Google Labs."
+      ],
+      "en": [
+        "Google Labs — FX",
+        "Google Labs space for experimental AI creative tools."
+      ]
+    },
+    {
+      "slug": "stepvideo-t2v",
+      "url": "https://huggingface.co/stepfun-ai/stepvideo-t2v",
+      "type": "repository",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "StepFun",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Step-Video-T2V (Hugging Face)",
+        "Fiche du modèle ouvert de génération texte-vers-vidéo de StepFun sur Hugging Face."
+      ],
+      "en": [
+        "Step-Video-T2V (Hugging Face)",
+        "Hugging Face card for StepFun's open text-to-video model."
+      ]
+    },
+    {
+      "slug": "hugging-face-spaces",
+      "url": "https://huggingface.co/spaces",
+      "type": "website",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Hugging Face",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-image-video"
+      ],
+      "fr": [
+        "Hugging Face Spaces",
+        "Annuaire d'applications d'apprentissage automatique publiées par la communauté, souvent utilisables gratuitement en ligne."
+      ],
+      "en": [
+        "Hugging Face Spaces",
+        "Directory of community machine-learning apps, often usable free online."
+      ]
+    },
+    {
+      "slug": "heygen",
+      "url": "https://www.heygen.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "HeyGen",
+      "topics": [
+        "intelligence-artificielle",
+        "creation-video"
+      ],
+      "fr": [
+        "HeyGen",
+        "Création de vidéos par IA avec avatars."
+      ],
+      "en": [
+        "HeyGen",
+        "AI video creation with avatars."
+      ]
+    },
+    {
+      "slug": "runway",
+      "url": "https://runway.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Runway",
+      "topics": [
+        "intelligence-artificielle",
+        "creation-video"
+      ],
+      "fr": [
+        "Runway",
+        "Outils créatifs et vidéo par IA (runwayml.com redirige vers runway.com)."
+      ],
+      "en": [
+        "Runway",
+        "AI creative and video tools (runwayml.com redirects to runway.com)."
+      ]
+    },
+    {
+      "slug": "artlist",
+      "url": "https://artlist.io/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Artlist",
+      "topics": [
+        "intelligence-artificielle",
+        "creation-video"
+      ],
+      "fr": [
+        "Artlist",
+        "Outils d'IA générative et ressources numériques (musique, vidéos) pour créateurs."
+      ],
+      "en": [
+        "Artlist",
+        "Generative AI tools and digital assets (music, footage) for creators."
+      ]
+    },
+    {
+      "slug": "flowframes",
+      "url": "https://nmkd.itch.io/flowframes",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "unknown",
+      "publisher": "N00MKRAD",
+      "topics": [
+        "intelligence-artificielle",
+        "creation-video"
+      ],
+      "fr": [
+        "Flowframes",
+        "Logiciel d'interpolation vidéo pour augmenter le nombre d'images par seconde, sur carte graphique."
+      ],
+      "en": [
+        "Flowframes",
+        "Video interpolation software to increase frame rate, running on the GPU."
+      ]
+    },
+    {
+      "slug": "steve-ai",
+      "url": "https://www.steve.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Steve AI",
+      "topics": [
+        "intelligence-artificielle",
+        "creation-video"
+      ],
+      "fr": [
+        "Steve AI",
+        "Plateforme de création de vidéos à partir de texte, d'audio ou d'instructions."
+      ],
+      "en": [
+        "Steve AI",
+        "Platform creating videos from text, audio or prompts."
+      ]
+    },
+    {
+      "slug": "fliki",
+      "url": "https://fliki.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Fliki",
+      "topics": [
+        "intelligence-artificielle",
+        "creation-video"
+      ],
+      "fr": [
+        "Fliki",
+        "Transformation d'idées et de textes en vidéos avec voix générées par IA."
+      ],
+      "en": [
+        "Fliki",
+        "Turns ideas and text into videos with AI voices."
+      ]
+    },
+    {
+      "slug": "rive",
+      "url": "https://rive.app/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Rive",
+      "topics": [
+        "intelligence-artificielle",
+        "creation-video"
+      ],
+      "fr": [
+        "Rive",
+        "Moteur et éditeur d'animation 2D et 3D pour jeux, applications et interfaces."
+      ],
+      "en": [
+        "Rive",
+        "2D and 3D animation engine and editor for games, apps and UI."
+      ]
+    },
+    {
+      "slug": "davinci-resolve",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Blackmagic Design",
+      "topics": [
+        "intelligence-artificielle",
+        "creation-video"
+      ],
+      "fr": [
+        "DaVinci Resolve",
+        "Logiciel de montage, étalonnage, effets et audio, avec une version gratuite."
+      ],
+      "en": [
+        "DaVinci Resolve",
+        "Editing, colour grading, effects and audio software, with a free version."
+      ]
+    },
+    {
+      "slug": "invideo",
+      "url": "https://invideo.io/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "invideo",
+      "topics": [
+        "intelligence-artificielle",
+        "creation-video"
+      ],
+      "fr": [
+        "invideo AI",
+        "Création de vidéos à partir d'instructions textuelles."
+      ],
+      "en": [
+        "invideo AI",
+        "Video creation from text prompts."
+      ]
+    },
+    {
+      "slug": "vidnoz-talking-photo",
+      "url": "https://www.vidnoz.com/talking-head.html",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Vidnoz",
+      "topics": [
+        "intelligence-artificielle",
+        "creation-video"
+      ],
+      "fr": [
+        "Vidnoz — photo parlante",
+        "Outil d'animation de portraits à partir d'un texte ou d'un audio."
+      ],
+      "en": [
+        "Vidnoz — talking photo",
+        "Tool that animates portraits from text or audio."
+      ]
+    },
+    {
+      "slug": "rendora",
+      "url": "https://www.rendora.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Rendora",
+      "topics": [
+        "intelligence-artificielle",
+        "creation-video"
+      ],
+      "fr": [
+        "Rendora",
+        "Plateforme de génération de vidéos avec avatars 3D."
+      ],
+      "en": [
+        "Rendora",
+        "3D avatar video generation platform."
+      ]
+    },
+    {
+      "slug": "adobe-express-animate",
+      "url": "https://express.adobe.com/tools/animate-from-audio",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Adobe",
+      "topics": [
+        "intelligence-artificielle",
+        "creation-video"
+      ],
+      "fr": [
+        "Adobe Express — animer à partir d'un audio",
+        "Outil d'Adobe Express qui anime un personnage à partir d'un enregistrement audio."
+      ],
+      "en": [
+        "Adobe Express — animate from audio",
+        "Adobe Express tool that animates a character from an audio recording."
+      ]
+    },
+    {
+      "slug": "murf-ai",
+      "url": "https://murf.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Murf AI",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-audio-voix"
+      ],
+      "fr": [
+        "Murf AI",
+        "Plateforme de voix de synthèse et d'agents conversationnels vocaux."
+      ],
+      "en": [
+        "Murf AI",
+        "AI voice and conversational voice agent platform."
+      ]
+    },
+    {
+      "slug": "suno",
+      "url": "https://suno.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Suno",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-audio-voix"
+      ],
+      "fr": [
+        "Suno",
+        "Générateur de musique par IA (suno.ai redirige vers suno.com)."
+      ],
+      "en": [
+        "Suno",
+        "AI music generator (suno.ai redirects to suno.com)."
+      ]
+    },
+    {
+      "slug": "adobe-podcast",
+      "url": "https://podcast.adobe.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Adobe",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-audio-voix"
+      ],
+      "fr": [
+        "Adobe Podcast",
+        "Enregistrement et amélioration audio par IA dans le navigateur."
+      ],
+      "en": [
+        "Adobe Podcast",
+        "AI audio recording and enhancement in the browser."
+      ]
+    },
+    {
+      "slug": "google-flow-music",
+      "url": "https://www.flowmusic.app/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Google",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-audio-voix"
+      ],
+      "fr": [
+        "Google Flow Music",
+        "Outil musical de Google ; l'ancienne expérience MusicLM (AI Test Kitchen) redirige ici."
+      ],
+      "en": [
+        "Google Flow Music",
+        "Google's music tool; the former MusicLM experiment (AI Test Kitchen) redirects here."
+      ]
+    },
+    {
+      "slug": "speechma",
+      "url": "https://speechma.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Speechma",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-audio-voix"
+      ],
+      "fr": [
+        "Speechma",
+        "Synthèse vocale (texte vers voix) en ligne avec de nombreuses voix."
+      ],
+      "en": [
+        "Speechma",
+        "Online text-to-speech with many voices."
+      ]
+    },
+    {
+      "slug": "elevenlabs",
+      "url": "https://elevenlabs.io/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "ElevenLabs",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-audio-voix"
+      ],
+      "fr": [
+        "ElevenLabs",
+        "Génération de voix par IA et agents vocaux."
+      ],
+      "en": [
+        "ElevenLabs",
+        "AI voice generation and voice agents."
+      ]
+    },
+    {
+      "slug": "neiro-ai",
+      "url": "https://neiro.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Neiro AI",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-audio-voix"
+      ],
+      "fr": [
+        "Neiro AI",
+        "Outil de voix et d'avatars par IA, listé dans la catégorie musique/voix de la source."
+      ],
+      "en": [
+        "Neiro AI",
+        "AI voice and avatar tool, listed under music/voice in the source."
+      ]
+    },
+    {
+      "slug": "soundful",
+      "url": "https://soundful.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Soundful",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-audio-voix"
+      ],
+      "fr": [
+        "Soundful",
+        "Générateur de musique par IA pour créateurs."
+      ],
+      "en": [
+        "Soundful",
+        "AI music generator for creators."
+      ]
+    },
+    {
+      "slug": "musicgen-hugging-face",
+      "url": "https://huggingface.co/spaces/facebook/MusicGen",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "Meta (Hugging Face Space)",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-audio-voix"
+      ],
+      "fr": [
+        "MusicGen (démo Hugging Face)",
+        "Démonstration en ligne du modèle de génération musicale MusicGen de Meta."
+      ],
+      "en": [
+        "MusicGen (Hugging Face demo)",
+        "Online demo of Meta's MusicGen music generation model."
+      ]
+    },
+    {
+      "slug": "openai-fm",
+      "url": "https://www.openai.fm/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "unknown",
+      "publisher": "OpenAI",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-audio-voix"
+      ],
+      "fr": [
+        "OpenAI.fm",
+        "Démonstration interactive des voix de synthèse d'OpenAI."
+      ],
+      "en": [
+        "OpenAI.fm",
+        "Interactive demo of OpenAI's text-to-speech voices."
+      ]
+    },
+    {
+      "slug": "minimax-audio",
+      "url": "https://www.minimax.io/audio",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "MiniMax",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-audio-voix"
+      ],
+      "fr": [
+        "MiniMax Audio & Music",
+        "Génération de voix et de musique par IA de MiniMax."
+      ],
+      "en": [
+        "MiniMax Audio & Music",
+        "MiniMax's AI voice and music generation."
+      ]
+    },
+    {
+      "slug": "dupdub",
+      "url": "https://www.dupdub.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Dupdub",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-audio-voix"
+      ],
+      "fr": [
+        "Dupdub",
+        "Outils d'IA pour voix off et contenus destinés aux réseaux sociaux."
+      ],
+      "en": [
+        "Dupdub",
+        "AI tools for voice-overs and social media content."
+      ]
+    },
+    {
+      "slug": "ttsmp3",
+      "url": "https://ttsmp3.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "ttsMP3",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-audio-voix"
+      ],
+      "fr": [
+        "ttsMP3",
+        "Synthèse vocale gratuite en ligne avec téléchargement MP3, sans inscription."
+      ],
+      "en": [
+        "ttsMP3",
+        "Free online text-to-speech with MP3 download, no sign-up."
+      ]
+    },
+    {
+      "slug": "video-top-5-open-source-tts",
+      "url": "https://www.youtube.com/watch?v=ehhmsGm05lU",
+      "type": "video",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "YouTube",
+      "topics": [
+        "intelligence-artificielle",
+        "ia-audio-voix"
+      ],
+      "fr": [
+        "My Top 5 Open-Source AI Text-to-Speech Models",
+        "Vidéo en anglais de la chaîne Jarods Journey présentant cinq modèles ouverts de synthèse vocale."
+      ],
+      "en": [
+        "My Top 5 Open-Source AI Text-to-Speech Models",
+        "English video by the Jarods Journey channel presenting five open-source text-to-speech models."
+      ]
+    },
+    {
+      "slug": "nvidia-omniverse",
+      "url": "https://www.nvidia.com/en-us/omniverse/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "unknown",
+      "publisher": "NVIDIA",
+      "topics": [
+        "intelligence-artificielle",
+        "3d-animation"
+      ],
+      "fr": [
+        "NVIDIA Omniverse",
+        "Plateforme de NVIDIA pour le développement d'applications 3D, de simulation et d'IA physique."
+      ],
+      "en": [
+        "NVIDIA Omniverse",
+        "NVIDIA platform for 3D, simulation and physical AI application development."
+      ]
+    },
+    {
+      "slug": "nvidia-omniverse-audio2face-playlist",
+      "url": "https://www.youtube.com/playlist?list=PL3jK4xNnlCVfIJU10iQ_dd8J_5T_e0YTJ",
+      "type": "video",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "YouTube",
+      "topics": [
+        "intelligence-artificielle",
+        "3d-animation"
+      ],
+      "fr": [
+        "NVIDIA Omniverse Audio2Face App (playlist)",
+        "Liste de lecture officielle sur l'application Audio2Face d'Omniverse (animation faciale à partir de l'audio)."
+      ],
+      "en": [
+        "NVIDIA Omniverse Audio2Face App (playlist)",
+        "Official playlist on the Omniverse Audio2Face app (facial animation from audio)."
+      ]
+    },
+    {
+      "slug": "nvidia-omniverse-youtube",
+      "url": "https://www.youtube.com/@NVIDIAOmniverse",
+      "type": "video",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "YouTube",
+      "topics": [
+        "intelligence-artificielle",
+        "3d-animation"
+      ],
+      "fr": [
+        "NVIDIA Omniverse (chaîne YouTube)",
+        "Chaîne YouTube officielle de NVIDIA Omniverse."
+      ],
+      "en": [
+        "NVIDIA Omniverse (YouTube channel)",
+        "Official NVIDIA Omniverse YouTube channel."
+      ]
+    },
+    {
+      "slug": "siliconangle-omniverse-2023",
+      "url": "https://siliconangle.com/2023/08/08/nvidia-announces-major-updates-omniverse-generative-ai-openusd/",
+      "type": "article",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "SiliconANGLE",
+      "topics": [
+        "intelligence-artificielle",
+        "3d-animation"
+      ],
+      "fr": [
+        "Nvidia announces major updates to Omniverse with generative AI and OpenUSD",
+        "Article d'actualité d'août 2023 sur les mises à jour d'Omniverse (IA générative, OpenUSD). Contenu daté."
+      ],
+      "en": [
+        "Nvidia announces major updates to Omniverse with generative AI and OpenUSD",
+        "August 2023 news article on Omniverse updates (generative AI, OpenUSD). Dated content."
+      ]
+    },
+    {
+      "slug": "video-reallusion-cc4-iclone8",
+      "url": "https://www.youtube.com/watch?v=-FiCuFnkcSg",
+      "type": "video",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "YouTube",
+      "topics": [
+        "intelligence-artificielle",
+        "3d-animation"
+      ],
+      "fr": [
+        "3D Characters & Animation Simplified: Reallusion Character Creator 4 & iClone 8",
+        "Vidéo en anglais de la chaîne AsArt présentant la chaîne de production Character Creator 4 et iClone 8."
+      ],
+      "en": [
+        "3D Characters & Animation Simplified: Reallusion Character Creator 4 & iClone 8",
+        "English video by the AsArt channel giving an overview of the Character Creator 4 and iClone 8 pipeline."
+      ]
+    },
+    {
+      "slug": "deepseek",
+      "url": "https://www.deepseek.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "DeepSeek",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "DeepSeek",
+        "Assistant conversationnel et modèles d'IA de DeepSeek."
+      ],
+      "en": [
+        "DeepSeek",
+        "DeepSeek's AI assistant and models."
+      ]
+    },
+    {
+      "slug": "google-gemini",
+      "url": "https://gemini.google.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Google",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "Google Gemini",
+        "Assistant conversationnel d'intelligence artificielle de Google (Gemini)."
+      ],
+      "en": [
+        "Google Gemini",
+        "Google's conversational artificial intelligence assistant (Gemini)."
+      ]
+    },
+    {
+      "slug": "chatgpt",
+      "url": "https://chatgpt.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "OpenAI",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "ChatGPT",
+        "Assistant conversationnel d'intelligence artificielle d'OpenAI."
+      ],
+      "en": [
+        "ChatGPT",
+        "OpenAI's conversational artificial intelligence assistant."
+      ]
+    },
+    {
+      "slug": "meta-ai",
+      "url": "https://www.meta.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Meta",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "Meta AI",
+        "Assistant d'IA de Meta. Accès refusé (erreur 403) lors du contrôle : disponibilité possiblement limitée selon le pays."
+      ],
+      "en": [
+        "Meta AI",
+        "Meta's AI assistant. Access was refused (403) during the check: availability may depend on the country."
+      ],
+      "status": "restricted"
+    },
+    {
+      "slug": "meta-muse",
+      "url": "https://muse.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Meta",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "Muse (Meta)",
+        "Agent d'IA personnel de Meta. L'adresse muse.ai désignait un autre service lors de l'ajout à la liste source."
+      ],
+      "en": [
+        "Muse (Meta)",
+        "Meta's personal AI agent. The muse.ai address pointed to a different service when added to the source list."
+      ]
+    },
+    {
+      "slug": "claude",
+      "url": "https://claude.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Anthropic",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "Claude",
+        "Assistant d'IA d'Anthropic. Un compte est nécessaire."
+      ],
+      "en": [
+        "Claude",
+        "Anthropic's AI assistant. An account is required."
+      ],
+      "status": "restricted"
+    },
+    {
+      "slug": "grok",
+      "url": "https://grok.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "xAI",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "Grok",
+        "Assistant conversationnel d'intelligence artificielle développé par xAI."
+      ],
+      "en": [
+        "Grok",
+        "Conversational artificial intelligence assistant developed by xAI."
+      ]
+    },
+    {
+      "slug": "qwen-chat",
+      "url": "https://chat.qwen.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Alibaba (Qwen)",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "Qwen Chat",
+        "Assistant conversationnel basé sur les modèles Qwen."
+      ],
+      "en": [
+        "Qwen Chat",
+        "Chat assistant based on the Qwen models."
+      ]
+    },
+    {
+      "slug": "perplexity",
+      "url": "https://www.perplexity.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Perplexity",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "Perplexity",
+        "Moteur de réponses par IA qui cite ses sources."
+      ],
+      "en": [
+        "Perplexity",
+        "AI answer engine that cites its sources."
+      ]
+    },
+    {
+      "slug": "poe",
+      "url": "https://poe.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Quora",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "Poe",
+        "Plateforme donnant accès à plusieurs modèles d'IA conversationnelle. Connexion requise."
+      ],
+      "en": [
+        "Poe",
+        "Platform giving access to several chat AI models. Sign-in required."
+      ],
+      "status": "restricted"
+    },
+    {
+      "slug": "microsoft-copilot",
+      "url": "https://copilot.microsoft.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Microsoft",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "Microsoft Copilot",
+        "Assistant d'IA de Microsoft. Une page de connexion s'affiche à l'ouverture."
+      ],
+      "en": [
+        "Microsoft Copilot",
+        "Microsoft's AI assistant. A sign-in page is shown on opening."
+      ],
+      "status": "restricted"
+    },
+    {
+      "slug": "groq",
+      "url": "https://groq.com/",
+      "type": "website",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "unknown",
+      "publisher": "Groq",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "Groq",
+        "Fournisseur d'infrastructure d'inférence rapide pour modèles d'IA."
+      ],
+      "en": [
+        "Groq",
+        "Provider of fast inference infrastructure for AI models."
+      ]
+    },
+    {
+      "slug": "groqcloud-playground",
+      "url": "https://console.groq.com/playground",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "unknown",
+      "publisher": "Groq",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "GroqCloud Playground",
+        "Interface de test des modèles hébergés par GroqCloud, destinée aux développeurs."
+      ],
+      "en": [
+        "GroqCloud Playground",
+        "Developer playground for models hosted on GroqCloud."
+      ]
+    },
+    {
+      "slug": "pi-ai",
+      "url": "https://pi.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Inflection AI",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "Pi (Inflection AI)",
+        "Assistant d'IA personnel conversationnel."
+      ],
+      "en": [
+        "Pi (Inflection AI)",
+        "Conversational personal AI assistant."
+      ]
+    },
+    {
+      "slug": "infranodus",
+      "url": "https://infranodus.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "unknown",
+      "publisher": "InfraNodus",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "InfraNodus",
+        "Outil d'analyse de texte par réseaux et IA pour la recherche et la génération d'idées."
+      ],
+      "en": [
+        "InfraNodus",
+        "Network-based AI text analysis tool for research and idea generation."
+      ]
+    },
+    {
+      "slug": "scira-ai",
+      "url": "https://scira.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Scira",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "Scira AI",
+        "Moteur de recherche par IA qui affiche ses sources (mplx.run redirige vers scira.ai)."
+      ],
+      "en": [
+        "Scira AI",
+        "AI search engine that shows its sources (mplx.run redirects to scira.ai)."
+      ]
+    },
+    {
+      "slug": "google-ai-studio",
+      "url": "https://aistudio.google.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Google",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "Google AI Studio",
+        "Environnement de Google pour tester les modèles Gemini et prototyper."
+      ],
+      "en": [
+        "Google AI Studio",
+        "Google's environment to test Gemini models and prototype."
+      ]
+    },
+    {
+      "slug": "abacus-ai",
+      "url": "https://abacus.ai/",
+      "type": "tool",
+      "discipline": "informatique",
+      "lang": null,
+      "cost": "unknown",
+      "publisher": "Abacus.AI",
+      "topics": [
+        "intelligence-artificielle",
+        "assistants-ia"
+      ],
+      "fr": [
+        "Abacus.AI",
+        "Assistant et plateforme d'IA pour professionnels et entreprises."
+      ],
+      "en": [
+        "Abacus.AI",
+        "AI assistant and platform for professionals and businesses."
+      ]
+    },
+    {
+      "slug": "theres-an-ai-for-that",
+      "url": "https://theresanaiforthat.com/",
+      "type": "website",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "unknown",
+      "publisher": "There's An AI For That",
+      "topics": [
+        "intelligence-artificielle",
+        "veille-ia"
+      ],
+      "fr": [
+        "There's An AI For That",
+        "Annuaire d'outils d'intelligence artificielle classés par usage."
+      ],
+      "en": [
+        "There's An AI For That",
+        "Directory of AI tools organised by use case."
+      ]
+    },
+    {
+      "slug": "futurepedia",
+      "url": "https://www.futurepedia.io/",
+      "type": "website",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "unknown",
+      "publisher": "Futurepedia",
+      "topics": [
+        "intelligence-artificielle",
+        "veille-ia"
+      ],
+      "fr": [
+        "Futurepedia",
+        "Annuaire d'outils et de logiciels d'IA."
+      ],
+      "en": [
+        "Futurepedia",
+        "Directory of artificial intelligence tools and software."
+      ]
+    },
+    {
+      "slug": "the-rundown-ai",
+      "url": "https://www.therundown.ai/",
+      "type": "website",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "unknown",
+      "publisher": "The Rundown AI",
+      "topics": [
+        "intelligence-artificielle",
+        "veille-ia"
+      ],
+      "fr": [
+        "The Rundown AI",
+        "Lettre d'information quotidienne sur l'actualité de l'IA."
+      ],
+      "en": [
+        "The Rundown AI",
+        "Daily newsletter summarising artificial intelligence news."
+      ]
+    },
+    {
+      "slug": "tech-on-the-edge",
+      "url": "https://www.techontheedge.com/",
+      "type": "website",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "unknown",
+      "publisher": "TechontheEdge",
+      "topics": [
+        "intelligence-artificielle",
+        "veille-ia"
+      ],
+      "fr": [
+        "TechontheEdge",
+        "Site d'actualités sur l'intelligence artificielle et l'informatique."
+      ],
+      "en": [
+        "TechontheEdge",
+        "News site about artificial intelligence and computing."
+      ]
+    },
+    {
+      "slug": "yt-theaigrid",
+      "url": "https://www.youtube.com/@TheAiGrid",
+      "type": "video",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "YouTube",
+      "topics": [
+        "intelligence-artificielle",
+        "veille-ia"
+      ],
+      "fr": [
+        "TheAIGRID (chaîne YouTube)",
+        "Chaîne YouTube en anglais sur l'IA générative, listée parmi les créateurs à suivre dans la source."
+      ],
+      "en": [
+        "TheAIGRID (YouTube channel)",
+        "English YouTube channel about generative AI, listed among creators to follow in the source."
+      ]
+    },
+    {
+      "slug": "yt-sebastian-kamph",
+      "url": "https://www.youtube.com/@sebastiankamph",
+      "type": "video",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "YouTube",
+      "topics": [
+        "intelligence-artificielle",
+        "veille-ia"
+      ],
+      "fr": [
+        "Sebastian Kamph (chaîne YouTube)",
+        "Chaîne YouTube en anglais sur l'IA générative, listée parmi les créateurs à suivre dans la source."
+      ],
+      "en": [
+        "Sebastian Kamph (YouTube channel)",
+        "English YouTube channel about generative AI, listed among creators to follow in the source."
+      ]
+    },
+    {
+      "slug": "yt-greg-preece",
+      "url": "https://www.youtube.com/@GregPreece",
+      "type": "video",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "YouTube",
+      "topics": [
+        "intelligence-artificielle",
+        "veille-ia"
+      ],
+      "fr": [
+        "Greg Preece (chaîne YouTube)",
+        "Chaîne YouTube en anglais sur l'IA générative, listée parmi les créateurs à suivre dans la source."
+      ],
+      "en": [
+        "Greg Preece (YouTube channel)",
+        "English YouTube channel about generative AI, listed among creators to follow in the source."
+      ]
+    },
+    {
+      "slug": "yt-mattvidpro",
+      "url": "https://www.youtube.com/c/MattVideoProductions202",
+      "type": "video",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "YouTube",
+      "topics": [
+        "intelligence-artificielle",
+        "veille-ia"
+      ],
+      "fr": [
+        "MattVidPro (chaîne YouTube)",
+        "Chaîne YouTube en anglais sur l'IA générative, listée parmi les créateurs à suivre dans la source."
+      ],
+      "en": [
+        "MattVidPro (YouTube channel)",
+        "English YouTube channel about generative AI, listed among creators to follow in the source."
+      ]
+    },
+    {
+      "slug": "yt-geekatplay",
+      "url": "https://www.youtube.com/c/Geekatplay",
+      "type": "video",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "YouTube",
+      "topics": [
+        "intelligence-artificielle",
+        "veille-ia"
+      ],
+      "fr": [
+        "Vladimir Chopine [GeekatPlay] (chaîne YouTube)",
+        "Chaîne YouTube en anglais sur l'IA générative, listée parmi les créateurs à suivre dans la source."
+      ],
+      "en": [
+        "Vladimir Chopine [GeekatPlay] (YouTube channel)",
+        "English YouTube channel about generative AI, listed among creators to follow in the source."
+      ]
+    },
+    {
+      "slug": "yt-curious-refuge",
+      "url": "https://www.youtube.com/@curiousrefuge",
+      "type": "video",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "YouTube",
+      "topics": [
+        "intelligence-artificielle",
+        "veille-ia"
+      ],
+      "fr": [
+        "Curious Refuge (chaîne YouTube)",
+        "Chaîne YouTube en anglais sur l'IA générative, listée parmi les créateurs à suivre dans la source."
+      ],
+      "en": [
+        "Curious Refuge (YouTube channel)",
+        "English YouTube channel about generative AI, listed among creators to follow in the source."
+      ]
+    },
+    {
+      "slug": "yt-nerdy-rodent",
+      "url": "https://www.youtube.com/@NerdyRodent",
+      "type": "video",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "YouTube",
+      "topics": [
+        "intelligence-artificielle",
+        "veille-ia"
+      ],
+      "fr": [
+        "Nerdy Rodent (chaîne YouTube)",
+        "Chaîne YouTube en anglais sur l'IA générative, listée parmi les créateurs à suivre dans la source."
+      ],
+      "en": [
+        "Nerdy Rodent (YouTube channel)",
+        "English YouTube channel about generative AI, listed among creators to follow in the source."
+      ]
+    },
+    {
+      "slug": "yt-ai-andy",
+      "url": "https://www.youtube.com/@TheAIAndy",
+      "type": "video",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "YouTube",
+      "topics": [
+        "intelligence-artificielle",
+        "veille-ia"
+      ],
+      "fr": [
+        "AI Andy (chaîne YouTube)",
+        "Chaîne YouTube en anglais sur l'IA générative, listée parmi les créateurs à suivre dans la source."
+      ],
+      "en": [
+        "AI Andy (YouTube channel)",
+        "English YouTube channel about generative AI, listed among creators to follow in the source."
+      ]
+    },
+    {
+      "slug": "yt-aitrepreneur",
+      "url": "https://www.youtube.com/@Aitrepreneur",
+      "type": "video",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "YouTube",
+      "topics": [
+        "intelligence-artificielle",
+        "veille-ia"
+      ],
+      "fr": [
+        "Aitrepreneur (chaîne YouTube)",
+        "Chaîne YouTube en anglais sur l'IA générative, listée parmi les créateurs à suivre dans la source."
+      ],
+      "en": [
+        "Aitrepreneur (YouTube channel)",
+        "English YouTube channel about generative AI, listed among creators to follow in the source."
+      ]
+    },
+    {
+      "slug": "yt-olivio-sarikas",
+      "url": "https://www.youtube.com/@OlivioSarikas",
+      "type": "video",
+      "discipline": "informatique",
+      "lang": "en",
+      "cost": "free",
+      "publisher": "YouTube",
+      "topics": [
+        "intelligence-artificielle",
+        "veille-ia"
+      ],
+      "fr": [
+        "Olivio Sarikas (chaîne YouTube)",
+        "Chaîne YouTube en anglais sur l'IA générative, listée parmi les créateurs à suivre dans la source."
+      ],
+      "en": [
+        "Olivio Sarikas (YouTube channel)",
+        "English YouTube channel about generative AI, listed among creators to follow in the source."
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item": "16 recherches YouTube (sections AI TOOLS SEARCHES / SEARCHES-NEWS SITES)",
+      "reason": "Pages de résultats de recherche, pas des ressources."
+    },
+    {
+      "item": "4 liens TinyURL (dont « CAPCUT v1.5 FREE PRO »)",
+      "reason": "Liens désactivés par TinyURL (deprecated) ; le lien CapCut évoquait en outre une version piratée."
+    },
+    {
+      "item": "stablediffusionanimators.blogspot.com, todaysimages88.blogspot.com",
+      "reason": "Pages personnelles de liens du curateur, sans contenu propre."
+    },
+    {
+      "item": "hunyuanvideoai.com, reveai.org",
+      "reason": "Inaccessibles depuis le navigateur de contrôle ; sites possiblement non officiels."
+    },
+    {
+      "item": "play.ht",
+      "reason": "Inaccessible depuis le navigateur de contrôle."
+    },
+    {
+      "item": "idomoo.ai",
+      "reason": "Le service de vidéos à l'unité a cessé (« Moving On »)."
+    },
+    {
+      "item": "convergence.ai",
+      "reason": "403 Forbidden."
+    },
+    {
+      "item": "fal.ai/models/fal-ai/veo2",
+      "reason": "404."
+    },
+    {
+      "item": "labs.google/experiments",
+      "reason": "404."
+    },
+    {
+      "item": "summarist.ai",
+      "reason": "Erreur DNS (530)."
+    },
+    {
+      "item": "docs.codeium.com/windsurf/models",
+      "reason": "Redirige vers la documentation Devin : ce n'est plus la ressource annoncée."
+    },
+    {
+      "item": "civitai.com (article AnimateDiff), tensor.art",
+      "reason": "Plateformes de partage de modèles communautaires dont le contenu n'est pas modéré pour un public scolaire : relecture humaine requise avant ajout."
+    },
+    {
+      "item": "gettingolder.org, hits.seeyoufarm.com, shortform.com/best-books",
+      "reason": "Hors sujet par rapport à leur rubrique et au catalogue."
+    },
+    {
+      "item": "businessolution.org (comparatif 2022)",
+      "reason": "Comparatif d'outils obsolète."
+    },
+    {
+      "item": "Playlist PL8G7-J1OZZ… et vidéo FS_B9j0Ly8E",
+      "reason": "Playlist indisponible ; la vidéo est un morceau de musique sans rapport."
+    },
+    {
+      "item": "Doublons : Pollo ×2, Kling, Qwen (chat.qwenlm.ai), DeepSeek (chat.deepseek.com), vidéo Audio2Face incluse dans la playlist",
+      "reason": "Doublons internes."
+    }
+  ]
+}

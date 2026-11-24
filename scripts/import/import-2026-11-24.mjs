@@ -10,6 +10,9 @@ const root = join(here, '..', '..');
 const seedPath = join(root, 'data/seed/resources.json');
 const seed = JSON.parse(readFileSync(seedPath, 'utf8'));
 const sites = JSON.parse(readFileSync(join(here, 'collected-sites.json'), 'utf8'));
+// Lot du 2026-11-24 (soir) : start.me « AI »
+const ai = JSON.parse(readFileSync(join(here, 'collected-ai.json'), 'utf8'));
+sites.resources.push(...ai.resources);
 const gee = JSON.parse(readFileSync(join(here, 'collected-gee.json'), 'utf8'));
 const catchment = JSON.parse(readFileSync(join(here, 'collected-catchment.json'), 'utf8'));
 const CHECKED = '2026-11-24';
@@ -38,6 +41,8 @@ const groups = { gee: [], catchment: [] };
 const skipped = [];
 
 function add(r, group) {
+  for (const [l, t] of Object.entries(r.translations))
+    if (t.description.trim().length < 20 || t.title.trim().length < 3) throw new Error(`Titre ou description trop court (${l}) : ${r.slug}`);
   const n = normalizeUrl(r.url);
   if (existingUrls.has(n)) {
     skipped.push(`${r.slug} (URL déjà présente)`);
@@ -59,7 +64,7 @@ for (const s of sites.resources) {
     slug: s.slug, url: s.url, type: s.type, discipline: s.discipline, original_language: s.lang,
     level: 'unknown', access_cost: s.cost, author: null, publisher: s.publisher, license: null,
     formats: ['web'], topics: s.topics,
-    link_status: s.unverified ? 'unverified' : 'ok', link_checked_at: s.unverified ? null : CHECKED,
+    link_status: s.unverified ? 'unverified' : (s.status ?? 'ok'), link_checked_at: s.unverified ? null : CHECKED,
     translations: {
       fr: { title: s.fr[0], description: s.fr[1] }, en: { title: s.en[0], description: s.en[1] },
       ...(s.de ? { de: { title: s.de[0], description: s.de[1] } } : {}),
@@ -121,6 +126,12 @@ const newTopics = [
   ['fondations', 'carrieres-opportunites', 'Fondations', 'Foundations'],
   ['evenements', 'carrieres-opportunites', 'Conférences & événements', 'Conferences & events'],
   ['reseaux-alumni', 'carrieres-opportunites', "Réseaux d'anciens", 'Alumni networks'],
+  ['ia-image-video', 'informatique', 'IA : images & vidéo', 'AI: images & video'],
+  ['creation-video', 'informatique', 'Création vidéo', 'Video creation'],
+  ['ia-audio-voix', 'informatique', 'IA : audio & voix', 'AI: audio & voice'],
+  ['assistants-ia', 'informatique', 'Assistants IA', 'AI assistants'],
+  ['veille-ia', 'informatique', 'Veille IA', 'AI news & directories'],
+  ['3d-animation', 'informatique', '3D & animation', '3D & animation'],
 ];
 for (const [slug, discipline, fr, en] of newTopics)
   if (!seed.topics.some((t) => t.slug === slug)) seed.topics.push({ slug, discipline, labels: { fr, en } });
@@ -137,6 +148,9 @@ const collections = [
   { slug: 'formations-nasa-arset', title: { fr: 'Formations NASA ARSET en télédétection', en: 'NASA ARSET remote sensing trainings' },
     description: { fr: 'Formations gratuites de la NASA (Earthdata) : sécheresse, qualité de l’air, eaux de surface, biomasse, inondations, radar.', en: 'Free NASA (Earthdata) trainings: drought, air quality, surface water, biomass, floods, radar.' },
     items: seed.resources.filter((r) => r.slug.startsWith('arset-')).map((r) => r.slug) },
+  { slug: 'outils-ia-generative', title: { fr: 'Outils d’IA générative', en: 'Generative AI tools' },
+    description: { fr: 'Assistants, génération d’images, de vidéos, de voix et de musique, annuaires et chaînes de veille. Outils commerciaux évoluant vite : vérifiez conditions et coûts.', en: 'Assistants, image, video, voice and music generation, directories and news channels. Fast-moving commercial tools: check terms and costs.' },
+    items: ai.resources.map((r) => r.slug) },
   { slug: 'sources-donnees-sig', title: { fr: 'Sources de données SIG', en: 'GIS data sources' },
     description: { fr: 'Portails pour télécharger limites administratives, OpenStreetMap, géologie, zones humides et données de développement.', en: 'Portals to download administrative boundaries, OpenStreetMap, geology, wetlands and development data.' },
     items: ['geofabrik-shapefiles', 'diva-gis-data', 'gadm', 'overpass-turbo', 'humanitarian-data-exchange', 'natural-earth', 'mapcruzin', 'usgs-world-geologic-maps', 'ramsar-sites-information-service', 'world-bank-data-catalog'] },
