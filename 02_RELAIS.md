@@ -31,7 +31,7 @@ Le produit combine :
 
 Le MVP doit inclure la recherche, les filtres, les collections, les favoris, la contribution avec modération, les parcours d'apprentissage et une PWA. Le français et l'anglais sont les langues initiales.
 
-**État au 2026-11-24 :** le dépôt GitHub `krazymapper/Keu-Diru` existe mais est **vide**. Une première version (v0.1) a été construite et testée **hors du dépôt**, dans l'environnement de travail de l'IA ; elle n'est **pas encore poussée**. Aucun projet Supabase n'est créé ni connecté. Un aperçu privé de la v0.1 est publié sur claude.ai pour revue. Détails au §19.
+**État au 2026-11-24 :** la v0.1 est **poussée sur `krazymapper/Keu-Diru` (branche `main`)** et la CI GitHub Actions passe. Le déploiement GitHub Pages attend l'**activation manuelle de Pages** par le porteur (Settings → Pages → Source : GitHub Actions). Aucun projet Supabase n'est créé ni connecté. Un aperçu privé de la v0.1 est publié sur claude.ai pour revue. Détails au §19.
 
 ## 3. État du projet
 
@@ -78,8 +78,7 @@ Le MVP doit inclure la recherche, les filtres, les collections, les favoris, la 
 ## 4. Informations à ne pas supposer
 
 Le repreneur ne doit pas supposer que :
-- le code de la v0.1 est sur GitHub (il ne l'est pas tant que le §19 ne l'indique pas) ;
-- GitHub Pages est configuré ;
+- GitHub Pages est activé (à vérifier dans Settings → Pages) ;
 - un projet Supabase est créé ;
 - des clés API ou variables d'environnement existent ;
 - les migrations SQL ont été déployées ;
@@ -227,9 +226,9 @@ Voir `03_AUDIT_TECHNIQUE.md` §9 (liste priorisée). La première : **autoriser 
 ## 18. État au moment de la rédaction
 
 - Cadrage fonctionnel validé ; audit réalisé (`03_AUDIT_TECHNIQUE.md`).
-- v0.1 construite et testée localement ; non poussée ; non déployée.
+- v0.1 poussée sur `main`, CI verte sur GitHub ; non déployée (Pages à activer).
 - Supabase : schéma prêt, projet inexistant.
-- Prochaine action : obtenir l'autorisation de pousser le code sur `krazymapper/Keu-Diru`.
+- Prochaine action : activer GitHub Pages (source : GitHub Actions), puis relancer le workflow « Déploiement GitHub Pages ».
 
 ## 19. Journal des mises à jour
 
@@ -256,8 +255,10 @@ Voir `03_AUDIT_TECHNIQUE.md` §9 (liste priorisée). La première : **autoriser 
 
 **Décisions en attente du porteur :** voir `03_AUDIT_TECHNIQUE.md` §9.
 
+**Complément du même jour :** code poussé sur `main` (2 commits). CI GitHub : succès. Déploiement : build réussi, publication refusée (« Ensure GitHub Pages has been enabled ») — activation par API impossible depuis l'environnement de l'IA. Avertissement non bloquant : actions GitHub en version v4 basées sur Node 20 (dépréciées) — à mettre à jour.
+
 **Prochaine action unique :**
-- Autoriser l'envoi du code sur `krazymapper/Keu-Diru`, puis activer GitHub Pages (source : GitHub Actions).
+- Le porteur active GitHub Pages (Settings → Pages → Source : GitHub Actions), puis relance le workflow « Déploiement GitHub Pages ».
 
 ---
 
