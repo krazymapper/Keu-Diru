@@ -1,0 +1,28 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ResourceCard from '../../../components/ResourceCard.astro';
+import { getCatalog, label } from '../../../lib/catalog';
+import { useT, href, LOCALES, type Locale } from '../../../i18n';
+export async function getStaticPaths() {
+  const c = await getCatalog();
+  return LOCALES.flatMap((lang) => c.collections.map((col) => ({ params: { lang, slug: col.slug } })));
+}
+const lang = Astro.params.lang as Locale;
+const t = useT(lang);
+const c = await getCatalog();
+const col = c.collections.find((x) => x.slug === Astro.params.slug)!;
+// une ressource retirée disparaît de la collection au build suivant (pas de lien mort)
+const items = col.items.map((s) => c.resources.find((r) => r.slug === s)).filter((r) => r !== undefined);
+const dl = Object.fromEntries(c.disciplines.map((d) => [d.slug, d.labels]));
+const tl = Object.fromEntries(c.resource_types.map((d) => [d.slug, d.labels]));
+---
+<Base lang={lang} title={label(col.title, lang)} description={label(col.description, lang)} path={`/collections/${col.slug}`}>
+  <div class="container-k py-10">
+    <a href={href(lang, '/collections')} class="text-sm text-muted">← {t('collections.title')}</a>
+    <h1 class="text-3xl md:text-5xl mt-4 mb-3">{label(col.title, lang)}</h1>
+    <p class="text-lg text-muted mb-8 max-w-2xl">{label(col.description, lang)}</p>
+    <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {items.map((r) => <li><ResourceCard r={r} lang={lang} disciplineLabels={dl} typeLabels={tl} /></li>)}
+    </ul>
+  </div>
+</Base>

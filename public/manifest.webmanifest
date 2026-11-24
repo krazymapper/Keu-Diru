@@ -1,0 +1,16 @@
+{
+  "name": "KEU DIRU — Bibliothèque communautaire des savoirs",
+  "short_name": "KEU DIRU",
+  "description": "Cours, tutoriels, données, outils et sites utiles, organisés par une communauté.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf7f2",
+  "theme_color": "#9f3f1a",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

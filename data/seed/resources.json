@@ -1,0 +1,247 @@
+{
+  "_status": "Ressources réelles et publiques. Liens NON VÉRIFIÉS automatiquement (link_status = unverified). Licence = null quand elle n'a pas été confirmée : ne pas compléter par supposition (RM-04).",
+  "resources": [
+    {
+      "slug": "qgis-training-manual",
+      "url": "https://docs.qgis.org/latest/en/docs/training_manual/",
+      "type": "tutorial", "discipline": "geomatique", "original_language": "en",
+      "level": "beginner", "access_cost": "free",
+      "author": null, "publisher": "QGIS Project", "license": null,
+      "formats": ["web"], "topics": ["sig-bureautique"],
+      "translations": {
+        "fr": { "title": "Manuel de formation QGIS", "description": "Manuel officiel pour apprendre QGIS pas à pas : interface, données vecteur et raster, analyse spatiale et mise en page de cartes, avec exercices." },
+        "en": { "title": "QGIS Training Manual", "description": "Official step-by-step manual to learn QGIS: interface, vector and raster data, spatial analysis and map layouts, with exercises." }
+      }
+    },
+    {
+      "slug": "learnosm",
+      "url": "https://learnosm.org/",
+      "type": "tutorial", "discipline": "geomatique", "original_language": "en",
+      "level": "beginner", "access_cost": "free",
+      "author": null, "publisher": "Humanitarian OpenStreetMap Team", "license": null,
+      "formats": ["web"], "topics": ["openstreetmap"],
+      "translations": {
+        "fr": { "title": "LearnOSM", "description": "Guides pour débuter puis progresser dans la contribution à OpenStreetMap : éditeurs, collecte de terrain et cartographie humanitaire." },
+        "en": { "title": "LearnOSM", "description": "Guides to get started and progress with OpenStreetMap contribution: editors, field data collection and humanitarian mapping." }
+      }
+    },
+    {
+      "slug": "natural-earth",
+      "url": "https://www.naturalearthdata.com/",
+      "type": "dataset", "discipline": "geomatique", "original_language": "en",
+      "level": "all_levels", "access_cost": "free",
+      "author": null, "publisher": "Natural Earth", "license": "Domaine public / Public domain",
+      "formats": ["shapefile", "geopackage"], "topics": ["donnees-ouvertes"],
+      "translations": {
+        "fr": { "title": "Natural Earth", "description": "Jeux de données cartographiques mondiaux (limites administratives, hydrographie, relief) à petite et moyenne échelle, prêts à l'emploi dans un SIG." },
+        "en": { "title": "Natural Earth", "description": "Global small- and medium-scale cartographic datasets (administrative boundaries, hydrography, relief), ready to use in a GIS." }
+      }
+    },
+    {
+      "slug": "humanitarian-data-exchange",
+      "url": "https://data.humdata.org/",
+      "type": "dataset", "discipline": "donnees-statistiques", "original_language": "en",
+      "level": "all_levels", "access_cost": "free",
+      "author": null, "publisher": "OCHA (Nations Unies)", "license": null,
+      "formats": ["csv", "xlsx", "geojson"], "topics": ["donnees-ouvertes"],
+      "translations": {
+        "fr": { "title": "Humanitarian Data Exchange (HDX)", "description": "Plateforme de partage de données humanitaires par pays : population, infrastructures, crises, limites administratives. Licence à vérifier jeu par jeu." },
+        "en": { "title": "Humanitarian Data Exchange (HDX)", "description": "Platform for sharing humanitarian data by country: population, infrastructure, crises, administrative boundaries. Check the licence of each dataset." }
+      }
+    },
+    {
+      "slug": "wikidata",
+      "url": "https://www.wikidata.org/",
+      "type": "dataset", "discipline": "communs-numeriques", "original_language": "en",
+      "level": "intermediate", "access_cost": "free",
+      "author": null, "publisher": "Wikimedia Foundation", "license": "CC0 1.0 (données structurées)",
+      "formats": ["web", "sparql", "json"], "topics": ["donnees-ouvertes", "wikimedia"],
+      "translations": {
+        "fr": { "title": "Wikidata", "description": "Base de connaissances libre et collaborative, interrogeable en SPARQL, qui alimente notamment les projets Wikimedia." },
+        "en": { "title": "Wikidata", "description": "Free, collaborative knowledge base queryable with SPARQL, which notably powers Wikimedia projects." }
+      }
+    },
+    {
+      "slug": "our-world-in-data",
+      "url": "https://ourworldindata.org/",
+      "type": "website", "discipline": "donnees-statistiques", "original_language": "en",
+      "level": "all_levels", "access_cost": "free",
+      "author": null, "publisher": "Global Change Data Lab", "license": "CC BY 4.0",
+      "formats": ["web", "csv"], "topics": ["donnees-ouvertes"],
+      "translations": {
+        "fr": { "title": "Our World in Data", "description": "Graphiques, articles et données téléchargeables sur les grands enjeux mondiaux : santé, énergie, pauvreté, climat, éducation." },
+        "en": { "title": "Our World in Data", "description": "Charts, articles and downloadable data on major global issues: health, energy, poverty, climate, education." }
+      }
+    },
+    {
+      "slug": "mit-6-0001-python",
+      "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/",
+      "type": "course", "discipline": "informatique", "original_language": "en",
+      "level": "beginner", "access_cost": "free",
+      "author": null, "publisher": "MIT OpenCourseWare", "license": "CC BY-NC-SA 4.0",
+      "formats": ["video", "pdf", "web"], "topics": ["python"],
+      "translations": {
+        "fr": { "title": "Introduction à l'informatique et à la programmation en Python (MIT 6.0001)", "description": "Cours universitaire complet d'initiation à la programmation en Python : vidéos, notes et exercices, publié en accès libre par le MIT." },
+        "en": { "title": "Introduction to Computer Science and Programming in Python (MIT 6.0001)", "description": "Complete university introduction to programming in Python: videos, notes and problem sets, openly published by MIT." }
+      }
+    },
+    {
+      "slug": "khan-academy-fr",
+      "url": "https://fr.khanacademy.org/",
+      "type": "course", "discipline": "mathematiques", "original_language": "fr",
+      "level": "all_levels", "access_cost": "free",
+      "author": null, "publisher": "Khan Academy", "license": null,
+      "formats": ["video", "web"], "topics": [],
+      "translations": {
+        "fr": { "title": "Khan Academy (français)", "description": "Leçons vidéo et exercices interactifs en mathématiques et en sciences, du primaire au supérieur, en français." },
+        "en": { "title": "Khan Academy (French edition)", "description": "Video lessons and interactive exercises in mathematics and science, from primary to higher education, in French." }
+      }
+    },
+    {
+      "slug": "software-carpentry-lessons",
+      "url": "https://software-carpentry.org/lessons/",
+      "type": "course", "discipline": "informatique", "original_language": "en",
+      "level": "beginner", "access_cost": "free",
+      "author": null, "publisher": "The Carpentries", "license": "CC BY 4.0",
+      "formats": ["web"], "topics": ["python"],
+      "translations": {
+        "fr": { "title": "Leçons Software Carpentry", "description": "Leçons pour chercheurs : ligne de commande Unix, Git, Python et R, conçues pour des ateliers pratiques." },
+        "en": { "title": "Software Carpentry lessons", "description": "Lessons for researchers: Unix shell, Git, Python and R, designed for hands-on workshops." }
+      }
+    },
+    {
+      "slug": "freecodecamp",
+      "url": "https://www.freecodecamp.org/",
+      "type": "course", "discipline": "informatique", "original_language": "en",
+      "level": "beginner", "access_cost": "free",
+      "author": null, "publisher": "freeCodeCamp", "license": null,
+      "formats": ["web", "video"], "topics": [],
+      "translations": {
+        "fr": { "title": "freeCodeCamp", "description": "Parcours interactifs gratuits en développement web, JavaScript, Python et analyse de données, avec certifications." },
+        "en": { "title": "freeCodeCamp", "description": "Free interactive curricula in web development, JavaScript, Python and data analysis, with certifications." }
+      }
+    },
+    {
+      "slug": "openstax",
+      "url": "https://openstax.org/",
+      "type": "book", "discipline": "education-pedagogie", "original_language": "en",
+      "level": "intermediate", "access_cost": "free",
+      "author": null, "publisher": "OpenStax (Rice University)", "license": "CC BY 4.0 (majorité des ouvrages — vérifier par livre)",
+      "formats": ["pdf", "web"], "topics": [],
+      "translations": {
+        "fr": { "title": "OpenStax", "description": "Manuels universitaires libres et évalués par des pairs (mathématiques, sciences, sciences sociales), consultables en ligne ou en PDF." },
+        "en": { "title": "OpenStax", "description": "Free, peer-reviewed college textbooks (mathematics, sciences, social sciences), available online or as PDF." }
+      }
+    },
+    {
+      "slug": "programming-historian",
+      "url": "https://programminghistorian.org/",
+      "type": "tutorial", "discipline": "sciences-humaines", "original_language": "en",
+      "level": "intermediate", "access_cost": "free",
+      "author": null, "publisher": "The Programming Historian", "license": null,
+      "formats": ["web"], "topics": [],
+      "translations": {
+        "fr": { "title": "Programming Historian", "description": "Tutoriels relus par des pairs sur les outils numériques pour la recherche en sciences humaines, disponibles en plusieurs langues dont le français." },
+        "en": { "title": "Programming Historian", "description": "Peer-reviewed tutorials on digital tools for humanities research, available in several languages including French." }
+      }
+    },
+    {
+      "slug": "faostat",
+      "url": "https://www.fao.org/faostat/",
+      "type": "dataset", "discipline": "agriculture-alimentation", "original_language": "en",
+      "level": "all_levels", "access_cost": "free",
+      "author": null, "publisher": "FAO (Nations Unies)", "license": null,
+      "formats": ["csv", "web"], "topics": ["donnees-ouvertes"],
+      "translations": {
+        "fr": { "title": "FAOSTAT", "description": "Statistiques mondiales sur l'alimentation et l'agriculture par pays : production, commerce, sécurité alimentaire, utilisation des terres." },
+        "en": { "title": "FAOSTAT", "description": "Global food and agriculture statistics by country: production, trade, food security, land use." }
+      }
+    },
+    {
+      "slug": "who-global-health-observatory",
+      "url": "https://www.who.int/data/gho",
+      "type": "dataset", "discipline": "sante", "original_language": "en",
+      "level": "all_levels", "access_cost": "free",
+      "author": null, "publisher": "Organisation mondiale de la Santé", "license": null,
+      "formats": ["web", "csv"], "topics": ["donnees-ouvertes"],
+      "translations": {
+        "fr": { "title": "Observatoire mondial de la santé (OMS)", "description": "Indicateurs de santé publique par pays publiés par l'OMS : mortalité, maladies, couverture des services, facteurs de risque." },
+        "en": { "title": "WHO Global Health Observatory", "description": "Public health indicators by country published by WHO: mortality, diseases, service coverage, risk factors." }
+      }
+    },
+    {
+      "slug": "world-bank-open-data",
+      "url": "https://data.worldbank.org/",
+      "type": "dataset", "discipline": "economie-developpement", "original_language": "en",
+      "level": "all_levels", "access_cost": "free",
+      "author": null, "publisher": "Banque mondiale", "license": "CC BY 4.0",
+      "formats": ["csv", "xlsx", "api"], "topics": ["donnees-ouvertes"],
+      "translations": {
+        "fr": { "title": "Données ouvertes de la Banque mondiale", "description": "Indicateurs de développement par pays et par année (économie, démographie, éducation, environnement), téléchargeables ou via API." },
+        "en": { "title": "World Bank Open Data", "description": "Development indicators by country and year (economy, demographics, education, environment), downloadable or via API." }
+      }
+    },
+    {
+      "slug": "copernicus-climate-data-store",
+      "url": "https://cds.climate.copernicus.eu/",
+      "type": "dataset", "discipline": "environnement-climat", "original_language": "en",
+      "level": "advanced", "access_cost": "free",
+      "author": null, "publisher": "Copernicus / ECMWF", "license": null,
+      "formats": ["netcdf", "grib", "api"], "topics": ["climat"],
+      "translations": {
+        "fr": { "title": "Copernicus Climate Data Store", "description": "Réanalyses, projections et observations climatiques (dont ERA5). Un compte gratuit est nécessaire pour télécharger." },
+        "en": { "title": "Copernicus Climate Data Store", "description": "Climate reanalyses, projections and observations (including ERA5). A free account is required to download." }
+      }
+    },
+    {
+      "slug": "tatoeba",
+      "url": "https://tatoeba.org/",
+      "type": "tool", "discipline": "langues-lettres", "original_language": "en",
+      "level": "all_levels", "access_cost": "free",
+      "author": null, "publisher": "Tatoeba", "license": null,
+      "formats": ["web", "csv"], "topics": [],
+      "translations": {
+        "fr": { "title": "Tatoeba", "description": "Collection collaborative de phrases traduites dans de nombreuses langues, utile pour l'apprentissage et le traitement automatique des langues." },
+        "en": { "title": "Tatoeba", "description": "Collaborative collection of sentences translated into many languages, useful for learning and natural language processing." }
+      }
+    }
+  ],
+  "topics": [
+    { "slug": "sig-bureautique", "discipline": "geomatique", "labels": { "fr": "SIG bureautique", "en": "Desktop GIS" } },
+    { "slug": "openstreetmap", "discipline": "geomatique", "labels": { "fr": "OpenStreetMap", "en": "OpenStreetMap" } },
+    { "slug": "donnees-ouvertes", "discipline": null, "labels": { "fr": "Données ouvertes", "en": "Open data" } },
+    { "slug": "wikimedia", "discipline": "communs-numeriques", "labels": { "fr": "Wikimedia", "en": "Wikimedia" } },
+    { "slug": "python", "discipline": "informatique", "labels": { "fr": "Python", "en": "Python" } },
+    { "slug": "climat", "discipline": "environnement-climat", "labels": { "fr": "Climat", "en": "Climate" } }
+  ],
+  "collections": [
+    {
+      "slug": "donnees-ouvertes-mondiales",
+      "_status": "Exemple de démonstration — à valider éditorialement",
+      "title": { "fr": "Données ouvertes mondiales", "en": "Global open data" },
+      "description": { "fr": "Portails de données statistiques et géographiques couvrant tous les pays, dont ceux d'Afrique de l'Ouest.", "en": "Statistical and geographic data portals covering every country, including West Africa." },
+      "items": ["world-bank-open-data", "our-world-in-data", "humanitarian-data-exchange", "faostat", "who-global-health-observatory", "natural-earth"]
+    },
+    {
+      "slug": "cartographie-libre",
+      "_status": "Exemple de démonstration — à valider éditorialement",
+      "title": { "fr": "Cartographie libre", "en": "Open mapping" },
+      "description": { "fr": "Outils, données et communautés pour cartographier avec des logiciels et données libres.", "en": "Tools, data and communities for mapping with free software and open data." },
+      "items": ["learnosm", "qgis-training-manual", "natural-earth", "wikidata"]
+    }
+  ],
+  "learning_paths": [
+    {
+      "slug": "debuter-cartographie-libre",
+      "_status": "Exemple de démonstration — à valider éditorialement",
+      "level": "beginner",
+      "title": { "fr": "Débuter en cartographie libre", "en": "Getting started with open mapping" },
+      "objective": { "fr": "Savoir contribuer à OpenStreetMap puis produire une première carte thématique dans QGIS.", "en": "Contribute to OpenStreetMap, then produce a first thematic map in QGIS." },
+      "steps": [
+        { "resource": "learnosm", "instruction": { "fr": "Suivez le chapitre « Débuter » et faites vos premières modifications.", "en": "Follow the \"Beginner\" chapter and make your first edits." } },
+        { "resource": "qgis-training-manual", "instruction": { "fr": "Réalisez les modules sur l'interface et les données vecteur.", "en": "Complete the interface and vector data modules." } },
+        { "resource": "natural-earth", "instruction": { "fr": "Téléchargez les limites administratives et composez une carte de votre pays.", "en": "Download administrative boundaries and lay out a map of your country." } }
+      ]
+    }
+  ]
+}

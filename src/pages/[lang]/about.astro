@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import { useT, href, localeStaticPaths, type Locale } from '../../i18n';
+export const getStaticPaths = localeStaticPaths;
+const lang = Astro.params.lang as Locale;
+const t = useT(lang);
+const fr = lang === 'fr';
+---
+<Base lang={lang} title={t('about.title')} path="/about">
+  <div class="container-k py-10 max-w-3xl space-y-5 text-lg leading-relaxed">
+    <h1 class="text-3xl md:text-4xl">{t('about.title')}</h1>
+    {fr ? (
+      <>
+        <p>Les ressources utiles pour apprendre, enseigner et chercher sont dispersées entre de nombreuses plateformes. KEU DIRU les réunit dans un catalogue public, multidisciplinaire et multilingue, enrichi par une communauté.</p>
+        <p>KEU DIRU <strong>référence</strong> des ressources : il ne les héberge pas. Chaque ressource conserve la licence de son auteur ou de son éditeur. Les informations inconnues sont affichées comme « non renseignées », jamais devinées.</p>
+        <p>Toute proposition est vérifiée avant publication. <a href={href(lang, '/contribute')}>Proposer une ressource</a>.</p>
+      </>
+    ) : (
+      <>
+        <p>Useful resources for learning, teaching and research are scattered across many platforms. KEU DIRU brings them together in a public, multidisciplinary and multilingual catalogue, enriched by a community.</p>
+        <p>KEU DIRU <strong>lists</strong> resources: it does not host them. Each resource keeps its author’s or publisher’s licence. Unknown information is shown as “not provided”, never guessed.</p>
+        <p>Every suggestion is reviewed before publication. <a href={href(lang, '/contribute')}>Suggest a resource</a>.</p>
+      </>
+    )}
+  </div>
+</Base>

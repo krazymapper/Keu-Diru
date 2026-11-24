@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro';
+import ResourceCard from '../../components/ResourceCard.astro';
+import { getCatalog, label } from '../../lib/catalog';
+import { useT, href, localeStaticPaths, type Locale } from '../../i18n';
+
+export const getStaticPaths = localeStaticPaths;
+const lang = Astro.params.lang as Locale;
+const t = useT(lang);
+const c = await getCatalog();
+const dl = Object.fromEntries(c.disciplines.map((d) => [d.slug, d.labels]));
+const tl = Object.fromEntries(c.resource_types.map((d) => [d.slug, d.labels]));
+const countBy = (slug: string) => c.resources.filter((r) => r.discipline === slug).length;
+const contentLangs = new Set(c.resources.map((r) => r.original_language).filter(Boolean)).size;
+---
+<Base lang={lang}>
+  <section class="border-b border-line">
+    <div class="container-k py-16 md:py-24 grid md:grid-cols-[1.4fr_1fr] gap-10 items-end">
+      <div>
+        <p class="eyebrow mb-4">{t('site.tagline')}</p>
+        <h1 class="text-4xl md:text-6xl font-semibold mb-6 max-w-3xl">{t('home.title')}</h1>
+        <p class="text-lg text-muted max-w-2xl mb-8">{t('home.lead')}</p>
+        <form action={href(lang, '/explore')} method="get" role="search" class="flex gap-2 max-w-xl">
+          <label class="flex-1"><span class="sr-only">{t('home.search.placeholder')}</span>
+            <input name="q" type="search" class="field !min-h-[52px] text-lg" placeholder={t('home.search.placeholder')} /></label>
+          <button class="btn btn-primary !min-h-[52px] px-6">{t('home.search.button')}</button>
+        </form>
+      </div>
+      <p class="text-sm text-muted md:text-right">{t('home.stats', { r: c.resources.length, d: c.disciplines.length, l: contentLangs })}</p>
+    </div>
+  </section>
+
+  <section class="container-k py-14">
+    <h2 class="text-2xl md:text-3xl mb-6">{t('home.disciplines')}</h2>
+    <ul class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+      {c.disciplines.map((d) => {
+        const n = countBy(d.slug);
+        return (
+          <li><a href={`${href(lang, '/explore')}?discipline=${d.slug}`} class="card p-4 flex flex-col gap-1 no-underline hover:border-ink h-full">
+            <span class="font-semibold">{label(d.labels, lang)}</span>
+            <span class="text-sm text-muted">{t(n === 1 ? 'common.resource' : 'common.resources', { n })}</span>
+          </a></li>
+        );
+      })}
+    </ul>
+  </section>
+
+  <section class="bg-card border-y border-line">
+    <div class="container-k py-14 grid lg:grid-cols-2 gap-12">
+      <div>
+        <div class="flex items-baseline justify-between mb-6"><h2 class="text-2xl md:text-3xl">{t('home.collections')}</h2><a href={href(lang, '/collections')} class="text-sm">{t('common.seeAll')}</a></div>
+        <ul class="space-y-3">
+          {c.collections.map((col) => (
+            <li><a href={href(lang, `/collections/${col.slug}`)} class="card p-5 block no-underline hover:border-ink">
+              <span class="font-serif text-xl font-semibold block">{label(col.title, lang)}</span>
+              <span class="text-muted text-sm block mt-1">{label(col.description, lang)}</span>
+              <span class="chip mt-3">{t('common.resources', { n: col.items.length })}</span>
+            </a></li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <div class="flex items-baseline justify-between mb-6"><h2 class="text-2xl md:text-3xl">{t('home.paths')}</h2><a href={href(lang, '/paths')} class="text-sm">{t('common.seeAll')}</a></div>
+        <ul class="space-y-3">
+          {c.learning_paths.map((p) => (
+            <li><a href={href(lang, `/paths/${p.slug}`)} class="card p-5 block no-underline hover:border-ink border-l-4 !border-l-accent">
+              <span class="font-serif text-xl font-semibold block">{label(p.title, lang)}</span>
+              <span class="text-muted text-sm block mt-1">{label(p.objective, lang)}</span>
+              <span class="flex gap-2 mt-3"><span class="chip">{t('common.steps', { n: p.steps.length })}</span><span class="chip">{t(`level.${p.level}`)}</span></span>
+            </a></li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-k py-14">
+    <div class="flex items-baseline justify-between mb-6"><h2 class="text-2xl md:text-3xl">{t('home.recent')}</h2><a href={href(lang, '/explore')} class="text-sm">{t('common.seeAll')}</a></div>
+    <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {c.resources.slice(0, 6).map((r) => <li><ResourceCard r={r} lang={lang} disciplineLabels={dl} typeLabels={tl} /></li>)}
+    </ul>
+  </section>
+</Base>

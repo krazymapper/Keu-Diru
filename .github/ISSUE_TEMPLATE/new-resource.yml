@@ -1,0 +1,30 @@
+name: Proposer une ressource
+description: Suggérer une ressource pour le catalogue KEU DIRU (vérifiée avant publication)
+title: "[Ressource] "
+labels: [nouvelle-ressource]
+body:
+  - type: input
+    id: title
+    attributes: { label: Titre }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: URL, placeholder: "https://" }
+    validations: { required: true }
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [Cours, Tutoriel, Jeu de données, Outil, Article, Vidéo, Livre, Site web, Dépôt de code]
+    validations: { required: true }
+  - type: input
+    id: discipline
+    attributes: { label: Discipline }
+    validations: { required: true }
+  - type: textarea
+    id: description
+    attributes: { label: "Description (à quoi sert-elle, pour qui ?)" }
+    validations: { required: true }
+  - type: input
+    id: license
+    attributes: { label: "Licence (laisser vide si inconnue — ne pas deviner)" }

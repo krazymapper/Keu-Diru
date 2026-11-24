@@ -1,0 +1,26 @@
+---
+import { href } from '../i18n';
+const fr = href('fr');
+const en = href('en');
+---
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {import.meta.env.PUBLIC_PREVIEW_FILE_LINKS === '1' && <base href="./" />}
+    <title>KEU DIRU</title>
+    <meta http-equiv="refresh" content={`2; url=${fr}`} />
+    <link rel="alternate" hreflang="fr" href={fr} />
+    <link rel="alternate" hreflang="en" href={en} />
+    <script is:inline define:vars={{ fr, en }}>
+      // Langue du navigateur ; FR par défaut (langue principale du projet). Sans JS : meta refresh.
+      var langs = navigator.languages || [navigator.language || 'fr'];
+      var pick = langs.some(function (l) { return /^fr/i.test(l); }) ? fr : (/^en/i.test(langs[0]) ? en : fr);
+      location.replace(pick);
+    </script>
+  </head>
+  <body style="font-family:system-ui;padding:2rem">
+    <p><a href={fr}>Français</a> · <a href={en}>English</a></p>
+  </body>
+</html>

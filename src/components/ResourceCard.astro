@@ -1,0 +1,31 @@
+---
+import type { Resource } from '../lib/schema';
+import { pickTranslation, label } from '../lib/catalog';
+import { useT, href, type Locale } from '../i18n';
+
+interface Props {
+  r: Resource;
+  lang: Locale;
+  disciplineLabels: Record<string, Record<string, string>>;
+  typeLabels: Record<string, Record<string, string>>;
+}
+const { r, lang, disciplineLabels, typeLabels } = Astro.props;
+const t = useT(lang);
+const tr = pickTranslation(r, lang);
+---
+<article class="card p-5 flex flex-col gap-3 h-full hover:border-ink transition-colors">
+  <div class="flex items-center gap-2 flex-wrap">
+    <span class="eyebrow">{label(typeLabels[r.type], lang)}</span>
+    <span class="text-line" aria-hidden="true">•</span>
+    <span class="text-xs text-muted">{label(disciplineLabels[r.discipline], lang)}</span>
+  </div>
+  <h3 class="text-xl font-semibold">
+    <a href={href(lang, `/resources/${r.slug}`)} class="no-underline hover:underline">{tr.title}</a>
+  </h3>
+  <p class="text-[0.95rem] text-muted line-clamp-3">{tr.description}</p>
+  <div class="mt-auto flex flex-wrap gap-1.5 pt-2">
+    {r.original_language && <span class="chip uppercase">{r.original_language}</span>}
+    <span class="chip">{t(`level.${r.level}`)}</span>
+    <span class="chip">{t(`cost.${r.access_cost}`)}</span>
+  </div>
+</article>

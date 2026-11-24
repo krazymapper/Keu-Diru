@@ -1,0 +1,82 @@
+---
+import Base from '../../../layouts/Base.astro';
+import FavoriteButton from '../../../components/FavoriteButton';
+import { getCatalog, pickTranslation, label } from '../../../lib/catalog';
+import { useT, href, LOCALES, type Locale } from '../../../i18n';
+import type { Resource } from '../../../lib/schema';
+
+export async function getStaticPaths() {
+  const c = await getCatalog();
+  return LOCALES.flatMap((lang) => c.resources.map((r) => ({ params: { lang, slug: r.slug }, props: { r } })));
+}
+const { r } = Astro.props as { r: Resource };
+const lang = Astro.params.lang as Locale;
+const t = useT(lang);
+const c = await getCatalog();
+const tr = pickTranslation(r, lang);
+const disc = c.disciplines.find((d) => d.slug === r.discipline);
+const type = c.resource_types.find((d) => d.slug === r.type);
+const langName = (code: string | null) => (code ? c.languages.find((l) => l.code === code)?.native_name ?? code : null);
+const topics = r.topics.map((s) => c.topics.find((x) => x.slug === s)).filter(Boolean);
+const inCollections = c.collections.filter((col) => col.items.includes(r.slug));
+const linkTone: Record<string, string> = { ok: 'text-ok', restricted: 'text-warn', temporarily_unreachable: 'text-warn', broken: 'text-bad', unverified: 'text-muted' };
+const unknown = t('common.unknown');
+const rows: [string, string | null][] = [
+  [t('resource.author'), r.author],
+  [t('resource.publisher'), r.publisher],
+  [t('resource.license'), r.license],
+  [t('resource.language'), langName(r.original_language)],
+  [t('resource.formats'), r.formats.length ? r.formats.join(', ') : null],
+];
+const reportUrl = `https://github.com/krazymapper/Keu-Diru/issues/new?${new URLSearchParams({ title: `[Problème] ${r.slug}`, labels: 'signalement' })}`;
+// Données structurées schema.org (SEO)
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org', '@type': 'LearningResource', name: tr.title, description: tr.description,
+  url: r.url ?? undefined, inLanguage: r.original_language ?? undefined, license: r.license ?? undefined,
+  publisher: r.publisher ? { '@type': 'Organization', name: r.publisher } : undefined,
+  isAccessibleForFree: r.access_cost === 'free' ? true : undefined,
+}).replace(/</g, '\\u003c');
+---
+<Base lang={lang} title={tr.title} description={tr.description} path={`/resources/${r.slug}`}>
+  <script type="application/ld+json" set:html={jsonLd} />
+  <div class="container-k py-10">
+    <nav aria-label="Fil d'Ariane" class="text-sm text-muted mb-6">
+      <a href={href(lang, '/explore')}>{t('nav.explore')}</a> <span aria-hidden="true">/</span>
+      <a href={`${href(lang, '/explore')}?discipline=${r.discipline}`}>{label(disc?.labels, lang)}</a>
+    </nav>
+    <div class="grid lg:grid-cols-[1fr_20rem] gap-10">
+      <article>
+        <p class="eyebrow mb-3">{label(type?.labels, lang)}</p>
+        <h1 class="text-3xl md:text-5xl font-semibold mb-5" lang={tr.language}>{tr.title}</h1>
+        {tr.isFallback && <p class="chip mb-4">{t('resource.fallback', { lang: langName(tr.language) ?? tr.language })}</p>}
+        <p class="text-lg leading-relaxed max-w-prose mb-8" lang={tr.language}>{tr.description}</p>
+        <div class="flex flex-wrap gap-3 items-start mb-8">
+          {r.url && <a href={r.url} class="btn btn-primary" rel="noopener nofollow" target="_blank">{t('common.open')} ↗</a>}
+          <FavoriteButton client:load slug={r.slug} lang={lang} />
+        </div>
+        <p class={`text-sm ${linkTone[r.link_status]}`}>● {t(`link.${r.link_status}`)}</p>
+        {topics.length > 0 && (
+          <div class="mt-8"><h2 class="eyebrow mb-2">{t('resource.topics')}</h2>
+            <div class="flex flex-wrap gap-2">{topics.map((tp) => <span class="chip">{label(tp!.labels, lang)}</span>)}</div></div>
+        )}
+        {inCollections.length > 0 && (
+          <div class="mt-8"><h2 class="eyebrow mb-2">{t('resource.inCollections')}</h2>
+            <ul class="flex flex-wrap gap-2">{inCollections.map((col) => <li><a class="chip hover:border-ink" href={href(lang, `/collections/${col.slug}`)}>{label(col.title, lang)}</a></li>)}</ul></div>
+        )}
+      </article>
+      <aside class="card p-5 h-fit">
+        <h2 class="font-serif text-lg font-semibold mb-3">{t('resource.meta')}</h2>
+        <dl class="text-sm divide-y divide-line">
+          <div class="py-2 grid grid-cols-[8rem_1fr] gap-2"><dt class="text-muted">{t('resource.discipline')}</dt><dd>{label(disc?.labels, lang)}</dd></div>
+          <div class="py-2 grid grid-cols-[8rem_1fr] gap-2"><dt class="text-muted">{t('filter.level')}</dt><dd>{t(`level.${r.level}`)}</dd></div>
+          <div class="py-2 grid grid-cols-[8rem_1fr] gap-2"><dt class="text-muted">{t('filter.cost')}</dt><dd>{t(`cost.${r.access_cost}`)}</dd></div>
+          {rows.map(([k, val]) => (
+            <div class="py-2 grid grid-cols-[8rem_1fr] gap-2"><dt class="text-muted">{k}</dt><dd class:list={[!val && 'italic text-muted']}>{val ?? unknown}</dd></div>
+          ))}
+        </dl>
+        <p class="text-xs text-muted mt-4">{t('resource.licenseNote')}</p>
+        <a href={reportUrl} class="text-sm mt-3 inline-block" rel="noopener" target="_blank">{t('resource.report')}</a>
+      </aside>
+    </div>
+  </div>
+</Base>

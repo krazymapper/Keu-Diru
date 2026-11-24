@@ -1,0 +1,18 @@
+name: Signaler un problème
+description: Lien cassé, information erronée, licence incorrecte, contenu inapproprié
+title: "[Problème] "
+labels: [signalement]
+body:
+  - type: input
+    id: resource
+    attributes: { label: Ressource concernée (URL de la fiche KEU DIRU) }
+    validations: { required: true }
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Nature du problème
+      options: [Lien cassé, Information erronée, Licence incorrecte, Doublon, Contenu inapproprié, Autre]
+    validations: { required: true }
+  - type: textarea
+    id: details
+    attributes: { label: Détails }
