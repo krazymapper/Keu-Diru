@@ -120,6 +120,29 @@ with sync_playwright() as p:
         assert r.status == 404
     check('404 pour une page inexistante', not_found)
 
+
+    def dark_mode():
+        d = browser.new_page(color_scheme='dark')
+        d.goto(ROOT + 'fr/index.html')
+        bg = d.evaluate("getComputedStyle(document.documentElement).backgroundColor")
+        assert bg == 'rgb(21, 18, 15)', f'système sombre non appliqué : {bg}'
+        btn = d.locator('#theme-toggle')
+        btn.click()   # système -> clair
+        assert d.evaluate("document.documentElement.dataset.theme") == 'light'
+        btn.click()   # clair -> sombre
+        assert d.evaluate("document.documentElement.dataset.theme") == 'dark'
+        assert btn.get_attribute('aria-label') == 'Thème : sombre'
+        # persistance + pas de flash : le thème est posé avant le rendu de la page suivante
+        d.goto(ROOT + 'fr/explore/index.html', wait_until='commit')
+        d.wait_for_selector('body', state='attached')
+        assert d.evaluate("document.documentElement.dataset.theme") == 'dark'
+        d.screenshot(path='/tmp/shot-dark.png')
+        btn = d.locator('#theme-toggle'); btn.click()   # sombre -> système
+        assert d.evaluate("document.documentElement.dataset.theme") is None
+        assert d.evaluate("localStorage.getItem('keudiru:v1:theme')") is None
+        d.close()
+    check('Mode sombre : système, bascule, persistance, sans flash', dark_mode)
+
     browser.close()
 
 for s, n in results: print(f'[{s}] {n}')

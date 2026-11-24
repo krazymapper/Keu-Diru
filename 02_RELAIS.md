@@ -31,7 +31,7 @@ Le produit combine :
 
 Le MVP doit inclure la recherche, les filtres, les collections, les favoris, la contribution avec modération, les parcours d'apprentissage et une PWA. Le français et l'anglais sont les langues initiales.
 
-**État au 2026-11-24 :** la v0.1 est **poussée sur `krazymapper/Keu-Diru` (branche `main`)** et la CI GitHub Actions passe. Le déploiement GitHub Pages attend l'**activation manuelle de Pages** par le porteur (Settings → Pages → Source : GitHub Actions). Aucun projet Supabase n'est créé ni connecté. Un aperçu privé de la v0.1 est publié sur claude.ai pour revue. Détails au §19.
+**État au 2026-11-24 :** la v0.1 est en ligne sur https://krazymapper.github.io/Keu-Diru/ (dépôt `krazymapper/Keu-Diru`, branche `main`, CI verte). Aucun projet Supabase n'est créé ni connecté. Un aperçu privé de la v0.1 est publié sur claude.ai pour revue. Détails au §19.
 
 ## 3. État du projet
 
@@ -78,7 +78,6 @@ Le MVP doit inclure la recherche, les filtres, les collections, les favoris, la 
 ## 4. Informations à ne pas supposer
 
 Le repreneur ne doit pas supposer que :
-- GitHub Pages est activé (à vérifier dans Settings → Pages) ;
 - un projet Supabase est créé ;
 - des clés API ou variables d'environnement existent ;
 - les migrations SQL ont été déployées ;
@@ -226,9 +225,9 @@ Voir `03_AUDIT_TECHNIQUE.md` §9 (liste priorisée). La première : **autoriser 
 ## 18. État au moment de la rédaction
 
 - Cadrage fonctionnel validé ; audit réalisé (`03_AUDIT_TECHNIQUE.md`).
-- v0.1 poussée sur `main`, CI verte sur GitHub ; non déployée (Pages à activer).
+- v0.1 poussée sur `main`, CI verte, **déployée** sur https://krazymapper.github.io/Keu-Diru/ (mode sombre inclus).
 - Supabase : schéma prêt, projet inexistant.
-- Prochaine action : activer GitHub Pages (source : GitHub Actions), puis relancer le workflow « Déploiement GitHub Pages ».
+- Prochaine action : créer le projet Supabase (URL + clé publique).
 
 ## 19. Journal des mises à jour
 
@@ -257,8 +256,10 @@ Voir `03_AUDIT_TECHNIQUE.md` §9 (liste priorisée). La première : **autoriser 
 
 **Complément du même jour :** code poussé sur `main` (2 commits). CI GitHub : succès. Déploiement : build réussi, publication refusée (« Ensure GitHub Pages has been enabled ») — activation par API impossible depuis l'environnement de l'IA. Avertissement non bloquant : actions GitHub en version v4 basées sur Node 20 (dépréciées) — à mettre à jour.
 
+**Complément (15 h 30) :** GitHub Pages activé par le porteur ; site en ligne sur https://krazymapper.github.io/Keu-Diru/ et vérifié dans un navigateur réel (pages 200, vraie 404, service worker actif, recherche/filtres et favoris fonctionnels). Ajout du **mode sombre** (système / clair / sombre, mémorisé, appliqué avant rendu) ; contrastes WCAG AA vérifiés par test automatique dans les deux thèmes (31 tests) ; E2E 14/14.
+
 **Prochaine action unique :**
-- Le porteur active GitHub Pages (Settings → Pages → Source : GitHub Actions), puis relance le workflow « Déploiement GitHub Pages ».
+- Créer le projet Supabase et fournir l'URL + la clé publique (jamais la `service_role`).
 
 ---
 

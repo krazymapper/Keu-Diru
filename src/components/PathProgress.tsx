@@ -41,7 +41,7 @@ export default function PathProgress({ path, steps, lang }: { path: string; step
                 {s.instruction && <p className="text-muted">{s.instruction}</p>}
               </div>
               <label className="flex items-center gap-2 text-sm shrink-0 self-start cursor-pointer min-h-[44px]">
-                <input type="checkbox" checked={isDone} disabled={!ready} onChange={() => toggle(s.index)} className="size-5 accent-[#9f3f1a]" />
+                <input type="checkbox" checked={isDone} disabled={!ready} onChange={() => toggle(s.index)} className="size-5 accent-[var(--color-accent)]" />
                 {t('paths.done')}
               </label>
             </li>

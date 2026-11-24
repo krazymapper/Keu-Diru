@@ -119,5 +119,9 @@ export default {
   'footer.source': 'Code source',
   '404.title': 'Page introuvable',
   '404.lead': 'Cette page n’existe pas ou a été déplacée.',
+  'theme.label': 'Thème',
+  'theme.system': 'Thème : système',
+  'theme.light': 'Thème : clair',
+  'theme.dark': 'Thème : sombre',
   'offline.title': 'Hors ligne',
 } as const;

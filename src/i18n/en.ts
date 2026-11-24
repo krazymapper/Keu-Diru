@@ -122,6 +122,10 @@ const en: Record<keyof typeof fr, string> = {
   'footer.source': 'Source code',
   '404.title': 'Page not found',
   '404.lead': 'This page does not exist or has moved.',
+  'theme.label': 'Theme',
+  'theme.system': 'Theme: system',
+  'theme.light': 'Theme: light',
+  'theme.dark': 'Theme: dark',
   'offline.title': 'Offline',
 };
 export default en;
