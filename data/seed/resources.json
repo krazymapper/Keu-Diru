@@ -6940,6 +6940,3189 @@
           "description": "English YouTube channel about generative AI, listed among creators to follow in the source."
         }
       }
+    },
+    {
+      "slug": "bellingcat-online-investigation-toolkit",
+      "url": "https://bellingcat.gitbook.io/toolkit",
+      "type": "website",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Bellingcat",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "enquete-sources-ouvertes",
+        "verification-information"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Bellingcat Online Investigation Toolkit",
+          "description": "Boîte à outils d'enquête en sources ouvertes tenue par Bellingcat : chaque outil a une fiche (usage, coût, limites) et les outils sont classés par catégorie (cartes, imagerie, transports, sites web…)."
+        },
+        "en": {
+          "title": "Bellingcat Online Investigation Toolkit",
+          "description": "Open-source investigation toolkit maintained by Bellingcat: each tool has a page (use, cost, limits), grouped by category (maps, imagery, transport, websites…)."
+        }
+      }
+    },
+    {
+      "slug": "bellingcat-about-maps-and-satellites",
+      "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites",
+      "type": "tutorial",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Bellingcat",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "enquete-sources-ouvertes",
+        "cartes-en-ligne",
+        "teledetection"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Bellingcat — About Maps and Satellites",
+          "description": "Guide d'introduction de Bellingcat à l'usage des cartes en ligne et de l'imagerie satellite pour vérifier un lieu ou un événement."
+        },
+        "en": {
+          "title": "Bellingcat — About Maps and Satellites",
+          "description": "Bellingcat's introductory guide to using online maps and satellite imagery to verify a place or an event."
+        }
+      }
+    },
+    {
+      "slug": "bellingcat-license-plate-maps",
+      "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/license-plate-maps",
+      "type": "website",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Bellingcat",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "enquete-sources-ouvertes",
+        "geolocalisation"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Bellingcat — License Plate Maps",
+          "description": "Fiche Bellingcat regroupant des cartes et ressources pour reconnaître le pays d'origine d'une plaque d'immatriculation à partir de son format."
+        },
+        "en": {
+          "title": "Bellingcat — License Plate Maps",
+          "description": "Bellingcat page gathering maps and resources to recognise a licence plate's country from its format."
+        }
+      }
+    },
+    {
+      "slug": "baidu-maps",
+      "url": "https://map.baidu.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": null,
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Baidu",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Baidu Maps (百度地图)",
+          "description": "Service cartographique chinois de Baidu : plans, imagerie satellite et vues immersives au niveau de la rue, souvent plus détaillés que les services occidentaux pour la Chine. Interface en chinois."
+        },
+        "en": {
+          "title": "Baidu Maps (百度地图)",
+          "description": "Baidu's Chinese mapping service: street maps, satellite imagery and street-level panoramas, often more detailed than Western services for China. Chinese interface."
+        }
+      }
+    },
+    {
+      "slug": "gaode-maps-amap",
+      "url": "https://gaode.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": null,
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Alibaba (AutoNavi)",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Gaode Maps / AMap (高德地图)",
+          "description": "Service cartographique chinois du groupe Alibaba (aussi appelé AMap), utile pour la recherche d'adresses et d'itinéraires en Chine. Interface en chinois."
+        },
+        "en": {
+          "title": "Gaode Maps / AMap (高德地图)",
+          "description": "Chinese mapping service from the Alibaba group (also called AMap), useful for addresses and routes in China. Chinese interface."
+        }
+      }
+    },
+    {
+      "slug": "tencent-maps",
+      "url": "https://map.qq.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": null,
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Tencent",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Tencent Maps (腾讯地图)",
+          "description": "Service cartographique chinois de Tencent : plans, imagerie satellite et vues de rue pour la Chine. Interface en chinois."
+        },
+        "en": {
+          "title": "Tencent Maps (腾讯地图)",
+          "description": "Tencent's Chinese mapping service: street maps, satellite imagery and street views of China. Chinese interface."
+        }
+      }
+    },
+    {
+      "slug": "kakao-map",
+      "url": "https://map.kakao.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": null,
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Kakao",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Kakao Map (카카오맵)",
+          "description": "Service cartographique sud-coréen de Kakao, référence pour la Corée du Sud (plans, recherche de lieux, vues de rue). Interface en coréen."
+        },
+        "en": {
+          "title": "Kakao Map (카카오맵)",
+          "description": "South Korean mapping service from Kakao, a reference for South Korea (maps, place search, street views). Korean interface."
+        }
+      }
+    },
+    {
+      "slug": "yandex-maps",
+      "url": "https://yandex.com/maps/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "Yandex",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Yandex Maps",
+          "description": "Service cartographique de Yandex (plans, imagerie, vues de rue), souvent le plus détaillé pour la Russie et les pays voisins."
+        },
+        "en": {
+          "title": "Yandex Maps",
+          "description": "Yandex's mapping service (maps, imagery, street views), often the most detailed for Russia and neighbouring countries."
+        }
+      }
+    },
+    {
+      "slug": "bing-maps",
+      "url": "https://www.bing.com/maps/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "Microsoft",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne",
+        "teledetection"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Bing Maps",
+          "description": "Service cartographique de Microsoft : recherche de lieux, itinéraires et imagerie aérienne ou satellite, utile pour comparer avec d'autres fournisseurs."
+        },
+        "en": {
+          "title": "Bing Maps",
+          "description": "Microsoft's mapping service: place search, routes and aerial or satellite imagery, useful for comparing with other providers."
+        }
+      }
+    },
+    {
+      "slug": "google-maps",
+      "url": "https://www.google.com/maps",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Google",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Google Maps",
+          "description": "Service cartographique de Google : plans, imagerie satellite et Street View, avec des vues de rue historiques dans de nombreuses zones."
+        },
+        "en": {
+          "title": "Google Maps",
+          "description": "Google's mapping service: maps, satellite imagery and Street View, with historical street imagery in many areas."
+        }
+      }
+    },
+    {
+      "slug": "apple-maps",
+      "url": "https://www.apple.com/maps/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Apple",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Apple Maps",
+          "description": "Page de présentation du service cartographique d'Apple (plans, imagerie, vues au niveau de la rue dans certaines villes)."
+        },
+        "en": {
+          "title": "Apple Maps",
+          "description": "Overview page of Apple's mapping service (maps, imagery, street-level views in some cities)."
+        }
+      }
+    },
+    {
+      "slug": "here-wego",
+      "url": "https://wego.here.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "HERE Technologies",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "HERE WeGo",
+          "description": "Service cartographique en ligne de HERE : plans, recherche de lieux et itinéraires, une alternative aux grands fournisseurs."
+        },
+        "en": {
+          "title": "HERE WeGo",
+          "description": "HERE's online mapping service: maps, place search and routing, an alternative to the major providers."
+        }
+      }
+    },
+    {
+      "slug": "mappy",
+      "url": "https://en.mappy.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Mappy",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Mappy",
+          "description": "Service français de cartes et d'itinéraires (version anglaise), surtout utile pour la France et l'Europe."
+        },
+        "en": {
+          "title": "Mappy",
+          "description": "French maps and routing service (English version), mostly useful for France and Europe."
+        }
+      }
+    },
+    {
+      "slug": "mapy-com",
+      "url": "https://mapy.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": null,
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Seznam.cz",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Mapy.com (ex-Mapy.cz)",
+          "description": "Service cartographique tchèque (anciennement mapy.cz, désormais mapy.com), réputé pour ses cartes touristiques détaillées de l'Europe centrale. Interface multilingue."
+        },
+        "en": {
+          "title": "Mapy.com (ex-Mapy.cz)",
+          "description": "Czech mapping service (formerly mapy.cz, now mapy.com), known for detailed hiking maps of Central Europe. Multilingual interface."
+        }
+      }
+    },
+    {
+      "slug": "mapa-zoznam-sk",
+      "url": "https://mapa.zoznam.sk/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": null,
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Zoznam",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "unverified",
+      "link_checked_at": null,
+      "translations": {
+        "fr": {
+          "title": "Mapa.sk (Zoznam)",
+          "description": "Service cartographique de la Slovaquie (mapa.sk redirige vers mapa.zoznam.sk). Interface en slovaque. Lien non vérifié : le site renvoie une vérification anti-robots."
+        },
+        "en": {
+          "title": "Mapa.sk (Zoznam)",
+          "description": "Slovak mapping service (mapa.sk redirects to mapa.zoznam.sk). Slovak interface. Link not verified: the site returns an anti-bot check."
+        }
+      }
+    },
+    {
+      "slug": "govmap-israel",
+      "url": "https://www.govmap.gov.il/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": null,
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Gouvernement d'Israël",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "GovMap (Israël)",
+          "description": "Portail cartographique gouvernemental d'Israël : cadastre, urbanisme et infrastructures. Interface en hébreu."
+        },
+        "en": {
+          "title": "GovMap (Israël)",
+          "description": "Israel's government map portal: land parcels, planning and infrastructure. Hebrew interface."
+        }
+      }
+    },
+    {
+      "slug": "carte-ma",
+      "url": "http://carte.ma/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "carte.ma",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "carte.ma — Morocco as it was, 2013–2015",
+          "description": "Archive d'imagerie au niveau de la rue de dix villes marocaines (Agadir, Casablanca, Fès, Marrakech, Rabat…), prises entre 2013 et 2015. Le service actif de cartes et de vues de rue n'existe plus."
+        },
+        "en": {
+          "title": "carte.ma — Morocco as it was, 2013–2015",
+          "description": "Archive of street-level imagery of ten Moroccan cities (Agadir, Casablanca, Fes, Marrakesh, Rabat…), captured between 2013 and 2015. The live map and street-view service no longer exists."
+        }
+      }
+    },
+    {
+      "slug": "topotijdreis",
+      "url": "https://topotijdreis.nl/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": null,
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Kadaster",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne",
+        "cartes-anciennes"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Topotijdreis (Pays-Bas)",
+          "description": "Plus de 200 ans de cartes topographiques des Pays-Bas, consultables année par année pour suivre l'évolution d'un territoire. Interface en néerlandais."
+        },
+        "en": {
+          "title": "Topotijdreis (Pays-Bas)",
+          "description": "Over 200 years of Dutch topographic maps, browsable year by year to follow how an area changed. Dutch interface."
+        }
+      }
+    },
+    {
+      "slug": "openstreetmap",
+      "url": "https://www.openstreetmap.org/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Fondation OpenStreetMap",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "openstreetmap",
+        "cartes-en-ligne",
+        "donnees-ouvertes"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "OpenStreetMap",
+          "description": "Carte collaborative et libre du monde, modifiable par tous ; ses données ouvertes alimentent de nombreux services et analyses."
+        },
+        "en": {
+          "title": "OpenStreetMap",
+          "description": "Free, collaborative world map that anyone can edit; its open data feeds many services and analyses."
+        }
+      }
+    },
+    {
+      "slug": "wikimapia",
+      "url": "https://wikimapia.org/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Wikimapia",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Wikimapia",
+          "description": "Projet collaboratif ancien d'annotation de lieux sur imagerie satellite ; sa base d'annotations historiques peut aider à identifier des bâtiments."
+        },
+        "en": {
+          "title": "Wikimapia",
+          "description": "Long-running collaborative project annotating places on satellite imagery; its historical annotations can help identify buildings."
+        }
+      }
+    },
+    {
+      "slug": "f4map",
+      "url": "https://demo.f4map.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "F4 Group",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne",
+        "openstreetmap"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "F4map",
+          "description": "Carte interactive en 3D construite à partir des données OpenStreetMap, avec rendu des bâtiments et du relief."
+        },
+        "en": {
+          "title": "F4map",
+          "description": "Interactive 3D map built from OpenStreetMap data, rendering buildings and terrain."
+        }
+      }
+    },
+    {
+      "slug": "openinframap",
+      "url": "https://openinframap.org/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Open Infrastructure Map",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "openstreetmap",
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Open Infrastructure Map",
+          "description": "Carte mondiale des infrastructures issues d'OpenStreetMap : lignes électriques, télécoms, solaire, pétrole, gaz et eau."
+        },
+        "en": {
+          "title": "Open Infrastructure Map",
+          "description": "World map of infrastructure from OpenStreetMap: power lines, telecoms, solar, oil, gas and water."
+        }
+      }
+    },
+    {
+      "slug": "openseamap",
+      "url": "https://map.openseamap.org/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "OpenSeaMap",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "openstreetmap",
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "OpenSeaMap",
+          "description": "Carte nautique libre : balisage, ports, zones et routes maritimes, avec des couches complémentaires."
+        },
+        "en": {
+          "title": "OpenSeaMap",
+          "description": "Free nautical chart: buoys, ports, zones and shipping lanes, with additional layers."
+        }
+      }
+    },
+    {
+      "slug": "openrailwaymap",
+      "url": "https://www.openrailwaymap.org/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "OpenRailwayMap",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "openstreetmap",
+        "suivi-transports"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "OpenRailwayMap",
+          "description": "Carte détaillée des infrastructures ferroviaires mondiales issue d'OpenStreetMap (voies, signalisation, vitesses). La liste source pointait vers sa page wiki ; lien remplacé par la carte elle-même."
+        },
+        "en": {
+          "title": "OpenRailwayMap",
+          "description": "Detailed map of the world's railway infrastructure from OpenStreetMap (tracks, signalling, speeds). The source list pointed to its wiki page; replaced with the map itself."
+        }
+      }
+    },
+    {
+      "slug": "maritime-awareness-project-map",
+      "url": "https://map.nbr.org/interactivemap/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "National Bureau of Asian Research",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Maritime Awareness Project — carte interactive",
+          "description": "Carte interactive de la mer de Chine méridionale : gisements, zones de pêche, zones revendiquées ou disputées, câbles sous-marins."
+        },
+        "en": {
+          "title": "Maritime Awareness Project — carte interactive",
+          "description": "Interactive map of the South China Sea: oil and gas fields, fishing areas, claimed or disputed zones, submarine cables."
+        }
+      }
+    },
+    {
+      "slug": "mapswitcher",
+      "url": "https://github.com/david-r-edgar/MapSwitcher",
+      "type": "repository",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "David Edgar",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "MapSwitcher",
+          "description": "Extension Chrome pour passer d'un service cartographique à l'autre en conservant le centre, le zoom et l'itinéraire. Dépôt peu actif (dernière activité constatée en 2020)."
+        },
+        "en": {
+          "title": "MapSwitcher",
+          "description": "Chrome extension to switch between online map services while keeping centre, zoom and route. Low activity (last activity seen in 2020)."
+        }
+      }
+    },
+    {
+      "slug": "quick-geolocation-search",
+      "url": "https://cybdetective.com/quickgeolocationsearch.html",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Cyber Detective",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "geolocalisation",
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Quick geolocation search",
+          "description": "Page qui ouvre un même lieu dans plusieurs services cartographiques à la fois, pour gagner du temps lors d'une recherche de localisation."
+        },
+        "en": {
+          "title": "Quick geolocation search",
+          "description": "Page that opens the same place in several map services at once, to save time when locating a place."
+        }
+      }
+    },
+    {
+      "slug": "satellites-pro",
+      "url": "https://satellites.pro/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Satellites.pro",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne",
+        "teledetection"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Satellites.pro",
+          "description": "Visionneuse permettant de basculer rapidement entre plusieurs fonds satellites et cartographiques gratuits sur un même lieu."
+        },
+        "en": {
+          "title": "Satellites.pro",
+          "description": "Viewer to switch quickly between several free satellite and map basemaps for the same place."
+        }
+      }
+    },
+    {
+      "slug": "convert-geographic-units-montana",
+      "url": "http://rcn.montana.edu/resources/Converter.aspx",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Montana State University",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "projections-coordonnees"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Lat/Lon and UTM Conversion (Montana State University)",
+          "description": "Convertisseur en ligne entre latitude/longitude (plusieurs formats) et coordonnées UTM."
+        },
+        "en": {
+          "title": "Lat/Lon and UTM Conversion (Montana State University)",
+          "description": "Online converter between latitude/longitude (several formats) and UTM coordinates."
+        }
+      }
+    },
+    {
+      "slug": "utm-grid-zones-of-the-world",
+      "url": "https://dmap.co.uk/utmworld.htm",
+      "type": "website",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "DMAP (Alan Morton)",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "projections-coordonnees"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "UTM Grid Zones of the World",
+          "description": "Page de référence présentant le découpage du système UTM en 60 fuseaux, avec une carte mondiale des zones."
+        },
+        "en": {
+          "title": "UTM Grid Zones of the World",
+          "description": "Reference page explaining the UTM system's 60 zones, with a world map of the grid zones."
+        }
+      }
+    },
+    {
+      "slug": "what3words",
+      "url": "https://what3words.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "what3words",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "projections-coordonnees"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "what3words",
+          "description": "Système propriétaire qui désigne chaque carré de 3 m de côté par une combinaison unique de trois mots. Non ouvert : à comparer aux codes ouverts (Plus Codes)."
+        },
+        "en": {
+          "title": "what3words",
+          "description": "Proprietary system naming every 3 m square with a unique three-word combination. Not open: compare with open codes (Plus Codes)."
+        }
+      }
+    },
+    {
+      "slug": "geonames",
+      "url": "https://www.geonames.org/",
+      "type": "dataset",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "GeoNames",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "donnees-ouvertes",
+        "geolocalisation"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "GeoNames",
+          "description": "Base de données géographiques mondiale de plus de 11 millions de noms de lieux, téléchargeable gratuitement et utile pour le géocodage."
+        },
+        "en": {
+          "title": "GeoNames",
+          "description": "Worldwide geographical database of more than 11 million place names, free to download and useful for geocoding."
+        }
+      }
+    },
+    {
+      "slug": "peakvisor",
+      "url": "https://peakvisor.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "PeakVisor",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "geolocalisation",
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "PeakVisor",
+          "description": "Carte 2D et modèle de relief 3D côte à côte pour identifier des sommets, avec ombrage, pentes et course du soleil ; utile pour situer une photo de paysage."
+        },
+        "en": {
+          "title": "PeakVisor",
+          "description": "Side-by-side 2D map and 3D terrain model to identify peaks, with shading, slopes and sun paths; useful to locate a landscape photo."
+        }
+      }
+    },
+    {
+      "slug": "mapchecking",
+      "url": "https://www.mapchecking.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "MapChecking",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "verification-information"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "MapChecking",
+          "description": "Outil pour estimer le nombre maximal de personnes dans une zone dessinée sur une carte, afin de vérifier des chiffres de foule."
+        },
+        "en": {
+          "title": "MapChecking",
+          "description": "Tool to estimate the maximum number of people in an area drawn on a map, to fact-check crowd figures."
+        }
+      }
+    },
+    {
+      "slug": "geohints",
+      "url": "https://geohints.com/",
+      "type": "website",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "GeoHints",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "geolocalisation"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "GeoHints",
+          "description": "Recueil d'indices visuels par pays (feux, poteaux, bornes, signalisation) pour reconnaître une région à partir d'une photo."
+        },
+        "en": {
+          "title": "GeoHints",
+          "description": "Collection of visual clues by country (traffic lights, poles, bollards, signs) to recognise a region from a photo."
+        }
+      }
+    },
+    {
+      "slug": "bellingcat-openstreetmap-search",
+      "url": "https://osm-search.bellingcat.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Bellingcat",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "geolocalisation",
+        "openstreetmap"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Bellingcat OpenStreetMap Search",
+          "description": "Interface de recherche dans OpenStreetMap d'éléments proches les uns des autres (par exemple une église près d'un pont), pour localiser une image."
+        },
+        "en": {
+          "title": "Bellingcat OpenStreetMap Search",
+          "description": "Interface to search OpenStreetMap for features close to each other (e.g. a church near a bridge), to locate an image."
+        }
+      }
+    },
+    {
+      "slug": "spot-findthatspot",
+      "url": "https://www.findthatspot.io/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "SPOT",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "geolocalisation",
+        "openstreetmap"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "SPOT (findthatspot.io)",
+          "description": "Recherche géospatiale dans OpenStreetMap formulée en langage naturel, pour trouver les lieux qui réunissent les critères décrits."
+        },
+        "en": {
+          "title": "SPOT (findthatspot.io)",
+          "description": "Natural-language geospatial search over OpenStreetMap, to find places matching the described criteria."
+        }
+      }
+    },
+    {
+      "slug": "shademap",
+      "url": "https://shademap.app/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "ShadeMap",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "geolocalisation"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "ShadeMap",
+          "description": "Simulation mondiale des ombres du relief, des bâtiments et des arbres pour une date et une heure données ; données détaillées payantes."
+        },
+        "en": {
+          "title": "ShadeMap",
+          "description": "Global simulation of terrain, building and tree shadows for a given date and time; detailed data is paid."
+        }
+      }
+    },
+    {
+      "slug": "shadowmap",
+      "url": "https://app.shadowmap.org/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "Shadowmap",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "geolocalisation"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Shadowmap",
+          "description": "Carte 3D des bâtiments et de leurs ombres à un moment donné, aussi utilisée pour analyser l'ensoleillement."
+        },
+        "en": {
+          "title": "Shadowmap",
+          "description": "3D map of buildings and the shadows they cast at a given time, also used for sunlight analysis."
+        }
+      }
+    },
+    {
+      "slug": "shadowfinder",
+      "url": "https://github.com/bellingcat/ShadowFinder",
+      "type": "repository",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Bellingcat",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "geolocalisation"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "ShadowFinder (Bellingcat)",
+          "description": "Outil Python qui cartographie tous les points du globe où une ombre de longueur donnée peut apparaître à une date et une heure, si la hauteur de l'objet est connue."
+        },
+        "en": {
+          "title": "ShadowFinder (Bellingcat)",
+          "description": "Python tool mapping every point on Earth where a shadow of a given length can occur at a given date and time, if the object's height is known."
+        }
+      }
+    },
+    {
+      "slug": "suncalc",
+      "url": "https://www.suncalc.org/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "SunCalc",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "geolocalisation"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "SunCalc",
+          "description": "Calcule la position du soleil, la longueur et la direction des ombres pour un lieu, une date et une heure ; utile pour dater ou situer une photo."
+        },
+        "en": {
+          "title": "SunCalc",
+          "description": "Computes the sun's position and the length and direction of shadows for a place, date and time; useful to date or locate a photo."
+        }
+      }
+    },
+    {
+      "slug": "kartaview",
+      "url": "https://kartaview.org/map",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "KartaView",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne",
+        "openstreetmap"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "KartaView",
+          "description": "Plateforme collaborative d'imagerie au niveau de la rue, souvent utilisée pour contribuer à OpenStreetMap."
+        },
+        "en": {
+          "title": "KartaView",
+          "description": "Crowdsourced street-level imagery platform, often used to contribute to OpenStreetMap."
+        }
+      }
+    },
+    {
+      "slug": "mapillary",
+      "url": "https://www.mapillary.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Meta",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "cartes-en-ligne",
+        "openstreetmap"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Mapillary",
+          "description": "Plateforme collaborative d'imagerie au niveau de la rue, avec des détections d'objets réutilisables pour OpenStreetMap."
+        },
+        "en": {
+          "title": "Mapillary",
+          "description": "Crowdsourced street-level imagery platform, with object detections reusable for OpenStreetMap."
+        }
+      }
+    },
+    {
+      "slug": "usgs-earthexplorer",
+      "url": "https://earthexplorer.usgs.gov/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "USGS",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection",
+        "donnees-ouvertes"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "USGS EarthExplorer",
+          "description": "Portail de l'USGS pour rechercher et télécharger des images satellites (Landsat…) et des photographies aériennes par lieu et période ; compte requis pour télécharger."
+        },
+        "en": {
+          "title": "USGS EarthExplorer",
+          "description": "USGS portal to search and download satellite images (Landsat…) and aerial photos by place and period; an account is needed to download."
+        }
+      }
+    },
+    {
+      "slug": "esa-earth-online-tools",
+      "url": "https://earth.esa.int/eogateway/tools",
+      "type": "website",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "ESA",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "ESA Earth Online — Tools",
+          "description": "Catalogue des outils de l'Agence spatiale européenne pour visualiser, analyser et traiter ses données d'observation de la Terre."
+        },
+        "en": {
+          "title": "ESA Earth Online — Tools",
+          "description": "European Space Agency catalogue of tools to view, analyse and process its Earth observation data."
+        }
+      }
+    },
+    {
+      "slug": "copernicus-browser",
+      "url": "https://browser.dataspace.copernicus.eu/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Copernicus Data Space Ecosystem",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection",
+        "donnees-ouvertes"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Copernicus Browser",
+          "description": "Visionneuse gratuite pour afficher, analyser et télécharger les images des satellites Sentinel (successeur d'EO Browser)."
+        },
+        "en": {
+          "title": "Copernicus Browser",
+          "description": "Free viewer to display, analyse and download Sentinel satellite imagery (successor of EO Browser)."
+        }
+      }
+    },
+    {
+      "slug": "eos-landviewer",
+      "url": "https://eos.com/landviewer/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "EOS Data Analytics",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "EOS LandViewer",
+          "description": "Visionneuse d'imagerie satellite (Sentinel-2 notamment) avec filtres par date et nuages ; analyses avancées payantes."
+        },
+        "en": {
+          "title": "EOS LandViewer",
+          "description": "Satellite imagery viewer (notably Sentinel-2) with date and cloud filters; advanced analyses are paid."
+        }
+      }
+    },
+    {
+      "slug": "google-earth-engine-code-editor",
+      "url": "https://code.earthengine.google.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Google",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "google-earth-engine",
+        "teledetection"
+      ],
+      "link_status": "restricted",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Google Earth Engine — Code Editor",
+          "description": "Éditeur en ligne de Google Earth Engine pour analyser des archives d'images satellites et de données géospatiales à grande échelle ; compte requis."
+        },
+        "en": {
+          "title": "Google Earth Engine — Code Editor",
+          "description": "Google Earth Engine's online editor to analyse satellite imagery archives and geospatial data at scale; account required."
+        }
+      }
+    },
+    {
+      "slug": "google-earth-versions",
+      "url": "https://www.google.com/earth/about/versions/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Google",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection",
+        "cartes-en-ligne"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Google Earth (versions web, mobile et Pro)",
+          "description": "Page de téléchargement des versions de Google Earth, dont Google Earth Pro (bureau) et son imagerie historique."
+        },
+        "en": {
+          "title": "Google Earth (versions web, mobile et Pro)",
+          "description": "Download page for Google Earth versions, including Google Earth Pro (desktop) and its historical imagery."
+        }
+      }
+    },
+    {
+      "slug": "index-database",
+      "url": "https://www.indexdatabase.de/",
+      "type": "dataset",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "IDB",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Index DataBase (IDB)",
+          "description": "Base de données qui relie les indices de télédétection (NDVI et des centaines d'autres) aux capteurs satellites capables de les calculer."
+        },
+        "en": {
+          "title": "Index DataBase (IDB)",
+          "description": "Database linking remote sensing indices (NDVI and hundreds of others) to the satellite sensors that can compute them."
+        }
+      }
+    },
+    {
+      "slug": "nasa-worldview",
+      "url": "https://worldview.earthdata.nasa.gov/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "NASA",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection",
+        "donnees-ouvertes"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "NASA Worldview",
+          "description": "Visionneuse de la NASA pour parcourir et télécharger de l'imagerie satellite quasi temps réel (atmosphère, terres, océans)."
+        },
+        "en": {
+          "title": "NASA Worldview",
+          "description": "NASA viewer to browse and download near real-time satellite imagery (atmosphere, land, oceans)."
+        }
+      }
+    },
+    {
+      "slug": "nasa-firms",
+      "url": "https://firms2.modaps.eosdis.nasa.gov/map/",
+      "type": "tool",
+      "discipline": "environnement-climat",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "NASA",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "NASA FIRMS — carte des feux",
+          "description": "Carte mondiale des anomalies thermiques détectées par satellite, utilisée pour suivre les feux (toutes ne sont pas des incendies)."
+        },
+        "en": {
+          "title": "NASA FIRMS — carte des feux",
+          "description": "World map of satellite-detected thermal anomalies, used to track fires (not all of them are fires)."
+        }
+      }
+    },
+    {
+      "slug": "global-forest-watch-map",
+      "url": "https://globalnaturewatch.org/map/",
+      "type": "tool",
+      "discipline": "environnement-climat",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "World Resources Institute",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection",
+        "donnees-ouvertes"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Global Forest Watch — carte (désormais Global Nature Watch)",
+          "description": "Carte interactive des forêts : pertes et gains de couvert arboré, alertes de déforestation et de feux, aires protégées. L'adresse de Global Forest Watch redirige désormais vers Global Nature Watch."
+        },
+        "en": {
+          "title": "Global Forest Watch — carte (désormais Global Nature Watch)",
+          "description": "Interactive forest map: tree cover loss and gain, deforestation and fire alerts, protected areas. The Global Forest Watch address now redirects to Global Nature Watch."
+        }
+      }
+    },
+    {
+      "slug": "openaerialmap",
+      "url": "https://openaerialmap.org/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "OpenAerialMap",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection",
+        "donnees-ouvertes"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "OpenAerialMap",
+          "description": "Collection ouverte d'images aériennes, satellites et de drones sous licence libre, à parcourir et télécharger."
+        },
+        "en": {
+          "title": "OpenAerialMap",
+          "description": "Open collection of openly licensed aerial, satellite and drone imagery, to browse and download."
+        }
+      }
+    },
+    {
+      "slug": "orbtrack",
+      "url": "https://www.orbtrack.org/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "OrbTrack",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "OrbTrack",
+          "description": "Suivi en temps réel et prévision de passage de milliers de satellites, avec flux vidéo de la Station spatiale internationale."
+        },
+        "en": {
+          "title": "OrbTrack",
+          "description": "Real-time tracking and pass prediction for thousands of satellites, with an International Space Station video feed."
+        }
+      }
+    },
+    {
+      "slug": "planet-labs",
+      "url": "https://www.planet.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "Planet Labs",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Planet Labs",
+          "description": "Entreprise d'imagerie satellite optique à haute fréquence de revisite ; accès commercial, programmes pour la recherche et les ONG."
+        },
+        "en": {
+          "title": "Planet Labs",
+          "description": "Optical satellite imagery company with high revisit frequency; commercial access, programmes for research and NGOs."
+        }
+      }
+    },
+    {
+      "slug": "qgis",
+      "url": "https://www.qgis.org/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "QGIS.org",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "sig-bureautique"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "QGIS",
+          "description": "Système d'information géographique libre et gratuit pour créer, éditer, analyser et cartographier des données spatiales."
+        },
+        "en": {
+          "title": "QGIS",
+          "description": "Free and open-source geographic information system to create, edit, analyse and map spatial data."
+        }
+      }
+    },
+    {
+      "slug": "bellingcat-radar-interference-tracker",
+      "url": "https://ollielballinger.users.earthengine.app/view/bellingcat-radar-interference-tracker",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Bellingcat",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection",
+        "google-earth-engine"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Bellingcat Radar Interference Tracker",
+          "description": "Application Earth Engine qui repère les interférences radar visibles sur les images Sentinel-1, pour localiser des radars actifs."
+        },
+        "en": {
+          "title": "Bellingcat Radar Interference Tracker",
+          "description": "Earth Engine app spotting radar interference visible in Sentinel-1 images, to locate active radar systems."
+        }
+      }
+    },
+    {
+      "slug": "rammb-cira-slider",
+      "url": "https://slider.cira.colostate.edu/",
+      "type": "tool",
+      "discipline": "environnement-climat",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "CIRA / NOAA RAMMB",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "RAMMB/CIRA SLIDER",
+          "description": "Visionneuse en temps réel des satellites météorologiques géostationnaires couvrant tout le globe (GOES, Himawari…)."
+        },
+        "en": {
+          "title": "RAMMB/CIRA SLIDER",
+          "description": "Real-time viewer of geostationary weather satellites covering the whole globe (GOES, Himawari…)."
+        }
+      }
+    },
+    {
+      "slug": "skyfi",
+      "url": "https://skyfi.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "paid",
+      "author": null,
+      "publisher": "SkyFi",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "SkyFi",
+          "description": "Place de marché pour acheter des images satellites commerciales (optique, radar) ou commander une acquisition, sans abonnement."
+        },
+        "en": {
+          "title": "SkyFi",
+          "description": "Marketplace to buy commercial satellite imagery (optical, radar) or order a new capture, without a subscription."
+        }
+      }
+    },
+    {
+      "slug": "umbra-space",
+      "url": "https://umbra.space/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "paid",
+      "author": null,
+      "publisher": "Umbra",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "teledetection"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Umbra",
+          "description": "Entreprise d'imagerie radar à synthèse d'ouverture (SAR) vendant des acquisitions à la demande ; propose aussi des données ouvertes d'exemple."
+        },
+        "en": {
+          "title": "Umbra",
+          "description": "Synthetic aperture radar (SAR) imagery company selling on-demand captures; also offers open sample data."
+        }
+      }
+    },
+    {
+      "slug": "adsb-exchange",
+      "url": "https://globe.adsbexchange.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "ADS-B Exchange",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "ADS-B Exchange",
+          "description": "Suivi des vols en direct à partir de signaux ADS-B collectés par la communauté, y compris de nombreux appareils non filtrés ; historique payant."
+        },
+        "en": {
+          "title": "ADS-B Exchange",
+          "description": "Live flight tracking from community-collected ADS-B signals, including many unfiltered aircraft; history is paid."
+        }
+      }
+    },
+    {
+      "slug": "airframes-org",
+      "url": "https://www.airframes.org/",
+      "type": "dataset",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Airframes.org",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Airframes.org",
+          "description": "Base de données des aéronefs (immatriculations, types, exploitants)."
+        },
+        "en": {
+          "title": "Airframes.org",
+          "description": "Aircraft database (registrations, types, operators)."
+        }
+      }
+    },
+    {
+      "slug": "aviation-safety-network",
+      "url": "https://aviation-safety.net/",
+      "type": "dataset",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Flight Safety Foundation",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Aviation Safety Network",
+          "description": "Base de données des accidents et incidents aériens, consultable par pays, immatriculation ou année."
+        },
+        "en": {
+          "title": "Aviation Safety Network",
+          "description": "Database of aviation accidents and incidents, searchable by country, registration or year."
+        }
+      }
+    },
+    {
+      "slug": "chronotrains",
+      "url": "https://www.chronotrains.com/en",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Chronotrains",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Chronotrains",
+          "description": "Carte interactive des destinations européennes accessibles en train depuis une gare dans un temps donné."
+        },
+        "en": {
+          "title": "Chronotrains",
+          "description": "Interactive map of European destinations reachable by train from a station within a given time."
+        }
+      }
+    },
+    {
+      "slug": "equasis",
+      "url": "https://www.equasis.org/",
+      "type": "dataset",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Equasis",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "restricted",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Equasis",
+          "description": "Base d'information sur la sécurité des navires : propriétaires, gestionnaires, inspections et flottes ; inscription requise."
+        },
+        "en": {
+          "title": "Equasis",
+          "description": "Ship safety information database: owners, managers, inspections and fleets; registration required."
+        }
+      }
+    },
+    {
+      "slug": "faa-aircraft-registry",
+      "url": "https://registry.faa.gov/aircraftinquiry/Search/NNumberInquiry",
+      "type": "dataset",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Federal Aviation Administration",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "FAA Aircraft Registry — recherche par N-number",
+          "description": "Registre officiel des aéronefs immatriculés aux États-Unis, interrogeable par numéro d'immatriculation (N-number). L'ancienne adresse de la liste source répondait « indisponible » ; remplacée par la page de recherche actuelle."
+        },
+        "en": {
+          "title": "FAA Aircraft Registry — recherche par N-number",
+          "description": "Official registry of US-registered aircraft, searchable by registration (N-number). The source list's old address returned 'unavailable'; replaced with the current search page."
+        }
+      }
+    },
+    {
+      "slug": "flightaware",
+      "url": "https://www.flightaware.com/live/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "FlightAware",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "FlightAware",
+          "description": "Plateforme mondiale de suivi des vols en temps réel, avec historique et applications."
+        },
+        "en": {
+          "title": "FlightAware",
+          "description": "Global real-time flight tracking platform, with history and apps."
+        }
+      }
+    },
+    {
+      "slug": "flightradar24",
+      "url": "https://www.flightradar24.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "Flightradar24",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Flightradar24",
+          "description": "Suivi des vols en temps réel : position des appareils, routes, historique et caractéristiques des aéronefs."
+        },
+        "en": {
+          "title": "Flightradar24",
+          "description": "Real-time flight tracking: aircraft positions, routes, history and aircraft details."
+        }
+      }
+    },
+    {
+      "slug": "global-fishing-watch-map",
+      "url": "https://globalfishingwatch.org/platform/map",
+      "type": "tool",
+      "discipline": "environnement-climat",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Global Fishing Watch",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports",
+        "teledetection"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Global Fishing Watch — carte",
+          "description": "Carte des activités de pêche et des mouvements de navires dans le monde, à partir des données AIS et satellites."
+        },
+        "en": {
+          "title": "Global Fishing Watch — carte",
+          "description": "Map of fishing activity and vessel movements worldwide, from AIS and satellite data."
+        }
+      }
+    },
+    {
+      "slug": "gpsjam",
+      "url": "https://gpsjam.org/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "GPSJam",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "GPSJam",
+          "description": "Carte quotidienne des perturbations GPS/GNSS constatées par les avions, zone par zone."
+        },
+        "en": {
+          "title": "GPSJam",
+          "description": "Daily map of GPS/GNSS interference observed by aircraft, area by area."
+        }
+      }
+    },
+    {
+      "slug": "iuu-vessel-list",
+      "url": "https://iuu-vessels.org/Home/Search",
+      "type": "dataset",
+      "discipline": "environnement-climat",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Trygg Mat Tracking",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Combined IUU Vessel List",
+          "description": "Liste combinée des navires reconnus pour pêche illicite, non déclarée et non réglementée (INN), interrogeable par nom, indicatif ou propriétaire."
+        },
+        "en": {
+          "title": "Combined IUU Vessel List",
+          "description": "Combined list of vessels identified for illegal, unreported and unregulated (IUU) fishing, searchable by name, call sign or owner."
+        }
+      }
+    },
+    {
+      "slug": "imo-gisis-web-accounts",
+      "url": "https://webaccounts.imo.org/",
+      "type": "dataset",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Organisation maritime internationale",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "restricted",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "IMO Web Accounts (GISIS)",
+          "description": "Accès aux bases de l'Organisation maritime internationale sur les navires et le transport maritime ; connexion requise (compte public gratuit)."
+        },
+        "en": {
+          "title": "IMO Web Accounts (GISIS)",
+          "description": "Access to the International Maritime Organization's ship and shipping databases; sign-in required (free public account)."
+        }
+      }
+    },
+    {
+      "slug": "liveatc",
+      "url": "https://www.liveatc.net/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "LiveATC.net",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "unverified",
+      "link_checked_at": null,
+      "translations": {
+        "fr": {
+          "title": "LiveATC.net",
+          "description": "Écoute en direct des communications des tours de contrôle aérien (surtout aux États-Unis). Lien non vérifié : le site renvoie une vérification anti-robots."
+        },
+        "en": {
+          "title": "LiveATC.net",
+          "description": "Live audio from air traffic control towers (mostly in the US). Link not verified: the site returns an anti-bot check."
+        }
+      }
+    },
+    {
+      "slug": "marinetraffic",
+      "url": "https://www.marinetraffic.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "MarineTraffic",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "MarineTraffic",
+          "description": "Suivi des navires en temps quasi réel à partir des signaux AIS : positions, ports, historique."
+        },
+        "en": {
+          "title": "MarineTraffic",
+          "description": "Near real-time ship tracking from AIS signals: positions, ports, history."
+        }
+      }
+    },
+    {
+      "slug": "opensky-network",
+      "url": "https://opensky-network.org/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "OpenSky Network",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports",
+        "donnees-ouvertes"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "OpenSky Network",
+          "description": "Réseau communautaire et ouvert de suivi des vols, qui met ses données à disposition de la recherche."
+        },
+        "en": {
+          "title": "OpenSky Network",
+          "description": "Community-based open flight tracking network that makes its data available for research."
+        }
+      }
+    },
+    {
+      "slug": "shipfinder",
+      "url": "https://shipfinder.co/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "ShipFinder",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "ShipFinder",
+          "description": "Application mobile (iPhone, Android) de suivi des navires en temps quasi réel."
+        },
+        "en": {
+          "title": "ShipFinder",
+          "description": "Mobile app (iPhone, Android) for near real-time ship tracking."
+        }
+      }
+    },
+    {
+      "slug": "vesselfinder",
+      "url": "https://www.vesselfinder.com/",
+      "type": "tool",
+      "discipline": "geomatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "VesselFinder",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "suivi-transports"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "VesselFinder",
+          "description": "Suivi des navires et des conteneurs en direct, à partir des signaux AIS."
+        },
+        "en": {
+          "title": "VesselFinder",
+          "description": "Live ship and container tracking from AIS signals."
+        }
+      }
+    },
+    {
+      "slug": "google-lens",
+      "url": "https://search.google/ways-to-search/lens/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Google",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "verification-information"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Google Lens",
+          "description": "Reconnaissance d'images de Google : recherche inversée, identification de lieux, d'objets ou de textes dans une photo."
+        },
+        "en": {
+          "title": "Google Lens",
+          "description": "Google's image recognition: reverse search and identification of places, objects or text in a photo."
+        }
+      }
+    },
+    {
+      "slug": "invid-weverify-plugin",
+      "url": "https://weverify.eu/verification-plugin/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "WeVerify / InVID",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "verification-information"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Extension de vérification InVID-WeVerify",
+          "description": "Extension de navigateur pour vérifier images et vidéos : images clés, métadonnées, recherche inversée, analyse de manipulation."
+        },
+        "en": {
+          "title": "Extension de vérification InVID-WeVerify",
+          "description": "Browser extension to verify images and videos: keyframes, metadata, reverse search, tampering analysis."
+        }
+      }
+    },
+    {
+      "slug": "rootabout",
+      "url": "https://rootabout.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "RootAbout",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "verification-information"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "RootAbout",
+          "description": "Recherche inversée d'images dans les collections de l'Internet Archive."
+        },
+        "en": {
+          "title": "RootAbout",
+          "description": "Reverse image search across Internet Archive collections."
+        }
+      }
+    },
+    {
+      "slug": "search-by-image-extension",
+      "url": "https://addons.opera.com/extensions/details/search-by-image/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Armin Sebastian",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "verification-information"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Search by Image (extension)",
+          "description": "Extension de navigateur pour lancer une recherche inversée d'une image sur plusieurs moteurs à la fois."
+        },
+        "en": {
+          "title": "Search by Image (extension)",
+          "description": "Browser extension to reverse-search an image on several engines at once."
+        }
+      }
+    },
+    {
+      "slug": "tineye",
+      "url": "https://tineye.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "TinEye",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "verification-information"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "TinEye",
+          "description": "Moteur de recherche inversée d'images, utile pour retrouver la première apparition d'une photo en ligne."
+        },
+        "en": {
+          "title": "TinEye",
+          "description": "Reverse image search engine, useful to find where a photo first appeared online."
+        }
+      }
+    },
+    {
+      "slug": "open-measures",
+      "url": "https://public.openmeasures.io/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "Open Measures",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "reseaux-sociaux-telegram",
+        "verification-information"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Open Measures",
+          "description": "Outil de recherche sur des plateformes en ligne marginales (dont Telegram) pour étudier l'extrémisme et la désinformation."
+        },
+        "en": {
+          "title": "Open Measures",
+          "description": "Search tool across fringe online platforms (including Telegram) to research extremism and disinformation."
+        }
+      }
+    },
+    {
+      "slug": "telegago",
+      "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Telegago (moteur personnalisé Google)",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "reseaux-sociaux-telegram"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Telegago",
+          "description": "Moteur de recherche Google personnalisé limité aux contenus publics de Telegram (chaînes, groupes, messages)."
+        },
+        "en": {
+          "title": "Telegago",
+          "description": "Google custom search engine restricted to public Telegram content (channels, groups, posts)."
+        }
+      }
+    },
+    {
+      "slug": "telemetrio",
+      "url": "https://telemetr.io/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "Telemetr.io",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "reseaux-sociaux-telegram"
+      ],
+      "link_status": "unverified",
+      "link_checked_at": null,
+      "translations": {
+        "fr": {
+          "title": "Telemetr.io",
+          "description": "Catalogue et statistiques de chaînes Telegram publiques : classements par pays et catégorie, suivi d'événements. Lien non vérifié : le site renvoie une vérification anti-robots."
+        },
+        "en": {
+          "title": "Telemetr.io",
+          "description": "Catalogue and statistics of public Telegram channels: rankings by country and category, event tracking. Link not verified: the site returns an anti-bot check."
+        }
+      }
+    },
+    {
+      "slug": "telemetry-telegram-search",
+      "url": "https://www.telemetryapp.io/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "Telemetry",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "reseaux-sociaux-telegram"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Telemetry",
+          "description": "Moteur de recherche analytique des messages, chaînes et groupes publics de Telegram."
+        },
+        "en": {
+          "title": "Telemetry",
+          "description": "Analytical search engine for public Telegram posts, channels and groups."
+        }
+      }
+    },
+    {
+      "slug": "tgstat",
+      "url": "https://tgstat.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "TGStat",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "reseaux-sociaux-telegram"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "TGStat",
+          "description": "Catalogue et statistiques de chaînes et groupes Telegram publics : audience, croissance, portée, citations."
+        },
+        "en": {
+          "title": "TGStat",
+          "description": "Catalogue and statistics of public Telegram channels and groups: audience, growth, reach, citations."
+        }
+      }
+    },
+    {
+      "slug": "tlgrm-channels",
+      "url": "https://tlgrm.eu/channels",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "tlgrm.eu",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "reseaux-sociaux-telegram"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "tlgrm.eu — annuaire de chaînes",
+          "description": "Annuaire de chaînes Telegram publiques classées par thème."
+        },
+        "en": {
+          "title": "tlgrm.eu — annuaire de chaînes",
+          "description": "Directory of public Telegram channels sorted by topic."
+        }
+      }
+    },
+    {
+      "slug": "distill-io",
+      "url": "https://distill.io/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "Distill",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Distill",
+          "description": "Surveillance des modifications de pages web, avec alertes quand le contenu suivi change."
+        },
+        "en": {
+          "title": "Distill",
+          "description": "Monitoring of web page changes, with alerts when the tracked content changes."
+        }
+      }
+    },
+    {
+      "slug": "completedns",
+      "url": "https://completedns.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "CompleteDNS",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "CompleteDNS",
+          "description": "Base de données de l'historique DNS : changements de serveurs de noms d'un domaine dans le temps."
+        },
+        "en": {
+          "title": "CompleteDNS",
+          "description": "DNS history database: a domain's nameserver changes over time."
+        }
+      }
+    },
+    {
+      "slug": "domain-research-suite",
+      "url": "https://drs.whoisxmlapi.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "paid",
+      "author": null,
+      "publisher": "WhoisXML API",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Domain Research Suite (WhoisXML API)",
+          "description": "Suite payante d'outils sur les noms de domaine : données d'enregistrement, historique WHOIS, recherches inversées."
+        },
+        "en": {
+          "title": "Domain Research Suite (WhoisXML API)",
+          "description": "Paid domain research suite: registration data, WHOIS history, reverse lookups."
+        }
+      }
+    },
+    {
+      "slug": "domaintools-whois",
+      "url": "https://whois.domaintools.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "DomainTools",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "DomainTools Whois Lookup",
+          "description": "Recherche WHOIS sur un domaine ou une adresse IP : enregistrement, serveurs, informations techniques."
+        },
+        "en": {
+          "title": "DomainTools Whois Lookup",
+          "description": "WHOIS lookup on a domain or IP address: registration, servers, technical information."
+        }
+      }
+    },
+    {
+      "slug": "geo-data-tool",
+      "url": "https://www.geodatatool.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Geo Data Tool",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web"
+      ],
+      "link_status": "unverified",
+      "link_checked_at": null,
+      "translations": {
+        "fr": {
+          "title": "Geo Data Tool",
+          "description": "Géolocalisation approximative d'une adresse IP et informations techniques associées. Lien non vérifié : le site renvoie une vérification anti-robots."
+        },
+        "en": {
+          "title": "Geo Data Tool",
+          "description": "Approximate geolocation of an IP address and related technical information. Link not verified: the site returns an anti-bot check."
+        }
+      }
+    },
+    {
+      "slug": "grep-app",
+      "url": "https://grep.app/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Vercel",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "grep.app",
+          "description": "Moteur de recherche dans le code des dépôts publics GitHub."
+        },
+        "en": {
+          "title": "grep.app",
+          "description": "Search engine over the code of public GitHub repositories."
+        }
+      }
+    },
+    {
+      "slug": "icann-lookup",
+      "url": "https://lookup.icann.org/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "ICANN",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "ICANN Lookup",
+          "description": "Outil officiel de l'ICANN pour consulter les données d'enregistrement actuelles d'un nom de domaine."
+        },
+        "en": {
+          "title": "ICANN Lookup",
+          "description": "ICANN's official tool to look up a domain name's current registration data."
+        }
+      }
+    },
+    {
+      "slug": "idn-checker",
+      "url": "https://holdintegrity.com/checker",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Hold Security",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "IDN Checker",
+          "description": "Détecte les noms de domaine visuellement proches d'un domaine donné (caractères internationaux), utile contre l'hameçonnage."
+        },
+        "en": {
+          "title": "IDN Checker",
+          "description": "Detects domain names that look like a given domain (international characters), useful against phishing."
+        }
+      }
+    },
+    {
+      "slug": "wayback-machine",
+      "url": "https://web.archive.org/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Internet Archive",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web",
+        "verification-information"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Wayback Machine",
+          "description": "Archive du web de l'Internet Archive : consulter d'anciennes versions de pages et en archiver de nouvelles."
+        },
+        "en": {
+          "title": "Wayback Machine",
+          "description": "The Internet Archive's web archive: view past versions of pages and save new ones."
+        }
+      }
+    },
+    {
+      "slug": "publicwww",
+      "url": "https://publicwww.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "PublicWWW",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "PublicWWW",
+          "description": "Moteur de recherche dans le code source (HTML, JavaScript, CSS) de millions de sites web."
+        },
+        "en": {
+          "title": "PublicWWW",
+          "description": "Search engine over the source code (HTML, JavaScript, CSS) of millions of websites."
+        }
+      }
+    },
+    {
+      "slug": "shodan",
+      "url": "https://www.shodan.io/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "Shodan",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Shodan",
+          "description": "Moteur de recherche des appareils connectés à Internet (serveurs, bases de données, caméras), référence en cybersécurité. À utiliser dans un cadre légal."
+        },
+        "en": {
+          "title": "Shodan",
+          "description": "Search engine for internet-connected devices (servers, databases, cameras), a cybersecurity reference. Use within a legal framework."
+        }
+      }
+    },
+    {
+      "slug": "information-laundromat",
+      "url": "https://informationlaundromat.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Alliance for Securing Democracy",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web",
+        "verification-information"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "The Information Laundromat",
+          "description": "Outil qui repère la reprise de contenus et les infrastructures techniques partagées entre sites, pour détecter le blanchiment d'informations."
+        },
+        "en": {
+          "title": "The Information Laundromat",
+          "description": "Tool spotting content replication and shared technical infrastructure between sites, to detect information laundering."
+        }
+      }
+    },
+    {
+      "slug": "urlscan-io",
+      "url": "https://urlscan.io/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "urlscan.io",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "urlscan.io",
+          "description": "Analyse un site web à la demande : requêtes, domaines contactés, captures d'écran, pour documenter et vérifier une page."
+        },
+        "en": {
+          "title": "urlscan.io",
+          "description": "Scans a website on demand: requests, contacted domains, screenshots, to document and check a page."
+        }
+      }
+    },
+    {
+      "slug": "web-archives-extension",
+      "url": "https://github.com/dessant/web-archives",
+      "type": "repository",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Armin Sebastian",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Web Archives (extension)",
+          "description": "Extension de navigateur pour afficher les versions archivées ou en cache d'une page sur plusieurs services d'archivage."
+        },
+        "en": {
+          "title": "Web Archives (extension)",
+          "description": "Browser extension to view archived or cached versions of a page across several archive services."
+        }
+      }
+    },
+    {
+      "slug": "whatcms",
+      "url": "https://whatcms.org/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "WhatCMS",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "What CMS?",
+          "description": "Identifie les technologies d'un site : système de gestion de contenu, plateforme de commerce, hébergeur."
+        },
+        "en": {
+          "title": "What CMS?",
+          "description": "Identifies a website's technologies: content management system, e-commerce platform, host."
+        }
+      }
+    },
+    {
+      "slug": "whoxy",
+      "url": "https://www.whoxy.com/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "Whoxy",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "analyse-sites-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Whoxy",
+          "description": "Recherche WHOIS et historique d'enregistrement des domaines ; la page d'accueil met désormais en avant son API payante."
+        },
+        "en": {
+          "title": "Whoxy",
+          "description": "WHOIS lookup and domain registration history; the home page now highlights its paid API."
+        }
+      }
     }
   ],
   "topics": [
@@ -7197,6 +10380,78 @@
       "labels": {
         "fr": "3D & animation",
         "en": "3D & animation"
+      }
+    },
+    {
+      "slug": "enquete-sources-ouvertes",
+      "discipline": null,
+      "labels": {
+        "fr": "Enquête en sources ouvertes (OSINT)",
+        "en": "Open-source investigation (OSINT)"
+      }
+    },
+    {
+      "slug": "verification-information",
+      "discipline": null,
+      "labels": {
+        "fr": "Vérification de l'information",
+        "en": "Fact-checking & verification"
+      }
+    },
+    {
+      "slug": "cartes-en-ligne",
+      "discipline": "geomatique",
+      "labels": {
+        "fr": "Cartes en ligne & vues de rue",
+        "en": "Online maps & street view"
+      }
+    },
+    {
+      "slug": "cartes-anciennes",
+      "discipline": "geomatique",
+      "labels": {
+        "fr": "Cartes anciennes",
+        "en": "Historical maps"
+      }
+    },
+    {
+      "slug": "geolocalisation",
+      "discipline": "geomatique",
+      "labels": {
+        "fr": "Géolocalisation d'images",
+        "en": "Image geolocation"
+      }
+    },
+    {
+      "slug": "projections-coordonnees",
+      "discipline": "geomatique",
+      "labels": {
+        "fr": "Projections & coordonnées",
+        "en": "Projections & coordinates"
+      }
+    },
+    {
+      "slug": "suivi-transports",
+      "discipline": null,
+      "labels": {
+        "fr": "Suivi des transports (air, mer, rail)",
+        "en": "Transport tracking (air, sea, rail)"
+      }
+    },
+    {
+      "slug": "analyse-sites-web",
+      "discipline": "informatique",
+      "labels": {
+        "fr": "Analyse de sites web & domaines",
+        "en": "Website & domain analysis"
+      }
+    },
+    {
+      "slug": "reseaux-sociaux-telegram",
+      "discipline": "informatique",
+      "labels": {
+        "fr": "Telegram (contenus publics)",
+        "en": "Telegram (public content)"
       }
     }
   ],
@@ -7511,6 +10766,124 @@
         "yt-ai-andy",
         "yt-aitrepreneur",
         "yt-olivio-sarikas"
+      ]
+    },
+    {
+      "slug": "boite-outils-osint-bellingcat",
+      "title": {
+        "fr": "Boîte à outils OSINT (Bellingcat)",
+        "en": "OSINT toolkit (Bellingcat)"
+      },
+      "description": {
+        "fr": "Cartes, imagerie satellite, géolocalisation d’images, suivi des transports, vérification d’images et analyse de sites web, issus de la boîte à outils de Bellingcat. Outils de ciblage de personnes exclus.",
+        "en": "Maps, satellite imagery, image geolocation, transport tracking, image verification and website analysis, from Bellingcat’s toolkit. People-targeting tools excluded."
+      },
+      "items": [
+        "bellingcat-online-investigation-toolkit",
+        "bellingcat-about-maps-and-satellites",
+        "bellingcat-license-plate-maps",
+        "baidu-maps",
+        "gaode-maps-amap",
+        "tencent-maps",
+        "kakao-map",
+        "yandex-maps",
+        "bing-maps",
+        "google-maps",
+        "apple-maps",
+        "here-wego",
+        "mappy",
+        "mapy-com",
+        "mapa-zoznam-sk",
+        "govmap-israel",
+        "carte-ma",
+        "topotijdreis",
+        "openstreetmap",
+        "wikimapia",
+        "f4map",
+        "openinframap",
+        "openseamap",
+        "openrailwaymap",
+        "maritime-awareness-project-map",
+        "mapswitcher",
+        "quick-geolocation-search",
+        "satellites-pro",
+        "convert-geographic-units-montana",
+        "utm-grid-zones-of-the-world",
+        "what3words",
+        "geonames",
+        "peakvisor",
+        "mapchecking",
+        "geohints",
+        "bellingcat-openstreetmap-search",
+        "spot-findthatspot",
+        "shademap",
+        "shadowmap",
+        "shadowfinder",
+        "suncalc",
+        "kartaview",
+        "mapillary",
+        "usgs-earthexplorer",
+        "esa-earth-online-tools",
+        "copernicus-browser",
+        "eos-landviewer",
+        "google-earth-engine-code-editor",
+        "google-earth-versions",
+        "index-database",
+        "nasa-worldview",
+        "nasa-firms",
+        "global-forest-watch-map",
+        "openaerialmap",
+        "orbtrack",
+        "planet-labs",
+        "qgis",
+        "bellingcat-radar-interference-tracker",
+        "rammb-cira-slider",
+        "skyfi",
+        "umbra-space",
+        "adsb-exchange",
+        "airframes-org",
+        "aviation-safety-network",
+        "chronotrains",
+        "equasis",
+        "faa-aircraft-registry",
+        "flightaware",
+        "flightradar24",
+        "global-fishing-watch-map",
+        "gpsjam",
+        "iuu-vessel-list",
+        "imo-gisis-web-accounts",
+        "liveatc",
+        "marinetraffic",
+        "opensky-network",
+        "shipfinder",
+        "vesselfinder",
+        "google-lens",
+        "invid-weverify-plugin",
+        "rootabout",
+        "search-by-image-extension",
+        "tineye",
+        "open-measures",
+        "telegago",
+        "telemetrio",
+        "telemetry-telegram-search",
+        "tgstat",
+        "tlgrm-channels",
+        "distill-io",
+        "completedns",
+        "domain-research-suite",
+        "domaintools-whois",
+        "geo-data-tool",
+        "grep-app",
+        "icann-lookup",
+        "idn-checker",
+        "wayback-machine",
+        "publicwww",
+        "shodan",
+        "information-laundromat",
+        "urlscan-io",
+        "web-archives-extension",
+        "whatcms",
+        "whoxy"
       ]
     }
   ],

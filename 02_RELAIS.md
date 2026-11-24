@@ -286,6 +286,16 @@ Voir `03_AUDIT_TECHNIQUE.md` §9 (liste priorisée). La première : **autoriser 
 - Garde-fou ajouté à l'import : titre d'au moins 3 caractères et description d'au moins 20 (les mêmes contraintes que la base).
 - Tests : unitaires 67/67, base 13/13, E2E 14/14, 11 111 liens internes, 0 cassé.
 
+### Mise à jour — 2026-11-24 (nuit) : boîte à outils OSINT de Bellingcat
+
+- Source : 8 exports CSV de la Bellingcat Online Investigation Toolkit, transmis par le porteur (géolocalisation, recherche inversée d'images, cartes, imagerie satellite, vues de rue, Telegram, transports, sites web). 116 entrées uniques après dédoublonnage entre fichiers.
+- 105 ressources ajoutées (catalogue : 227 → 332), plus la page d'accueil de la boîte à outils, ajoutée comme source. Nouvelle collection « Boîte à outils OSINT (Bellingcat) ». 9 nouveaux sujets : enquête en sources ouvertes, vérification de l'information, cartes en ligne, cartes anciennes, géolocalisation d'images, projections et coordonnées, suivi des transports, analyse de sites web, Telegram.
+- Descriptions FR/EN rédigées pour KEU DIRU (texte Bellingcat non repris ; l'adresse e-mail personnelle présente dans la fiche EOS n'a pas été reprise). Coût repris de la colonne « Cost » des CSV, non revérifié.
+- **Exclusions éthiques (proposé, à valider) :** outils qui servent à cibler des personnes. Ce sont : le vérificateur de numéros Telegram, Intelx (fuites de données), Photo-Map.RU, Strava, Hitta.se (annuaire de personnes), Telegram Group Joiner, Telepathy et TelegramDB. Autres exclusions : Overpass Turbo (doublon), Moz (référencement commercial), Gjirafa (bloqué, plus de service cartographique). Tout est tracé dans `scripts/import/collected-osint.json` → `excluded`.
+- URL corrigées après constat en navigateur : mapy.cz → mapy.com, mapa.sk → mapa.zoznam.sk, Global Forest Watch → Global Nature Watch, Google Lens → search.google, RAMMB → slider.cira.colostate.edu, OpenRailwayMap (page wiki → carte), FAA (ancienne page en 503 → page de recherche actuelle). carte.ma est désormais une archive 2013–2015.
+- États : 4 « non vérifié » (vérification anti-robots Cloudflare : mapa.zoznam.sk, LiveATC, Telemetr.io, Geo Data Tool) ; 3 « restreint » (Earth Engine, Equasis, IMO : compte requis).
+- Tests : unitaires 67/67, base 13/13, E2E 14/14, 15 981 liens internes, 0 cassé, 702 pages.
+
 ---
 
 **Documents compagnons :** `01_CONSOLIDATION_ORIGINE_REGLES_METIER.md` · `03_AUDIT_TECHNIQUE.md`

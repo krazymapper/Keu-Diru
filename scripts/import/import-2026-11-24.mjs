@@ -1,4 +1,4 @@
-// Import du 2026-11-24 : listes du porteur (LinkConcierge, carrières, tutoriels GEE, bassins versants,
+// Import du 2026-11-24 : listes du porteur (LinkConcierge, carrières, tutoriels GEE, bassins versants, start.me AI, Bellingcat OSINT,
 // feuille de route Data Analyst). Idempotent : relancer ne crée aucun doublon.
 // Usage : node scripts/import/import-2026-11-24.mjs
 import { readFileSync, writeFileSync } from 'node:fs';
@@ -13,6 +13,13 @@ const sites = JSON.parse(readFileSync(join(here, 'collected-sites.json'), 'utf8'
 // Lot du 2026-11-24 (soir) : start.me « AI »
 const ai = JSON.parse(readFileSync(join(here, 'collected-ai.json'), 'utf8'));
 sites.resources.push(...ai.resources);
+// Lot du 2026-11-24 (nuit) : boîte à outils OSINT de Bellingcat (8 CSV)
+const osintRaw = JSON.parse(readFileSync(join(here, 'collected-osint.json'), 'utf8'));
+const osint = osintRaw.rows.map(([slug, url, type, discipline, lang, cost, publisher, topics, title, fr, en, status]) => ({
+  slug, url, type, discipline, lang, cost, publisher, topics, fr: [title, fr], en: [title, en],
+  status: status === 'unverified' ? undefined : status, unverified: status === 'unverified',
+}));
+sites.resources.push(...osint);
 const gee = JSON.parse(readFileSync(join(here, 'collected-gee.json'), 'utf8'));
 const catchment = JSON.parse(readFileSync(join(here, 'collected-catchment.json'), 'utf8'));
 const CHECKED = '2026-11-24';
@@ -132,6 +139,15 @@ const newTopics = [
   ['assistants-ia', 'informatique', 'Assistants IA', 'AI assistants'],
   ['veille-ia', 'informatique', 'Veille IA', 'AI news & directories'],
   ['3d-animation', 'informatique', '3D & animation', '3D & animation'],
+  ['enquete-sources-ouvertes', null, 'Enquête en sources ouvertes (OSINT)', 'Open-source investigation (OSINT)'],
+  ['verification-information', null, "Vérification de l'information", 'Fact-checking & verification'],
+  ['cartes-en-ligne', 'geomatique', 'Cartes en ligne & vues de rue', 'Online maps & street view'],
+  ['cartes-anciennes', 'geomatique', 'Cartes anciennes', 'Historical maps'],
+  ['geolocalisation', 'geomatique', 'Géolocalisation d\'images', 'Image geolocation'],
+  ['projections-coordonnees', 'geomatique', 'Projections & coordonnées', 'Projections & coordinates'],
+  ['suivi-transports', null, 'Suivi des transports (air, mer, rail)', 'Transport tracking (air, sea, rail)'],
+  ['analyse-sites-web', 'informatique', 'Analyse de sites web & domaines', 'Website & domain analysis'],
+  ['reseaux-sociaux-telegram', 'informatique', 'Telegram (contenus publics)', 'Telegram (public content)'],
 ];
 for (const [slug, discipline, fr, en] of newTopics)
   if (!seed.topics.some((t) => t.slug === slug)) seed.topics.push({ slug, discipline, labels: { fr, en } });
@@ -151,6 +167,9 @@ const collections = [
   { slug: 'outils-ia-generative', title: { fr: 'Outils d’IA générative', en: 'Generative AI tools' },
     description: { fr: 'Assistants, génération d’images, de vidéos, de voix et de musique, annuaires et chaînes de veille. Outils commerciaux évoluant vite : vérifiez conditions et coûts.', en: 'Assistants, image, video, voice and music generation, directories and news channels. Fast-moving commercial tools: check terms and costs.' },
     items: ai.resources.map((r) => r.slug) },
+  { slug: 'boite-outils-osint-bellingcat', title: { fr: 'Boîte à outils OSINT (Bellingcat)', en: 'OSINT toolkit (Bellingcat)' },
+    description: { fr: 'Cartes, imagerie satellite, géolocalisation d’images, suivi des transports, vérification d’images et analyse de sites web, issus de la boîte à outils de Bellingcat. Outils de ciblage de personnes exclus.', en: 'Maps, satellite imagery, image geolocation, transport tracking, image verification and website analysis, from Bellingcat’s toolkit. People-targeting tools excluded.' },
+    items: osint.map((r) => seed.resources.find((x) => x.url && normalizeUrl(x.url) === normalizeUrl(r.url))?.slug).filter(Boolean) },
   { slug: 'sources-donnees-sig', title: { fr: 'Sources de données SIG', en: 'GIS data sources' },
     description: { fr: 'Portails pour télécharger limites administratives, OpenStreetMap, géologie, zones humides et données de développement.', en: 'Portals to download administrative boundaries, OpenStreetMap, geology, wetlands and development data.' },
     items: ['geofabrik-shapefiles', 'diva-gis-data', 'gadm', 'overpass-turbo', 'humanitarian-data-exchange', 'natural-earth', 'mapcruzin', 'usgs-world-geologic-maps', 'ramsar-sites-information-service', 'world-bank-data-catalog'] },
