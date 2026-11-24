@@ -10123,6 +10123,378 @@
           "description": "WHOIS lookup and domain registration history; the home page now highlights its paid API."
         }
       }
+    },
+    {
+      "slug": "public-apis-github",
+      "url": "https://github.com/public-apis/public-apis",
+      "type": "repository",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "public-apis community",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "apis-publiques",
+        "developpement-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "public-apis (GitHub)",
+          "description": "Répertoire collaboratif de centaines d'APIs publiques et gratuites, classées par catégorie (données, finance, météo, jeux, santé...). Près de 500k étoiles, licence MIT, mis à jour en continu. Point de départ pour explorer l'écosystème des APIs plutôt qu'une API en soi."
+        },
+        "en": {
+          "title": "public-apis (GitHub)",
+          "description": "Collaborative directory of hundreds of free public APIs, organised by category (data, finance, weather, games, health...). Nearly 500k stars, MIT licensed, continuously updated. A starting point to explore the API ecosystem rather than an API itself."
+        }
+      }
+    },
+    {
+      "slug": "open-food-facts-api",
+      "url": "https://fr.openfoodfacts.org/data",
+      "type": "dataset",
+      "discipline": "agriculture-alimentation",
+      "original_language": "fr",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Open Food Facts",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "apis-publiques",
+        "donnees-ouvertes"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Open Food Facts — API & données",
+          "description": "Base de données ouverte et collaborative sur les produits alimentaires du monde entier (ingrédients, Nutri-Score, additifs). API et exports de données gratuits, sans clé requise pour la consultation."
+        },
+        "en": {
+          "title": "Open Food Facts — API & data",
+          "description": "Open, collaborative database of food products worldwide (ingredients, Nutri-Score, additives). Free API and data exports, no key required for reading."
+        }
+      }
+    },
+    {
+      "slug": "nasa-api",
+      "url": "https://api.nasa.gov/",
+      "type": "tool",
+      "discipline": "environnement-climat",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "NASA",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "apis-publiques",
+        "donnees-ouvertes"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "NASA Open APIs",
+          "description": "Portail officiel de la NASA regroupant des dizaines d'APIs gratuites (photo du jour APOD, Mars Rover, astéroïdes proches, imagerie Earth). Clé API gratuite obtenue en quelques secondes."
+        },
+        "en": {
+          "title": "NASA Open APIs",
+          "description": "NASA's official portal gathering dozens of free APIs (Astronomy Picture of the Day, Mars Rover photos, near-Earth asteroids, Earth imagery). Free API key issued in seconds."
+        }
+      }
+    },
+    {
+      "slug": "le-systeme-solaire-api",
+      "url": "https://api.le-systeme-solaire.net/en/",
+      "type": "tool",
+      "discipline": "environnement-climat",
+      "original_language": "fr",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "api.le-systeme-solaire.net",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "apis-publiques",
+        "donnees-ouvertes"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "API Le Système Solaire",
+          "description": "API ouverte française donnant les caractéristiques physiques et orbitales des planètes, lunes et petits corps du système solaire. Gratuite, sans clé, données libres."
+        },
+        "en": {
+          "title": "Le Système Solaire API",
+          "description": "Open French API providing physical and orbital characteristics of planets, moons and small bodies of the solar system. Free, no key, open data."
+        }
+      }
+    },
+    {
+      "slug": "trefle-api",
+      "url": "https://trefle.io/",
+      "type": "tool",
+      "discipline": "agriculture-alimentation",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Trefle",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "apis-publiques",
+        "donnees-ouvertes"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Trefle — API botanique",
+          "description": "Base de données ouverte sur les plantes (taxonomie, caractéristiques, zones de culture) consultable via API. Inscription gratuite pour obtenir une clé."
+        },
+        "en": {
+          "title": "Trefle — plant API",
+          "description": "Open database on plants (taxonomy, characteristics, growing zones) queryable via API. Free sign-up to get a key."
+        }
+      }
+    },
+    {
+      "slug": "openweathermap-api",
+      "url": "https://openweathermap.org/api",
+      "type": "tool",
+      "discipline": "environnement-climat",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "OpenWeather",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "apis-publiques",
+        "developpement-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "OpenWeatherMap API",
+          "description": "API météo (prévisions, historique, cartes) très utilisée dans les projets d'apprentissage. Offre gratuite avec quota de requêtes limité ; au-delà, abonnement payant."
+        },
+        "en": {
+          "title": "OpenWeatherMap API",
+          "description": "Weather API (forecasts, history, maps) widely used in learning projects. Free tier with a limited request quota; paid plans beyond that."
+        }
+      }
+    },
+    {
+      "slug": "serpapi",
+      "url": "https://serpapi.com/search-api",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "SerpApi",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "apis-publiques",
+        "developpement-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "SerpApi — API de résultats de recherche",
+          "description": "API commerciale qui renvoie des résultats de moteurs de recherche (Google, Bing...) structurés en JSON. Offre d'essai gratuite limitée (environ 100 requêtes/mois), puis plans payants."
+        },
+        "en": {
+          "title": "SerpApi — search results API",
+          "description": "Commercial API returning search-engine results (Google, Bing...) structured as JSON. Limited free trial (roughly 100 searches/month), then paid plans."
+        }
+      }
+    },
+    {
+      "slug": "data-gouv-fr",
+      "url": "https://www.data.gouv.fr",
+      "type": "dataset",
+      "discipline": "donnees-statistiques",
+      "original_language": "fr",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "Etalab (État français)",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "apis-publiques",
+        "donnees-ouvertes"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "data.gouv.fr",
+          "description": "Plateforme nationale française d'ouverture des données publiques (jeux de données, API catalogue, statistiques officielles). Accès libre et gratuit."
+        },
+        "en": {
+          "title": "data.gouv.fr",
+          "description": "French national open-data platform (datasets, catalogue API, official statistics). Free, open access."
+        }
+      }
+    },
+    {
+      "slug": "tmdb-api",
+      "url": "https://developer.themoviedb.org/docs/getting-started",
+      "type": "tool",
+      "discipline": "sciences-humaines",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "The Movie Database (TMDB)",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "apis-publiques",
+        "developpement-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "TMDB API",
+          "description": "API de la base de données collaborative de films et séries (fiches, affiches, casting). Clé gratuite sous conditions d'attribution ; usages commerciaux à grande échelle soumis à accord."
+        },
+        "en": {
+          "title": "TMDB API",
+          "description": "API for the collaborative movie and TV database (metadata, posters, cast). Free key under attribution terms; large-scale commercial use requires an agreement."
+        }
+      }
+    },
+    {
+      "slug": "randomuser-api",
+      "url": "https://randomuser.me/",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "free",
+      "author": null,
+      "publisher": "RandomUser.me",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "apis-publiques",
+        "developpement-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "RandomUser.me",
+          "description": "API générant des profils d'utilisateurs fictifs réalistes (nom, photo, adresse) pour peupler des maquettes et jeux de tests. Gratuite, sans clé."
+        },
+        "en": {
+          "title": "RandomUser.me",
+          "description": "API generating realistic fake user profiles (name, photo, address) to populate mockups and test data. Free, no key."
+        }
+      }
+    },
+    {
+      "slug": "giphy-api",
+      "url": "https://api.giphy.com",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "Giphy",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "apis-publiques",
+        "developpement-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Giphy API",
+          "description": "API de recherche et d'intégration de GIFs animés. Clé gratuite pour usage de développement, avec quotas ; validation requise pour la production."
+        },
+        "en": {
+          "title": "Giphy API",
+          "description": "API to search and embed animated GIFs. Free developer key with quotas; production use requires approval."
+        }
+      }
+    },
+    {
+      "slug": "pappers-api",
+      "url": "https://www.pappers.fr/api",
+      "type": "tool",
+      "discipline": "economie-developpement",
+      "original_language": "fr",
+      "level": "unknown",
+      "access_cost": "paid",
+      "author": null,
+      "publisher": "Pappers",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "apis-publiques",
+        "donnees-ouvertes"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-24",
+      "translations": {
+        "fr": {
+          "title": "Pappers API",
+          "description": "API française de données légales et financières sur les entreprises (SIREN/SIRET, bilans, dirigeants, BODACC). Formule payante à partir de 30€/mois (500 crédits) ; 100 crédits gratuits à l'inscription avec une adresse professionnelle, et un point de terminaison « autocomplete » gratuit limité à 100 recherches/jour/IP."
+        },
+        "en": {
+          "title": "Pappers API",
+          "description": "French API for legal and financial company data (SIREN/SIRET numbers, financial statements, officers, BODACC). Paid plans start at €30/month (500 credits); 100 free credits on sign-up with a professional email, plus a free autocomplete endpoint limited to 100 searches/day/IP."
+        }
+      }
     }
   ],
   "topics": [
@@ -10452,6 +10824,14 @@
       "labels": {
         "fr": "Telegram (contenus publics)",
         "en": "Telegram (public content)"
+      }
+    },
+    {
+      "slug": "apis-publiques",
+      "discipline": "informatique",
+      "labels": {
+        "fr": "APIs publiques",
+        "en": "Public APIs"
       }
     }
   ],
@@ -10884,6 +11264,31 @@
         "web-archives-extension",
         "whatcms",
         "whoxy"
+      ]
+    },
+    {
+      "slug": "apis-gratuites-developpeurs",
+      "title": {
+        "fr": "APIs gratuites pour développeurs",
+        "en": "Free APIs for developers"
+      },
+      "description": {
+        "fr": "Sélection d’APIs publiques gratuites ou freemium pour s’entraîner et prototyper (données ouvertes, météo, films, plantes, utilisateurs factices, GIFs…), plus le répertoire public-apis comme point d’entrée vers des centaines d’autres. Vérifiez toujours les quotas et conditions avant un usage en production.",
+        "en": "Selection of free or freemium public APIs for practice and prototyping (open data, weather, movies, plants, fake users, GIFs…), plus the public-apis directory as an entry point to hundreds more. Always check quotas and terms before production use."
+      },
+      "items": [
+        "public-apis-github",
+        "open-food-facts-api",
+        "nasa-api",
+        "le-systeme-solaire-api",
+        "trefle-api",
+        "openweathermap-api",
+        "serpapi",
+        "data-gouv-fr",
+        "tmdb-api",
+        "randomuser-api",
+        "giphy-api",
+        "pappers-api"
       ]
     }
   ],
