@@ -10526,6 +10526,38 @@
           "description": "Browsing interface (2000+ entries) derived from the public-apis directory, but also fed by recent submissions without the same community vetting — notably many commercial prepaid-credit AI model resale gateways. Each API needs individual verification (real cost, reliability, longevity) before use: neither free nor quality is guaranteed despite the site name."
         }
       }
+    },
+    {
+      "slug": "openrouter",
+      "url": "https://openrouter.ai/docs",
+      "type": "tool",
+      "discipline": "informatique",
+      "original_language": "en",
+      "level": "unknown",
+      "access_cost": "freemium",
+      "author": null,
+      "publisher": "OpenRouter",
+      "license": null,
+      "formats": [
+        "web"
+      ],
+      "topics": [
+        "apis-publiques",
+        "intelligence-artificielle",
+        "developpement-web"
+      ],
+      "link_status": "ok",
+      "link_checked_at": "2026-11-25",
+      "translations": {
+        "fr": {
+          "title": "OpenRouter",
+          "description": "Passerelle unique vers des dizaines de modèles d'IA (OpenAI, Anthropic, Google, Meta, Mistral...) via une seule API REST, avec bascule automatique entre fournisseurs. Plusieurs modèles gratuits disponibles ; au-delà, facturation à l'usage selon le modèle choisi. SDK et documentation soignés, service bien établi et largement utilisé par les développeurs."
+        },
+        "en": {
+          "title": "OpenRouter",
+          "description": "A single gateway to dozens of AI models (OpenAI, Anthropic, Google, Meta, Mistral...) through one REST API, with automatic fallback between providers. Several free models available; beyond that, usage-based billing depending on the chosen model. Well-documented SDK, an established service widely used by developers."
+        }
+      }
     }
   ],
   "topics": [
